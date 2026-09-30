@@ -7,6 +7,24 @@ import (
 	"strings"
 )
 
+func worksheetCells(root *node) (cells []*node) {
+	data := root.child(sheetNS, "worksheet").child(sheetNS, "sheetData")
+	if data == nil {
+		return
+	}
+	for _, row := range data.children {
+		if row.name.Space != sheetNS || row.name.Local != "row" {
+			continue
+		}
+		for _, cell := range row.children {
+			if cell.name.Space == sheetNS && cell.name.Local == "c" {
+				cells = append(cells, cell)
+			}
+		}
+	}
+	return
+}
+
 // patchCell replaces only value-bearing direct children. Every other child,
 // including extLst and unknown vendor data, stays byte-identical and in place.
 func patchCell(raw []byte, t target, text string) (string, error) {

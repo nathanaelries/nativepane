@@ -6,8 +6,8 @@ import json
 import os
 from pathlib import Path
 
-from PIL import Image, ImageChops
 from playwright.sync_api import sync_playwright, expect
+from visual_helpers import visual_regression
 
 root = Path(__file__).resolve().parent.parent
 fixtures = root / "tests" / "fixtures"
@@ -18,17 +18,9 @@ failures = []
 
 
 def compare(actual, expected, name):
-    if not expected.is_file():
-        failures.append(name + ": missing reviewed visual baseline")
-        return
-    a, b = Image.open(actual).convert("RGB"), Image.open(expected).convert("RGB")
-    if a.size != b.size:
-        failures.append(f"{name}: image dimensions changed {b.size} -> {a.size}")
-        return
-    diff = ImageChops.difference(a, b)
-    if diff.getbbox() is not None:
-        diff.save(out / (name + "-diff.png"))
-        failures.append(name + ": rendered pixels changed; inspect actual/expected/diff")
+    problem = visual_regression(actual, expected, out / (name + "-diff.png"))
+    if problem:
+        failures.append(name + ": " + problem)
 
 
 with sync_playwright() as p:
@@ -57,6 +49,7 @@ with sync_playwright() as p:
             expect(page.locator("#save")).to_be_enabled()
         await_fonts = "async () => { await document.fonts.ready; document.activeElement.blur(); }"
         page.evaluate(await_fonts)
+        page.mouse.move(0, 0)
         actual = out / (fixture["id"] + ".png")
         page.locator("#workspace").screenshot(path=str(actual), animations="disabled", caret="hide")
         compare(actual, fixtures / fixture["visual"], fixture["id"])

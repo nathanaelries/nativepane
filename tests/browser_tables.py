@@ -79,6 +79,8 @@ with sync_playwright() as p:
         page.get_by_role("button", name="↓ Download original format", exact=True).click()
     destination = out / "browser-tables-saved.docx"
     download.value.save_as(str(destination))
+    page.mouse.move(0, 0)
+    page.evaluate('document.activeElement.blur()')
     page.screenshot(path=str(out / "docx-tables.png"), full_page=True)
     reopened = Document(destination)
     assert reopened.tables[0].cell(1, 1).paragraphs[0].text == "Updated table cell"

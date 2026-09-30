@@ -108,3 +108,24 @@ func TestCellExtensionPreservation(t *testing.T) {
 		}
 	}
 }
+
+func TestCellExtensionContentIsNotEditableCellData(t *testing.T) {
+	parts := testdoc.Parts("xlsx")
+	parts["xl/worksheets/sheet1.xml"] = `<worksheet xmlns="` + sheetNS + `"><sheetData><row r="1"><c r="A1" t="inlineStr"><is><t>Actual value</t></is><extLst><ext uri="urn:vendor"><t>Metadata text</t><v>999</v><f>Metadata formula</f><c r="Z99"><v>777</v></c></ext></extLst></c></row></sheetData></worksheet>`
+	source := testdoc.Package(parts)
+	model, err := (OOXML{}).Open(source, "xlsx")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(model.Blocks[0].Fields) != 1 || model.Blocks[0].Fields[0].Text != "Actual value" || model.Blocks[0].Fields[0].ReadOnly {
+		t.Fatal("extension data was projected as a cell/value/formula")
+	}
+	output, err := (OOXML{}).Apply(source, "xlsx", []Edit{{model.Blocks[0].Fields[0].ID, "Changed"}})
+	if err != nil {
+		t.Fatal(err)
+	}
+	after := unzip(t, output)["xl/worksheets/sheet1.xml"]
+	if !bytes.Contains(after, []byte(`<t>Metadata text</t><v>999</v><f>Metadata formula</f><c r="Z99"><v>777</v></c>`)) {
+		t.Fatal("extension children changed")
+	}
+}

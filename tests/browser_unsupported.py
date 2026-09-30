@@ -51,6 +51,7 @@ with sync_playwright() as p:
     expect(page.locator('#save')).to_be_enabled()
     assert page.locator('[data-field]').filter(has_text='Header content retained').count() == 0
     page.evaluate('async () => {await document.fonts.ready; document.activeElement.blur();}')
+    page.mouse.move(0, 0)
     page.locator('#workspace').screenshot(path=str(out / 'unsupported-regression.png'), animations='disabled', caret='hide')
     browser.close()
     print('Unsupported Word constructs: inherited numbering, image, tabs/breaks, equation, floating table, header markers PASS')

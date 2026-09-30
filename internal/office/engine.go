@@ -284,6 +284,9 @@ func (p *projection) orderedParts(main, tag, relType string) ([][2]string, error
 	if e != nil {
 		return nil, e
 	}
+	if main == "xl/workbook.xml" && root.child(sheetNS, "workbook") == nil {
+		return nil, errors.New("unsupported spreadsheet namespace (strict OOXML is not supported)")
+	}
 	relFile := path.Join(path.Dir(main), "_rels", path.Base(main)+".rels")
 	rels, e := parse(p.parts[relFile])
 	if e != nil {
@@ -369,21 +372,23 @@ func project(data []byte, format string, maxFields int) (*projection, error) {
 			if e != nil {
 				break
 			}
+			if r.child(sheetNS, "worksheet") == nil {
+				e = errors.New("unsupported worksheet namespace (strict OOXML is not supported)")
+				break
+			}
 			b := Block{Label: part[1], Fields: []Field{}}
-			for _, c := range r.all(sheetNS, "c") {
+			for _, c := range worksheetCells(r) {
 				address := c.attr("r")
 				if !cellAddress.MatchString(address) {
 					e = errors.New("unsupported cell address")
 					break
 				}
 				f := Field{Address: address, Kind: "text"}
-				vals := c.all(sheetNS, "v")
-				if len(vals) > 0 {
-					f.Text = vals[0].text
+				if value := c.child(sheetNS, "v"); value != nil {
+					f.Text = value.text
 				}
-				formulas := c.all(sheetNS, "f")
-				if len(formulas) > 0 {
-					f.Text = "=" + formulas[0].text
+				if formula := c.child(sheetNS, "f"); formula != nil {
+					f.Text = "=" + formula.text
 					f.ReadOnly = true
 					f.Kind = "formula"
 				} else {
@@ -397,7 +402,9 @@ func project(data []byte, format string, maxFields int) (*projection, error) {
 						}
 						f.Text = shared[idx]
 					case "inlineStr":
-						f.Text = textOf(c, sheetNS)
+						if inline := c.child(sheetNS, "is"); inline != nil {
+							f.Text = textOf(inline, sheetNS)
+						}
 					case "", "n":
 						f.Kind = "number"
 					case "b":

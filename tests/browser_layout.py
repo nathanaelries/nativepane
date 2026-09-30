@@ -125,6 +125,8 @@ with sync_playwright() as p:
     with ZipFile(source) as before, ZipFile(destination) as after:
         for part in ("word/styles.xml", "word/theme/theme1.xml"):
             assert before.read(part) == after.read(part)
+    page.mouse.move(0, 0)
+    page.evaluate('document.activeElement.blur()')
     page.screenshot(path=str(out / "layout-regression.png"), full_page=True)
     assert not errors, errors
     browser.close()
