@@ -7,6 +7,7 @@
  <div class="eyebrow">YOUR DOCUMENTS. YOUR INFRASTRUCTURE.</div>
  <h1>A native place<br>for Office documents.</h1><p class="intro">Open a file, make an edit, keep the original format.<br>One container. No cloud account. Yours to embed.</p>
  <div class="upload-card"><div class="file-icons"><span>W</span><span>X</span><span>P</span></div><h2>Bring a document into the pane</h2><p>DOCX · XLSX · PPTX</p><label class="button primary" for="upload">Choose a file</label><input id="upload" type="file" accept=".docx,.xlsx,.pptx"><p class="subtle">Or drag a file anywhere on this page</p></div>
+ <p id="open-status" class="open-status" role="status" aria-live="polite" hidden></p>
  <form id="url-form" class="url-form"><label for="source-url">Open a public file URL</label><div><input id="source-url" type="url" placeholder="https://example.com/document.docx" required><button type="submit">Open URL</button></div><small>The source must allow browser CORS. No server-side URL fetching.</small></form>
  <div id="auth-panel" hidden><label for="api-key">API bearer key for this local browser session</label><input id="api-key" type="password" autocomplete="off"><p class="subtle">For embedded production use, your host backend keeps the API key.</p></div>
  <p class="honesty">A focused text and cell editor. Layout is approximate; unsupported objects stay in the file. <a href="/example">Explore the embed example →</a></p>

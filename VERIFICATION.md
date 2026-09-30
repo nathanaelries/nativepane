@@ -79,3 +79,25 @@ The historical table note above described the earlier behavior. Current tables
 continue at row boundaries; oversized paragraphs or vertically merged row groups
 still expand their page. Browser-local font fallbacks, mixed sections and other
 unsupported layout features can still produce different Office page boundaries.
+
+## Large-document capacity regression verification, 2026-09-30
+
+- Removed the hardcoded 20,000-field threshold. The default is now 250,000,
+  configurable through MAX_DOCUMENT_FIELDS up to 1,000,000. XML parts remain
+  bounded to 1,000,000 elements, depth 128 and the expanded package byte limit.
+- Go tests open 25,001-field DOCX/XLSX/PPTX fixtures, edit beyond the former limit,
+  reopen the output and verify that only the expected package member changes.
+  A 25,001-run bulk DOCX patch passes with all edits preserved using single-pass
+  XML replacement. Configuration bounds, exact capacity boundaries and retry
+  after rejected API uploads are covered.
+- tests/browser_large.py passed for an independently authored 50,000-cell XLSX
+  and 25,001-run DOCX, including browser upload, edit, autosave, download, independent
+  reopening, preservation of untouched package members, and reopening the same
+  file. The XLSX live grid contained only its 1,000 visible cells. Combined test
+  durations were approximately 5 seconds and 8 seconds respectively on this machine;
+  these are local observations, not throughput guarantees.
+- No runtime dependencies were added. Larger DOCX/PPTX views and full undo
+  snapshots still consume browser memory; capacity is bounded, not unlimited.
+- The initial GitHub CI run (commit aa062e9) passed Go race tests/vet, JavaScript
+  checks, Docker build and container HTTP smoke tests. This establishes container
+  validation in CI; local Docker Desktop still cannot start.

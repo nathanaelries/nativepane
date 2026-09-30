@@ -30,6 +30,7 @@ type Config struct {
 	Auth, APIKey, SigningKey, DataDir string
 	MaxUpload                         int64
 	MaxSessions                       int
+	MaxDocumentFields                 int
 	SessionTTL, TokenTTL              time.Duration
 	FrameOrigins, CORSOrigins         []string
 }
@@ -51,6 +52,14 @@ func EnvConfig() (Config, error) {
 			return c, e
 		}
 		c.MaxSessions = n
+	}
+	c.MaxDocumentFields = office.DefaultMaxFields
+	if v := os.Getenv("MAX_DOCUMENT_FIELDS"); v != "" {
+		n, e := strconv.Atoi(v)
+		if e != nil || n < 1 || n > office.MaxDocumentFields {
+			return c, fmt.Errorf("MAX_DOCUMENT_FIELDS must be between 1 and %d", office.MaxDocumentFields)
+		}
+		c.MaxDocumentFields = n
 	}
 	for k, p := range map[string]*time.Duration{"SESSION_TTL_SECONDS": &c.SessionTTL, "TOKEN_TTL_SECONDS": &c.TokenTTL} {
 		if v := os.Getenv(k); v != "" {
@@ -91,6 +100,12 @@ type Server struct {
 }
 
 func New(c Config, assets fs.FS) (*Server, error) {
+	if c.MaxDocumentFields == 0 {
+		c.MaxDocumentFields = office.DefaultMaxFields
+	}
+	if c.MaxDocumentFields < 1 || c.MaxDocumentFields > office.MaxDocumentFields {
+		return nil, errors.New("invalid document capacity")
+	}
 	if c.Auth != "none" && c.Auth != "bearer" {
 		return nil, errors.New("AUTH must be none or bearer")
 	}
@@ -110,7 +125,7 @@ func New(c Config, assets fs.FS) (*Server, error) {
 	if e := os.MkdirAll(c.DataDir, 0700); e != nil {
 		return nil, e
 	}
-	return &Server{cfg: c, store: DiskStore{c.DataDir}, engine: office.OOXML{}, assets: assets}, nil
+	return &Server{cfg: c, store: DiskStore{c.DataDir}, engine: office.OOXML{MaxFields: c.MaxDocumentFields}, assets: assets}, nil
 }
 func (s *Server) Cleanup() {
 	s.mu.Lock()
@@ -233,7 +248,7 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	if r.URL.Path == "/api/v1/config" && r.Method == "GET" {
-		jsonResponse(w, 200, map[string]any{"auth": s.cfg.Auth, "maxUploadBytes": s.cfg.MaxUpload})
+		jsonResponse(w, 200, map[string]any{"auth": s.cfg.Auth, "maxUploadBytes": s.cfg.MaxUpload, "maxDocumentFields": s.cfg.MaxDocumentFields})
 		return
 	}
 	if strings.HasPrefix(r.URL.Path, "/api/") {

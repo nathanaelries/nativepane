@@ -37,7 +37,7 @@
         "operationId": "publicConfig",
         "responses": {
           "200": {
-            "description": "Public auth mode and upload limit",
+            "description": "Public auth mode, upload limit and document capacity",
             "content": {
               "application/json": {
                 "schema": {
@@ -51,6 +51,12 @@
                     },
                     "maxUploadBytes": {
                       "type": "integer"
+                    },
+                    "maxDocumentFields": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 1000000,
+                      "description": "Configured total text-run/cell capacity per document; default 250000."
                     }
                   }
                 }

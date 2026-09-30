@@ -12,6 +12,8 @@
 - Signed view/edit sessions, shared-secret host auth, optimistic save revisions.
 - Host upload/stream, embed URL, event polling, byte retrieval and deletion.
 - Configurable embed/CORS origins, package/request limits and session expiration.
+- Configurable large-document capacity, paged spreadsheet grids, opening progress
+  and single-pass bulk XML patches; regression tests beyond 20,000 fields.
 - OpenAPI, local host example, MIT strategy, generated third-party notices and CI.
 
 This release is an engineering starting point for a document pane. It is not an
@@ -26,7 +28,8 @@ office-suite feature-completeness or evidentiary-rendering claim.
   dedicated tracked-change display before permitting those documents to be edited.
 - Preserve all cell extensions during edits; date/number formats and merged cells.
 - Slide shapes, coordinates, images, themes and richer text.
-- Better performance: cached projections, streaming storage and per-session locks.
+- Better performance: virtualized document/slide pages, sparse undo, cached projections,
+  streaming storage and per-session locks.
 - Storage quotas, rate limiting, cancellation, stronger crash-recovery tests.
 - Token renewal bridge with explicit host origin validation; individual revocation.
 - PDF viewing with a separately reviewed permissive dependency, if justified.

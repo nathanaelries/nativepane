@@ -153,6 +153,7 @@ has not undergone a penetration test or broad Office interoperability certificat
 | `SESSION_SECRET` | random on startup in open mode | HMAC secret; required in bearer mode |
 | `MAX_UPLOAD_BYTES` | `33554432` | Compressed file/patch limit; configurable through 128 MiB |
 | `MAX_SESSIONS` | `100` | Maximum unexpired sessions |
+| `MAX_DOCUMENT_FIELDS` | `250000` | Total text runs/cells per document; configurable through 1,000,000. Increase only with enough server/browser memory. |
 | `SESSION_TTL_SECONDS` | `3600` | Session lifetime, maximum 86400 seconds |
 | `TOKEN_TTL_SECONDS` | `600` | Token lifetime, maximum 3600 seconds, bounded by session expiry |
 | `FRAME_ANCESTORS` | none beyond `'self'` | Comma-separated exact embedding origins, e.g. `https://review.example.com` |
@@ -172,8 +173,13 @@ during atomic saves. Snapshot writes are synced before rename; power-loss durabi
 of the directory rename depends on the host filesystem. One process owns one data
 directory. Do not share it across replicas. Backups must obey your corpus policy.
 
-Expanded ZIPs are capped at 128 MiB, 4,096 entries, 20,000 editable fields and XML
-depth 128. The request/ZIP/model/snapshot pipeline is memory-buffered, and API
+Expanded ZIPs are capped at 128 MiB and 4,096 entries. Each XML part is bounded to
+1,000,000 elements and depth 128. The document capacity defaults to 250,000 text
+runs/cells and is configurable with `MAX_DOCUMENT_FIELDS`; this is independent of
+the upload byte limit. Large XLSX grids page the visible cells. DOCX/PPTX still
+render the entire projection, so very large files can use substantial browser
+memory. Opening shows progress and prevents duplicate concurrent uploads. The
+request/ZIP/model/snapshot pipeline is memory-buffered, and API
 requests are serialized for correctness. Start with the Compose 1 GiB memory limit
 and tune upload limits for actual workload; this is for modest session concurrency.
 
@@ -206,6 +212,9 @@ undo/redo, download and embedding. None of these Python packages ship in the ima
 and independent reopening of the saved document using python-docx and Playwright.
 `tests/browser_layout.py` checks inherited typography, page geometry, preferred
 cell widths, multi-page tables, repeated headers, edit reflow and preserved styles.
+`tests/browser_large.py` independently authors a 50,000-cell XLSX and a DOCX with
+25,001 text runs, then checks browser upload, editing, autosave, download, reopening,
+preserved package members and retrying the same file.
 
 See [ARCHITECTURE.md](ARCHITECTURE.md), [ROADMAP.md](ROADMAP.md), and
 [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md). The current test results and

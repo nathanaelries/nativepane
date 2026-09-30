@@ -17,7 +17,8 @@ import (
 )
 
 const MaxExpanded = 128 << 20
-const maxFields = 20000
+const DefaultMaxFields = 250000
+const MaxDocumentFields = 1000000
 const wordNS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 const sheetNS = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
 const drawNS = "http://schemas.openxmlformats.org/drawingml/2006/main"
@@ -79,7 +80,15 @@ type Engine interface {
 	Open([]byte, string) (Model, error)
 	Apply([]byte, string, []Edit) ([]byte, error)
 }
-type OOXML struct{}
+type OOXML struct{ MaxFields int }
+
+func (o OOXML) fieldLimit() int {
+	if o.MaxFields > 0 && o.MaxFields <= MaxDocumentFields {
+		return o.MaxFields
+	}
+	return DefaultMaxFields
+}
+
 type node struct {
 	name                        xml.Name
 	attrs                       []xml.Attr
@@ -123,7 +132,7 @@ func parse(data []byte) (*node, error) {
 		switch v := tok.(type) {
 		case xml.StartElement:
 			count++
-			if len(stack) > 128 || count > 250000 {
+			if len(stack) > 128 || count > 1000000 {
 				return nil, errors.New("XML complexity limit exceeded")
 			}
 			p := stack[len(stack)-1]
@@ -153,11 +162,12 @@ type target struct {
 	field Field
 }
 type projection struct {
-	model   Model
-	targets map[string]target
-	parts   map[string][]byte
-	archive *zip.Reader
-	word    *wordStyles
+	model     Model
+	targets   map[string]target
+	parts     map[string][]byte
+	archive   *zip.Reader
+	word      *wordStyles
+	maxFields int
 }
 
 func readPackage(data []byte, format string) (*projection, error) {
@@ -216,8 +226,8 @@ func readPackage(data []byte, format string) (*projection, error) {
 	return p, nil
 }
 func (p *projection) add(block *Block, part string, n *node, f Field) error {
-	if len(p.targets) >= maxFields {
-		return errors.New("document exceeds 20,000 editable fields")
+	if len(p.targets) >= p.maxFields {
+		return errors.New("This document exceeds this server's document capacity. Ask the administrator to increase MAX_DOCUMENT_FIELDS, or open a smaller document.")
 	}
 	f.ID = fmt.Sprintf("%s:%d", part, len(p.targets))
 	block.Fields = append(block.Fields, f)
@@ -310,11 +320,12 @@ func (p *projection) orderedParts(main, tag, relType string) ([][2]string, error
 
 var cellAddress = regexp.MustCompile(`^[A-Z]{1,3}[1-9][0-9]{0,6}$`)
 
-func project(data []byte, format string) (*projection, error) {
+func project(data []byte, format string, maxFields int) (*projection, error) {
 	p, e := readPackage(data, format)
 	if e != nil {
 		return nil, e
 	}
+	p.maxFields = maxFields
 	switch format {
 	case "docx":
 		e = p.wordBlocks("word/document.xml")
@@ -414,8 +425,8 @@ func project(data []byte, format string) (*projection, error) {
 	}
 	return p, nil
 }
-func (OOXML) Open(data []byte, format string) (Model, error) {
-	p, e := project(data, format)
+func (o OOXML) Open(data []byte, format string) (Model, error) {
+	p, e := project(data, format, o.fieldLimit())
 	if e != nil {
 		return Model{}, e
 	}
@@ -435,15 +446,15 @@ type replacement struct {
 	value      string
 }
 
-func (OOXML) Apply(data []byte, format string, edits []Edit) ([]byte, error) {
-	p, e := project(data, format)
+func (o OOXML) Apply(data []byte, format string, edits []Edit) ([]byte, error) {
+	p, e := project(data, format, o.fieldLimit())
 	if e != nil {
 		return nil, e
 	}
 	if len(edits) == 0 {
 		return data, nil
 	}
-	if len(edits) > maxFields {
+	if len(edits) > p.maxFields {
 		return nil, errors.New("too many edits")
 	}
 	changes := map[string][]replacement{}
@@ -494,16 +505,21 @@ func (OOXML) Apply(data []byte, format string, edits []Edit) ([]byte, error) {
 		changes[t.part] = append(changes[t.part], replacement{n.start, n.end, value})
 	}
 	for part, rs := range changes {
-		sort.Slice(rs, func(i, j int) bool { return rs[i].start > rs[j].start })
+		sort.Slice(rs, func(i, j int) bool { return rs[i].start < rs[j].start })
 		raw := p.parts[part]
-		last := len(raw)
+		var patched bytes.Buffer
+		patched.Grow(len(raw))
+		last := 0
 		for _, r := range rs {
-			if r.end > last {
+			if r.start < last {
 				return nil, errors.New("overlapping edits")
 			}
-			raw = append(append(append([]byte{}, raw[:r.start]...), []byte(r.value)...), raw[r.end:]...)
-			last = r.start
+			patched.Write(raw[last:r.start])
+			patched.WriteString(r.value)
+			last = r.end
 		}
+		patched.Write(raw[last:])
+		raw = patched.Bytes()
 		if _, e := parse(raw); e != nil {
 			return nil, e
 		}

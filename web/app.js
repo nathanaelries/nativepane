@@ -3,6 +3,7 @@ const $ = id => document.getElementById(id);
 let session, token, revision = 0, model, mode, filename, current = new Map(), saved = new Map();
 let history = [], historyIndex = 0, saveTimer, saving, errorTimer, closed = false, sheetIndex = 0, rowPage = 0, colPage = 0;
 let wordLayoutTimer;
+let opening = false;
 const params = new URLSearchParams(location.hash.slice(1));
 const initialSession = params.get('session') || new URLSearchParams(location.search).get('session'), initialToken = params.get('token');
 if (initialToken) { sessionStorage.setItem(`nativepane:${initialSession}`, initialToken); window.history.replaceState(null, '', `${location.pathname}?session=${encodeURIComponent(initialSession)}`); }
@@ -252,10 +253,20 @@ async function load(id, credential) {
  $('document-info').textContent=`${current.size.toLocaleString()} fields · ${model.format.toUpperCase()} · Session storage`;status(`Saved · revision ${revision}`);render();updateButtons();notify('opened');
 }
 async function openFile(file) {
+ if (opening) return;
+ opening=true;$('upload').disabled=true;$('url-form').querySelector('button').disabled=true;
+ $('welcome').setAttribute('aria-busy','true');$('open-status').hidden=false;$('open-status').textContent='Opening your document…';$('message').hidden=true;
+ try {
  const config=await (await request('/api/v1/config',{},true)).json();if(file.size>config.maxUploadBytes)throw new Error('File exceeds the configured upload limit.');
  const r=await request('/api/v1/sessions',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({filename:file.name,mode:'edit'})},true),created=await r.json();
  try {await request(`/api/v1/sessions/${created.id}/file`,{method:'PUT',headers:{'Content-Type':'application/octet-stream'},body:file},true);}catch(e){await request(`/api/v1/sessions/${created.id}`,{method:'DELETE'},true).catch(()=>{});throw e}
+ $('open-status').textContent='Preparing the document view…';
+ await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
  await load(created.id,created.token);
+ } finally {
+  opening=false;$('upload').disabled=false;$('upload').value='';$('url-form').querySelector('button').disabled=false;
+  $('welcome').removeAttribute('aria-busy');$('open-status').hidden=true;
+ }
 }
 $('upload').addEventListener('change',e=>{if(e.target.files[0])openFile(e.target.files[0]).catch(e=>message(e.message))});
 document.addEventListener('dragover',e=>e.preventDefault());document.addEventListener('drop',e=>{e.preventDefault();if(!$('welcome').hidden&&e.dataTransfer.files[0])openFile(e.dataTransfer.files[0]).catch(e=>message(e.message))});

@@ -14,7 +14,9 @@ The Engine interface has Open and Apply operations. The first implementation
 indexes editable OOXML text or worksheet cells using XML token byte offsets.
 Edits replace only the selected spans; unmodified XML is not reserialized. ZIP
 entries outside those edits are raw-copied. This preserves unsupported package
-parts instead of rebuilding a document from HTML. It does not guarantee semantic
+parts. Multiple XML replacements are sorted and copied into a new buffer in one
+pass, so a bulk patch does not repeatedly copy the entire XML part. Documents are
+not rebuilt from HTML. This does not guarantee semantic
 fidelity: changed text can invalidate layout, signatures, cached formulas, field
 results, or application-specific assumptions. Signed packages are rejected.
 
@@ -69,6 +71,15 @@ macro-enabled, signed and legacy packages. Never fetch external relationships or
 execute embedded objects/formulas/macros. Authenticated download is attachment-only.
 Allowlisted CORS and CSP frame-ancestors are configured separately. Production
 uses AUTH=bearer behind HTTPS. AUTH=none is a localhost demonstration only.
+
+Document capacity is configurable with MAX_DOCUMENT_FIELDS (250,000 by default,
+up to 1,000,000). It counts text runs/cells rather than pages or file bytes. The
+previous 20,000 threshold rejected ordinary workbooks and highly fragmented Word
+documents; large-file regression tests now cover native edits past that boundary.
+XML depth, element counts and expanded ZIP sizes remain independently bounded.
+The browser pages spreadsheet cells, shows opening progress and prevents duplicate
+concurrent uploads. DOCX/PPTX rendering and undo snapshots still cover the whole
+document; browser virtualization and sparse undo remain future performance work.
 
 There is no outbound runtime network dependency, telemetry, or phone-home.
 An air-gapped installation loads a prebuilt image and needs only a browser.
