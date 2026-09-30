@@ -42,8 +42,10 @@ screenshots protect NativePane's reviewed approximate rendering. CI uploads actu
 renders and pixel diffs on failure. All test outputs stay under `tmp/`.
 
 Against a running server, run `corpus_semantic.py`, `preservation_cases.py`,
-`browser_smoke.py`, `browser_tables.py`, `browser_layout.py`, `browser_large.py`,
+`browser_smoke.py`, `browser_tables.py`, `browser_layout.py`, `browser_unsupported.py`, `browser_large.py`,
 then `browser_corpus.py`, using Python with the pinned QA requirements installed.
+`test_regression_gates.py` deliberately mutates one pixel and a run property to
+prove that the visual and semantic comparators reject regressions.
 Use the CI image for authoritative pixels; another OS/browser can have different
 font metrics and still generate useful local comparison artifacts.
 

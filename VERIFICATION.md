@@ -101,3 +101,37 @@ unsupported layout features can still produce different Office page boundaries.
 - The initial GitHub CI run (commit aa062e9) passed Go race tests/vet, JavaScript
   checks, Docker build and container HTTP smoke tests. This establishes container
   validation in CI; local Docker Desktop still cannot start.
+
+## Rendering and native-save hardening, 2026-09-30
+
+- Twelve unchanged Word/Excel/PowerPoint files from the pinned MIT Open XML SDK
+  corpus have source hashes, Office producer metadata, licensing provenance and
+  whole-model semantic expectations in `tests/fixtures/manifest.json`. Office
+  itself is not installed locally; provenance is upstream and metadata evidence,
+  not a new manual save or fidelity certification.
+- Fifteen Linux browser baselines were reviewed: twelve Office fixtures and
+  three original supplemental layout/table/omission cases. They use the pinned
+  Playwright QA container; missing baselines, any pixel difference or changed
+  dimensions fail. Mutation tests verify rejection of a one-pixel difference and
+  an unrelated run-property change. Captures normalize fonts, caret and pointer.
+- Word restriction tests cover revisions, fields, controls and protection in
+  body/settings/header/footer/notes. Both host and signed-session edit attempts
+  return 403 without changing the document or emitting a saved event. Browser
+  controls are disabled and a view-only reason is visible. Unsupported-content
+  markers survive pagination and marker-only merged-cell continuations.
+- XLSX tests retain edited-cell extensions and unknown metadata, merge ranges,
+  formats, 1900/1904 epochs and formulas. Independent reopening verifies date,
+  currency, percentage and merged-anchor edits. Nested extension content is not
+  mistaken for editable cells or formulas.
+- PPTX tests retain the slide XML skeleton, shapes, coordinates, images, themes,
+  rich run properties and unchanged ZIP members; python-pptx independently
+  reopens the edited file.
+- Local Go tests/vet, JS syntax checks, comparator mutation tests, omission-marker
+  browser checks and three-format native HTTP smoke passed. GitHub CI supplies
+  Linux race, scratch image/container, independent-reader, large-document and
+  exact visual regression checks. Local Docker build was attempted and still
+  fails because Docker Desktop cannot start.
+- No new runtime dependency or host endpoint was added. README/OpenAPI changes
+  describe actual read-only/marker/403 behavior and improved cell preservation.
+  Renderer/storage interfaces, signed sessions and native saves remain covered
+  by the existing core/API/browser tests. Layout remains approximate.
