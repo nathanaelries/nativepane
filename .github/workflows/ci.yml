@@ -1,0 +1,22 @@
+name: NativePane
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.26.2'
+      - run: test -z "$(gofmt -l .)"
+      - run: go test -race ./...
+      - run: go vet ./...
+      - run: go run ./cmd/notices /tmp/notices.txt
+      - run: node --check web/app.js && node --check web/example.js
+      - run: docker build -t nativepane:test .
+      - run: |
+          docker run -d --name nativepane-test -p 127.0.0.1:8080:8080 nativepane:test
+          trap 'docker rm -f nativepane-test' EXIT
+          python tests/container_smoke.py

@@ -1,0 +1,11 @@
+.git
+.env
+.env.*
+data
+tmp
+dist
+*.exe
+*.log
+**/__pycache__
+**/*.pyc
+THIRD_PARTY_NOTICES.txt

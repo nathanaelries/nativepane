@@ -1,0 +1,1019 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "NativePane Session API",
+    "version": "1.0.0",
+    "license": {
+      "name": "MIT",
+      "identifier": "MIT"
+    },
+    "description": "Temporary Office document sessions. Host bearer authentication is required unless AUTH=none (local demo only). Session tokens grant access to one session. Tokens belong in Authorization headers, never query strings. Errors are JSON objects with an error string."
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "security": [
+    {
+      "HostBearer": []
+    }
+  ],
+  "paths": {
+    "/healthz": {
+      "get": {
+        "security": [],
+        "operationId": "health",
+        "responses": {
+          "200": {
+            "description": "Server is running"
+          }
+        }
+      }
+    },
+    "/api/v1/config": {
+      "get": {
+        "security": [],
+        "operationId": "publicConfig",
+        "responses": {
+          "200": {
+            "description": "Public auth mode and upload limit",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "auth": {
+                      "enum": [
+                        "none",
+                        "bearer"
+                      ]
+                    },
+                    "maxUploadBytes": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/sessions": {
+      "post": {
+        "operationId": "createSession",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "filename"
+                ],
+                "properties": {
+                  "filename": {
+                    "type": "string",
+                    "maxLength": 240,
+                    "description": "Base filename ending in .docx, .xlsx or .pptx"
+                  },
+                  "mode": {
+                    "enum": [
+                      "view",
+                      "edit"
+                    ],
+                    "default": "edit"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Session created, without document bytes",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SessionAccess"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/Error"
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "415": {
+            "$ref": "#/components/responses/Error"
+          },
+          "503": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/api/v1/sessions/{id}": {
+      "parameters": [
+        {
+          "$ref": "#/components/parameters/Id"
+        }
+      ],
+      "get": {
+        "operationId": "getSession",
+        "security": [
+          {
+            "HostBearer": []
+          },
+          {
+            "SessionBearer": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Session metadata",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "filename": {
+                      "type": "string"
+                    },
+                    "format": {
+                      "enum": [
+                        "docx",
+                        "xlsx",
+                        "pptx"
+                      ]
+                    },
+                    "mode": {
+                      "enum": [
+                        "view",
+                        "edit"
+                      ]
+                    },
+                    "revision": {
+                      "type": "integer"
+                    },
+                    "expiresAt": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "uploaded": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "404": {
+            "$ref": "#/components/responses/Error"
+          },
+          "410": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      },
+      "delete": {
+        "operationId": "deleteSession",
+        "responses": {
+          "204": {
+            "description": "Session and stored bytes removed"
+          },
+          "403": {
+            "$ref": "#/components/responses/Error"
+          },
+          "404": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/api/v1/sessions/{id}/token": {
+      "parameters": [
+        {
+          "$ref": "#/components/parameters/Id"
+        }
+      ],
+      "post": {
+        "operationId": "renewSessionToken",
+        "description": "Host-only token renewal. Does not extend session expiration. Previously issued tokens remain valid until their own expiry or session deletion.",
+        "responses": {
+          "200": {
+            "description": "New signed access token",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SessionAccess"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "403": {
+            "$ref": "#/components/responses/Error"
+          },
+          "410": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/api/v1/sessions/{id}/file": {
+      "parameters": [
+        {
+          "$ref": "#/components/parameters/Id"
+        }
+      ],
+      "put": {
+        "operationId": "uploadSource",
+        "description": "Host-only, one-time upload of raw bytes. No multipart wrapper. Request streaming is accepted; bounded bytes are buffered for ZIP validation. Source replacement requires a new session.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/octet-stream": {
+              "schema": {
+                "type": "string",
+                "format": "binary"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Uploaded at revision 1",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Revision"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "403": {
+            "$ref": "#/components/responses/Error"
+          },
+          "409": {
+            "$ref": "#/components/responses/Error"
+          },
+          "413": {
+            "$ref": "#/components/responses/Error"
+          },
+          "422": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      },
+      "get": {
+        "operationId": "downloadFile",
+        "security": [
+          {
+            "HostBearer": []
+          },
+          {
+            "SessionBearer": []
+          }
+        ],
+        "description": "Returns current bytes and records a downloaded event (request received, not proof the browser wrote to disk).",
+        "responses": {
+          "200": {
+            "description": "Office bytes in the original format",
+            "headers": {
+              "Content-Disposition": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "ETag": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              },
+              "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              },
+              "application/vnd.openxmlformats-officedocument.presentationml.presentation": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "409": {
+            "$ref": "#/components/responses/Error"
+          },
+          "410": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/api/v1/sessions/{id}/document": {
+      "parameters": [
+        {
+          "$ref": "#/components/parameters/Id"
+        }
+      ],
+      "get": {
+        "operationId": "openDocument",
+        "security": [
+          {
+            "HostBearer": []
+          },
+          {
+            "SessionBearer": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Editable projection of the current package",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "revision",
+                    "filename",
+                    "mode",
+                    "model"
+                  ],
+                  "properties": {
+                    "revision": {
+                      "type": "integer"
+                    },
+                    "filename": {
+                      "type": "string"
+                    },
+                    "mode": {
+                      "enum": [
+                        "view",
+                        "edit"
+                      ]
+                    },
+                    "model": {
+                      "$ref": "#/components/schemas/Model"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "409": {
+            "$ref": "#/components/responses/Error"
+          },
+          "422": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      },
+      "patch": {
+        "operationId": "editDocument",
+        "security": [
+          {
+            "HostBearer": []
+          },
+          {
+            "SessionBearer": []
+          }
+        ],
+        "description": "Apply text/cell edits atomically. Session mode must be edit. IDs are opaque and valid for the opened revision. Formula cells are read-only. A stale revision returns 409; no last-writer-wins overwrite.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "revision",
+                  "edits"
+                ],
+                "properties": {
+                  "revision": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "edits": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 20000,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "id",
+                        "text"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string",
+                          "description": "Up to 1 MiB UTF-8; XML-valid characters only."
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Saved atomically",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Revision"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/Error"
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "403": {
+            "$ref": "#/components/responses/Error"
+          },
+          "409": {
+            "$ref": "#/components/responses/Error"
+          },
+          "413": {
+            "$ref": "#/components/responses/Error"
+          },
+          "422": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/api/v1/sessions/{id}/events": {
+      "parameters": [
+        {
+          "$ref": "#/components/parameters/Id"
+        }
+      ],
+      "get": {
+        "operationId": "pollEvents",
+        "security": [
+          {
+            "HostBearer": []
+          },
+          {
+            "SessionBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "after",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Last 256 events; truncated means the cursor predates retained history. Closed events are advisory and may repeat or be absent after a browser crash.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "cursor": {
+                      "type": "integer"
+                    },
+                    "truncated": {
+                      "type": "boolean"
+                    },
+                    "events": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Event"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/Error"
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      },
+      "post": {
+        "operationId": "reportClosed",
+        "security": [
+          {
+            "HostBearer": []
+          },
+          {
+            "SessionBearer": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "type"
+                ],
+                "properties": {
+                  "type": {
+                    "const": "closed"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "Closed event recorded; bytes remain until expiry or host deletion"
+          },
+          "400": {
+            "$ref": "#/components/responses/Error"
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "HostBearer": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "API_KEY shared only between NativePane and the host backend"
+      },
+      "SessionBearer": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Signed short-lived token returned by session creation/renewal"
+      }
+    },
+    "parameters": {
+      "Id": {
+        "name": "id",
+        "in": "path",
+        "required": true,
+        "schema": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{48}$"
+        }
+      }
+    },
+    "responses": {
+      "Error": {
+        "description": "Request failed. Message explains the failure.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "required": [
+                "error"
+              ],
+              "properties": {
+                "error": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "schemas": {
+      "Revision": {
+        "type": "object",
+        "required": [
+          "revision"
+        ],
+        "properties": {
+          "revision": {
+            "type": "integer"
+          }
+        }
+      },
+      "SessionAccess": {
+        "type": "object",
+        "required": [
+          "id",
+          "token",
+          "embedUrl",
+          "tokenExpiresAt",
+          "expiresAt",
+          "mode"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          },
+          "embedUrl": {
+            "type": "string",
+            "description": "Relative /embed#session=...&token=... URL. Fragment does not reach the HTTP server. Prefix with the trusted NativePane origin."
+          },
+          "tokenExpiresAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "expiresAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "mode": {
+            "enum": [
+              "view",
+              "edit"
+            ]
+          }
+        }
+      },
+      "Model": {
+        "type": "object",
+        "required": [
+          "format",
+          "blocks",
+          "warnings"
+        ],
+        "properties": {
+          "format": {
+            "enum": [
+              "docx",
+              "xlsx",
+              "pptx"
+            ]
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Block"
+            }
+          },
+          "page": {
+            "$ref": "#/components/schemas/PageLayout"
+          }
+        }
+      },
+      "Block": {
+        "type": "object",
+        "required": [
+          "label",
+          "fields"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "fields": {
+            "type": "array",
+            "description": "Flat inventory of the block's editable fields, including descendants for table blocks. Render table rows/cells instead to avoid displaying fields twice.",
+            "items": {
+              "$ref": "#/components/schemas/Field"
+            }
+          },
+          "kind": {
+            "enum": [
+              "paragraph",
+              "table"
+            ],
+            "description": "Present on DOCX flow blocks; absent on legacy slide/worksheet projections."
+          },
+          "align": {
+            "enum": [
+              "center",
+              "right",
+              "justify"
+            ]
+          },
+          "columnWidths": {
+            "type": "array",
+            "maxItems": 256,
+            "description": "DOCX grid/preferred unmerged cell widths in twips; used as proportions. Inferred columns use a fallback weight.",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "rows": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TableRow"
+            }
+          },
+          "style": {
+            "$ref": "#/components/schemas/RenderStyle"
+          },
+          "keepNext": {
+            "type": "boolean",
+            "description": "Keep this paragraph with the next flow block when possible."
+          },
+          "breakBefore": {
+            "type": "boolean",
+            "description": "Start this flow block on a new page."
+          }
+        }
+      },
+      "TableRow": {
+        "type": "object",
+        "required": [
+          "cells"
+        ],
+        "properties": {
+          "cells": {
+            "type": "array",
+            "description": "Visible cells ordered by grid column. Vertical continuations are represented by the anchor's rowSpan.",
+            "items": {
+              "$ref": "#/components/schemas/TableCell"
+            }
+          },
+          "repeatHeader": {
+            "type": "boolean",
+            "description": "A contiguous leading header row may be mirrored on continuation pages."
+          }
+        }
+      },
+      "TableCell": {
+        "type": "object",
+        "required": [
+          "column",
+          "colSpan",
+          "rowSpan",
+          "blocks"
+        ],
+        "properties": {
+          "column": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255
+          },
+          "colSpan": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 256
+          },
+          "rowSpan": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Block"
+            }
+          },
+          "fill": {
+            "type": "string",
+            "pattern": "^[0-9a-fA-F]{6}$"
+          },
+          "vAlign": {
+            "enum": [
+              "center",
+              "bottom"
+            ]
+          },
+          "style": {
+            "$ref": "#/components/schemas/RenderStyle"
+          }
+        }
+      },
+      "Field": {
+        "type": "object",
+        "required": [
+          "id",
+          "text"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "readOnly": {
+            "type": "boolean"
+          },
+          "bold": {
+            "type": "boolean"
+          },
+          "italic": {
+            "type": "boolean"
+          },
+          "style": {
+            "$ref": "#/components/schemas/RenderStyle"
+          }
+        }
+      },
+      "Event": {
+        "type": "object",
+        "required": [
+          "sequence",
+          "type",
+          "revision",
+          "at"
+        ],
+        "properties": {
+          "sequence": {
+            "type": "integer"
+          },
+          "type": {
+            "enum": [
+              "created",
+              "uploaded",
+              "saved",
+              "downloaded",
+              "closed"
+            ]
+          },
+          "revision": {
+            "type": "integer"
+          },
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "RenderStyle": {
+        "type": "object",
+        "additionalProperties": false,
+        "description": "Bounded CSS hints derived from OOXML formatting. Generated by NativePane, never raw package CSS. Installed font availability can affect layout.",
+        "properties": {
+          "fontFamily": {
+            "type": "string"
+          },
+          "fontSize": {
+            "type": "string"
+          },
+          "fontWeight": {
+            "type": "string"
+          },
+          "fontStyle": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "textDecorationLine": {
+            "type": "string"
+          },
+          "letterSpacing": {
+            "type": "string"
+          },
+          "lineHeight": {
+            "type": "string"
+          },
+          "textAlign": {
+            "type": "string"
+          },
+          "textIndent": {
+            "type": "string"
+          },
+          "marginTop": {
+            "type": "string"
+          },
+          "marginBottom": {
+            "type": "string"
+          },
+          "marginLeft": {
+            "type": "string"
+          },
+          "marginRight": {
+            "type": "string"
+          },
+          "paddingTop": {
+            "type": "string"
+          },
+          "paddingRight": {
+            "type": "string"
+          },
+          "paddingBottom": {
+            "type": "string"
+          },
+          "paddingLeft": {
+            "type": "string"
+          },
+          "borderTop": {
+            "type": "string"
+          },
+          "borderRight": {
+            "type": "string"
+          },
+          "borderBottom": {
+            "type": "string"
+          },
+          "borderLeft": {
+            "type": "string"
+          },
+          "backgroundColor": {
+            "type": "string"
+          }
+        }
+      },
+      "PageLayout": {
+        "type": "object",
+        "description": "DOCX final-section geometry in twips (1/1440 inch). Mixed sections remain approximate.",
+        "required": [
+          "width",
+          "height",
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "properties": {
+          "width": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "top": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "right": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "bottom": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "left": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  }
+}

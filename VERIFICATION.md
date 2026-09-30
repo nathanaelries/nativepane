@@ -1,0 +1,81 @@
+# Verification record
+
+Local verification on 2026-09-30, Windows, Go 1.26.2, headless Microsoft Edge:
+
+- `go test ./...`: passed. DOCX/XLSX/PPTX package-preserving round trips;
+  numeric/shared/empty-cell edits; rejected formulas, malicious paths, macros,
+  signatures, invalid XML, invalid edit IDs/characters and an expanded ZIP bomb.
+- API tests: passed. Persistence across server reconstruction, revision conflicts,
+  host/session permissions, read-only mode, wrong/tampered/expired tokens,
+  cross-session denial, upload/session limits, CORS/CSP and bounded events.
+- `go vet ./...` and JavaScript syntax checks: passed.
+- `go list -m all`: only the NativePane module. Go formatting check: clean.
+- Static Linux/amd64 cross-build with CGO disabled: passed (9.7 MB unstripped).
+  `docker compose config --quiet`: passed.
+- `tests/container_smoke.py` against the **native executable**: passed for all
+  three formats, including independent ZIP/XML parsing and lifecycle events.
+- Independent authoring/reopening: python-docx, openpyxl, python-pptx passed for
+  edited text and retained formatting, table/header, formula/second worksheet,
+  and slide geometry/second slide, respectively.
+- Headless browser: upload, measurable text edit, autosave, undo/redo, original
+  format download and close passed for all three formats. Host iframe, saved-event
+  polling, token-fragment removal, iframe reload and session deletion passed.
+  No browser JavaScript exceptions.
+- Browser screenshots of the home screen, document pages, grid, slide-text view
+  and host embed were inspected. QA artifacts are local under ignored `tmp/qa/`.
+
+Docker runtime validation is **blocked by the local environment**: Docker Desktop
+reported that its Hyper-V VM could not allocate 2048 MB of RAM (0x800705AA).
+No container build/run success is claimed. Dockerfile performs tests and vet in
+its build stage; CI also builds and runs the image when a working Docker daemon
+is available. The native Go executable is the same application source.
+
+The local race-detector attempt was unavailable because the installed Go
+environment has CGO disabled; the CI job enables its normal Linux toolchain and
+runs `go test -race ./...`. No local race-detector success is claimed.
+
+These checks establish a working constrained editor, not Microsoft Office layout
+equivalence. Files were reopened with independent libraries; manual Word/Excel/
+PowerPoint interoperability and broad adversarial/security testing remain future
+work. See README.md for unsupported features.
+
+## DOCX table regression verification, 2026-09-30
+
+- Go tests cover body flow order, nested tables, empty cells, multiple paragraphs,
+  content-control wrappers, grid widths, horizontal and vertical merges, merge
+  termination, skipped grid columns, and direct shading/alignment. Editing two
+  cells changes only their text XML spans; all other XML and package parts remain
+  unchanged. The saved model reopens with the same table topology.
+- `tests/browser_tables.py` independently authors a DOCX with python-docx. Browser
+  assertions check actual cell positions/sizes, nested table ownership, merged
+  spans, paragraph order, unique text rendering, undo/redo, autosave and download.
+  python-docx reopens the result with both edits and original merges intact.
+  Passed; screenshot inspected at ignored `tmp/qa/docx-tables.png`.
+- Full Go tests/vet, both JavaScript syntax checks, standard HTTP smoke tests for
+  all three formats, and the existing browser regression suite passed.
+- Docker build was attempted again and is still blocked by Docker Desktop's
+  startup error. HTTP checks ran against the updated native executable.
+
+## DOCX formatting and pagination regression verification, 2026-09-30
+
+- Added Go coverage for defaults, basedOn inheritance, direct run overrides,
+  character styles, theme fonts, paragraph spacing/borders, cell padding/borders,
+  preferred widths, repeating headers and final-section geometry. Cyclic styles,
+  unsafe font names and out-of-range values remain bounded. Style/theme package
+  parts remain byte-identical after native text edits.
+- `tests/browser_layout.py` passed using an independently authored multi-page
+  DOCX. It measures font sizes/weight/color, page dimensions, cell proportions,
+  printable content height, table continuation and repeated read-only headers.
+  Editable fields appear once; edit reflow keeps field identity/caret and the
+  independently reopened download preserves source styles.
+- The reported document was tested locally without adding its content to the
+  public fixtures. It now renders in two pages, with the first table on page one,
+  inherited title styling, body typography, source margins and preferred columns.
+  This confirms the visible regression improved, not general Word fidelity.
+- Full Go tests/vet, JavaScript syntax checks, table/general browser regressions,
+  and HTTP smoke checks passed. Docker build remains blocked by Desktop startup.
+
+The historical table note above described the earlier behavior. Current tables
+continue at row boundaries; oversized paragraphs or vertically merged row groups
+still expand their page. Browser-local font fallbacks, mixed sections and other
+unsupported layout features can still produce different Office page boundaries.

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NativePane</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header class="topbar"><a class="brand" href="/" aria-label="NativePane home"><span class="mark">N</span>NativePane</a><span class="edition">OFFICE / OPEN SOURCE</span><span class="local-badge">● Self-hosted</span></header>
+<main>
+<section id="welcome" class="welcome">
+ <div class="eyebrow">YOUR DOCUMENTS. YOUR INFRASTRUCTURE.</div>
+ <h1>A native place<br>for Office documents.</h1><p class="intro">Open a file, make an edit, keep the original format.<br>One container. No cloud account. Yours to embed.</p>
+ <div class="upload-card"><div class="file-icons"><span>W</span><span>X</span><span>P</span></div><h2>Bring a document into the pane</h2><p>DOCX · XLSX · PPTX</p><label class="button primary" for="upload">Choose a file</label><input id="upload" type="file" accept=".docx,.xlsx,.pptx"><p class="subtle">Or drag a file anywhere on this page</p></div>
+ <form id="url-form" class="url-form"><label for="source-url">Open a public file URL</label><div><input id="source-url" type="url" placeholder="https://example.com/document.docx" required><button type="submit">Open URL</button></div><small>The source must allow browser CORS. No server-side URL fetching.</small></form>
+ <div id="auth-panel" hidden><label for="api-key">API bearer key for this local browser session</label><input id="api-key" type="password" autocomplete="off"><p class="subtle">For embedded production use, your host backend keeps the API key.</p></div>
+ <p class="honesty">A focused text and cell editor. Layout is approximate; unsupported objects stay in the file. <a href="/example">Explore the embed example →</a></p>
+</section>
+<section id="workspace" hidden>
+ <div class="document-bar"><div><span id="format-badge" class="format-badge"></span><strong id="filename"></strong><span id="mode" class="mode"></span></div><span id="save-status" role="status" aria-live="polite">Ready</span></div>
+ <nav class="toolbar" aria-label="Document actions"><button id="save" class="primary">Save</button><button id="undo" title="Undo (Ctrl+Z)">↶ Undo</button><button id="redo" title="Redo (Ctrl+Shift+Z)">↷ Redo</button><span class="separator"></span><button id="download">↓ Download original format</button><button id="close" class="close-button">Close pane</button></nav>
+ <details class="fidelity"><summary>Approximate view · fidelity notes</summary><ul id="warnings"></ul></details>
+ <div class="editor-layout"><aside><div class="eyebrow">DOCUMENT OUTLINE</div><div id="outline"></div><div class="aside-note">Changes are saved to this session. Your source corpus stays with your host.</div></aside><div class="canvas-wrap"><div id="sheet-nav"></div><div id="canvas"></div></div></div>
+ <footer><span id="document-info"></span><span>NativePane · MIT · No telemetry</span></footer>
+</section>
+<div id="message" role="alert" hidden></div>
+</main></body></html>

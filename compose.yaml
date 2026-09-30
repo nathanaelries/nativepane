@@ -1,0 +1,17 @@
+services:
+  nativepane:
+    build: .
+    image: nativepane:local
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - nativepane-data:/data
+    environment:
+      AUTH: none
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 1g
+    cpus: 2
+volumes:
+  nativepane-data:
