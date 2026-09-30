@@ -109,6 +109,34 @@ func TestCellExtensionPreservation(t *testing.T) {
 	}
 }
 
+func TestMergedContinuationRetainsUnsupportedMarkers(t *testing.T) {
+	parts := testdoc.Parts("docx")
+	parts["word/document.xml"] = `<w:document xmlns:w="` + wordNS + `"><w:body><w:tbl><w:tblGrid><w:gridCol w:w="1000"/></w:tblGrid><w:tr><w:tc><w:tcPr><w:vMerge w:val="restart"/></w:tcPr><w:p><w:r><w:t>Anchor</w:t></w:r></w:p></w:tc></w:tr><w:tr><w:tc><w:tcPr><w:vMerge/></w:tcPr><w:p><w:r><w:drawing/></w:r></w:p><w:altChunk/></w:tc></w:tr></w:tbl></w:body></w:document>`
+	source := testdoc.Package(parts)
+	engine := OOXML{}
+	model, err := engine.Open(source, "docx")
+	if err != nil {
+		t.Fatal(err)
+	}
+	anchor := model.Blocks[0].Rows[0].Cells[0]
+	if anchor.RowSpan != 2 || len(anchor.Blocks) != 3 || len(anchor.Blocks[1].Markers) != 1 || anchor.Blocks[2].Kind != "unsupported" {
+		t.Fatal("merged continuation dropped unsupported content markers")
+	}
+	output, err := engine.Apply(source, "docx", []Edit{{anchor.Blocks[0].Fields[0].ID, "Changed"}})
+	if err != nil {
+		t.Fatal(err)
+	}
+	reopened, err := engine.Open(output, "docx")
+	if err != nil || len(reopened.Blocks[0].Rows[0].Cells[0].Blocks) != 3 {
+		t.Fatal("markers changed after native save", err)
+	}
+	before, after := unzip(t, source), unzip(t, output)
+	want := bytes.Replace(before["word/document.xml"], []byte(`<w:t>Anchor</w:t>`), []byte(`<w:t xml:space="preserve">Changed</w:t>`), 1)
+	if !bytes.Equal(want, after["word/document.xml"]) {
+		t.Fatal("merged source content changed outside edited run")
+	}
+}
+
 func TestCellExtensionContentIsNotEditableCellData(t *testing.T) {
 	parts := testdoc.Parts("xlsx")
 	parts["xl/worksheets/sheet1.xml"] = `<worksheet xmlns="` + sheetNS + `"><sheetData><row r="1"><c r="A1" t="inlineStr"><is><t>Actual value</t></is><extLst><ext uri="urn:vendor"><t>Metadata text</t><v>999</v><f>Metadata formula</f><c r="Z99"><v>777</v></c></ext></extLst></c></row></sheetData></worksheet>`

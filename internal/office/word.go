@@ -246,7 +246,7 @@ func (p *projection) wordTable(part string, tbl *node, depth int) (Block, error)
 					// Conforming continuations are empty; keep any nonempty continuation
 					// content visible/editable in the merged anchor rather than losing it.
 					for _, block := range blocks {
-						if len(block.Fields) > 0 || block.Kind == "table" {
+						if len(block.Fields) > 0 || block.Kind == "table" || block.Kind == "unsupported" || len(block.Markers) > 0 {
 							anchor.Blocks = append(anchor.Blocks, block)
 						}
 					}

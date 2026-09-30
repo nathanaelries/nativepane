@@ -32,6 +32,17 @@ position = OxmlElement('w:tblpPr')
 for key, value in {'horzAnchor':'margin', 'vertAnchor':'text', 'tblpX':'0', 'tblpY':'0'}.items():
     position.set(qn('w:' + key), value)
 table._tbl.tblPr.append(position)
+merged = doc.add_table(rows=2, cols=1)
+merged.cell(0, 0).text = 'Merged anchor with omitted continuation content'
+for row, value in ((0, 'restart'), (1, 'continue')):
+    merge = OxmlElement('w:vMerge')
+    merge.set(qn('w:val'), value)
+    merged.cell(row, 0)._tc.get_or_add_tcPr().append(merge)
+# Keep the image physically in the continuation, rather than python-docx's
+# high-level merged anchor, to verify marker-only content is not discarded.
+continuation = merged._tbl.tr_lst[1].tc_lst[0]
+from docx.text.paragraph import Paragraph
+Paragraph(continuation.p_lst[0], merged.cell(0, 0)).add_run().add_picture(str(image), width=Inches(.25))
 doc.sections[0].header.paragraphs[0].text = 'Header content retained in the source'
 source = out / 'unsupported-regression.docx'
 doc.save(source)
@@ -45,7 +56,9 @@ with sync_playwright() as p:
     page.goto(os.environ.get('NATIVEPANE_URL', 'http://127.0.0.1:8080'))
     page.locator('#upload').set_input_files(str(source))
     expect(page.locator('#filename')).to_have_text(source.name)
-    for marker in ('Image, drawing or embedded object not rendered', 'List numbering not rendered', 'Tab positioning not rendered', 'Inline line/page break not rendered', 'Equation not rendered', 'Floating table positioning not rendered', 'Header content not rendered'):
+    expect(page.locator('.unsupported-marker').filter(has_text='Image, drawing or embedded object not rendered')).to_have_count(2)
+    expect(page.locator('td[rowspan="2"] .unsupported-marker')).to_have_text('Image, drawing or embedded object not rendered')
+    for marker in ('List numbering not rendered', 'Tab positioning not rendered', 'Inline line/page break not rendered', 'Equation not rendered', 'Floating table positioning not rendered', 'Header content not rendered'):
         expect(page.locator('.unsupported-marker').filter(has_text=marker)).to_be_visible()
     expect(page.locator('[data-field]').filter(has_text='Floating table content')).to_have_count(1)
     expect(page.locator('#save')).to_be_enabled()
@@ -54,4 +67,4 @@ with sync_playwright() as p:
     page.mouse.move(0, 0)
     page.locator('#workspace').screenshot(path=str(out / 'unsupported-regression.png'), animations='disabled', caret='hide')
     browser.close()
-    print('Unsupported Word constructs: inherited numbering, image, tabs/breaks, equation, floating table, header markers PASS')
+    print('Unsupported Word constructs: inherited numbering, image, tabs/breaks, equation, floating table, merged continuation, header markers PASS')
