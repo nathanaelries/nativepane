@@ -12,6 +12,14 @@ JavaScript packages, web fonts, Office engines, paid SDKs, or CDN resources.
 THIRD_PARTY_LICENSES.md inventories these components; the container carries the
 actual toolchain's license and source notices under /licenses.
 
+The repository also includes unmodified Office-saved regression documents from
+the .NET Foundation's MIT Open XML SDK test corpus. Their exact source revision,
+paths and SHA-256 hashes are recorded in tests/fixtures/manifest.json; upstream
+LICENSE and NOTICE files are retained in tests/fixtures/licenses. These are test
+data, not an Office engine or SDK dependency, and do not ship in the runtime image.
+No Microsoft Office installation, subscription or proprietary converter is
+required to build or run the corpus checks.
+
 The default image is FROM scratch with a static, CGO-disabled executable and
 notices. It contains no Linux distribution, libc, shell, package manager, or
 copyleft office engine. The intermediate Go build image is build tooling only,

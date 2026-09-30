@@ -15,18 +15,21 @@
 - Configurable large-document capacity, paged spreadsheet grids, opening progress
   and single-pass bulk XML patches; regression tests beyond 20,000 fields.
 - OpenAPI, local host example, MIT strategy, generated third-party notices and CI.
+- Office-saved fixture manifest, semantic/visual regression gates, explicit omitted
+  Word-content markers and engine-enforced view-only restrictions.
+- Preserved edited-cell extensions/date formats/merges and slide geometry/media/
+  themes/rich properties, with independent reader and package-preservation checks.
 
 This release is an engineering starting point for a document pane. It is not an
 office-suite feature-completeness or evidentiary-rendering claim.
 
 ## Next: rendering and hardening
 
-- Office-authored interoperability fixture corpus; visual and semantic regression tests.
+- Expand the Office-authored interoperability corpus and supported-layout coverage.
 - More Word style rules, mixed sections, lists, full conditional table styling,
   floating tables, within-row/paragraph splitting, images and improved font/layout fidelity.
-- Visible unsupported-content markers, field/control/protection awareness and a
-  dedicated tracked-change display before permitting those documents to be edited.
-- Preserve all cell extensions during edits; date/number formats and merged cells.
+- Dedicated tracked-change/field/control/protection displays before enabling edits.
+- Display date/number formats and merged cells; extend preserved-cell semantics.
 - Slide shapes, coordinates, images, themes and richer text.
 - Better performance: virtualized document/slide pages, sparse undo, cached projections,
   streaming storage and per-session locks.

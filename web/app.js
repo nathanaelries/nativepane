@@ -80,6 +80,9 @@ function reflowWord() {
  document.querySelector('.canvas-wrap').scrollTop = scroll;
 }
 function wordBlockElement(block) {
+ if (block.kind === 'unsupported') {
+  const marker=document.createElement('div');marker.className='unsupported-marker';marker.setAttribute('role','note');marker.textContent=block.label;return marker;
+ }
  if (block.kind !== 'table') {
   const paragraph = document.createElement('p');
   if (['center', 'right', 'justify'].includes(block.align)) paragraph.className = `word-align-${block.align}`;
@@ -87,10 +90,12 @@ function wordBlockElement(block) {
   if (block.keepNext) paragraph.dataset.keepNext = 'true';
   block.fields.forEach(f => paragraph.append(fieldElement(f)));
   if (!block.fields.length) paragraph.append(document.createElement('br'));
+  for (const label of block.markers || []) { const marker=document.createElement('span');marker.className='unsupported-marker';marker.setAttribute('role','note');marker.textContent=label;marker.contentEditable='false';paragraph.append(marker); }
   return paragraph;
  }
  const table = document.createElement('table');
  table.className = 'document-table';
+ if (block.markers?.length) { const caption=document.createElement('caption');caption.className='unsupported-marker';caption.textContent=block.markers.join('; ');table.append(caption); }
  applyWordStyle(table, block.style);
  table.setAttribute('aria-label', block.label || 'Document table');
  const widths = block.columnWidths || [];
@@ -172,6 +177,7 @@ function renderWord() {
  }
  function tableFragment(source) {
   const fragment = source.cloneNode(false);
+  const caption = source.querySelector(':scope > caption'); if (caption) fragment.append(caption.cloneNode(true));
   const columns = source.querySelector(':scope > colgroup'); if (columns) fragment.append(columns.cloneNode(true));
   fragment.append(document.createElement('tbody')); return fragment;
  }
@@ -250,6 +256,7 @@ async function load(id, credential) {
  session=id;token=credential;closed=false;const r=await request(endpoint('document')),data=await r.json();({revision,model,mode,filename}=data);
  current=new Map(model.blocks.flatMap(b=>b.fields.map(f=>[f.id,f.text])));saved=new Map(current);history=[new Map(current)];historyIndex=0;sheetIndex=rowPage=colPage=0;
  $('welcome').hidden=true;$('workspace').hidden=false;$('filename').textContent=filename;$('format-badge').textContent=model.format.toUpperCase();$('mode').textContent=mode==='view'?'View only':'Text & cell editing';$('warnings').replaceChildren();model.warnings.forEach(w=>{const li=document.createElement('li');li.textContent=w;$('warnings').append(li)});
+ $('restriction-note').hidden=!model.readOnly;$('restriction-note').textContent=model.readOnly ? model.warnings.filter(w=>w.includes('view only')).join(' ') : '';
  $('document-info').textContent=`${current.size.toLocaleString()} fields · ${model.format.toUpperCase()} · Session storage`;status(`Saved · revision ${revision}`);render();updateButtons();notify('opened');
 }
 async function openFile(file) {

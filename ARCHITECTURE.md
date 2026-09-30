@@ -20,6 +20,12 @@ not rebuilt from HTML. This does not guarantee semantic
 fidelity: changed text can invalidate layout, signatures, cached formulas, field
 results, or application-specific assumptions. Signed packages are rejected.
 
+Spreadsheet changes replace only the type attribute and value-bearing direct
+children of the selected cell. Unknown extension children and metadata attributes
+remain byte-identical; merges, styles, number/date formats and date epochs remain
+in their original parts. Slide edits patch only selected text nodes, retaining
+shape coordinates, media relationships, theme/master parts and rich-run properties.
+
 The browser receives an editable projection, never arbitrary document HTML.
 DOCX displays paragraphs and flow tables on approximate pages, XLSX displays existing cells,
 and PPTX displays each slide's text. Unsupported objects remain in the download
@@ -38,6 +44,14 @@ Tables split between row groups, retaining vertical merges and repeating designa
 headers as read-only mirrors of the original fields. Browser edits reflow with
 caret restoration. Oversized paragraphs/merged groups expand a page; splitting
 inside them, mixed sections and full conditional table-style semantics remain future work.
+
+Unsupported Word content/layout is represented by visible paragraph markers or
+flow blocks of kind unsupported. Revisions, fields, controls and protection are
+detected across all Word XML parts before indexing editable text. Such documents
+return model.readOnly and an effective browser mode of view; the engine refuses
+all nonempty edits, including host-key requests. Source bytes remain available
+for viewing/download. This is conservative refusal until dedicated displays exist,
+not enforcement of Word's editing/password rules or revision acceptance.
 
 ## Sessions and host integration
 
@@ -80,6 +94,13 @@ XML depth, element counts and expanded ZIP sizes remain independently bounded.
 The browser pages spreadsheet cells, shows opening progress and prevents duplicate
 concurrent uploads. DOCX/PPTX rendering and undo snapshots still cover the whole
 document; browser virtualization and sparse undo remain future performance work.
+
+The checked-in Office fixture corpus has pinned provenance, license notices,
+whole-model semantic expectations and reviewed browser screenshots. CI fails on
+semantic/visual/preservation/permission regressions and also runs independent
+readers, large-file and existing browser gates. Test tooling runs separately from
+the shipped scratch image. See tests/fixtures/README.md for coverage and explicit
+baseline review rules.
 
 There is no outbound runtime network dependency, telemetry, or phone-home.
 An air-gapped installation loads a prebuilt image and needs only a browser.

@@ -1,0 +1,29 @@
+{
+  "format": "pptx",
+  "blocks": [
+    {
+      "label": "Slide 1",
+      "fields": [
+        {
+          "id": "ppt/slides/slide1.xml:0",
+          "text": "Text: 100 characters",
+          "kind": "text"
+        },
+        {
+          "id": "ppt/slides/slide1.xml:1",
+          "text": "29% of slides created in a typical PowerPoint presentation contain only text",
+          "kind": "text"
+        },
+        {
+          "id": "ppt/slides/slide1.xml:2",
+          "text": "The percentage ha",
+          "kind": "text"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Text-only slide projection: images, themes, geometry, and animations are not rendered."
+  ]
+}

@@ -8,7 +8,6 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"math"
 	"path"
 	"regexp"
 	"sort"
@@ -23,6 +22,8 @@ const wordNS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 const sheetNS = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
 const drawNS = "http://schemas.openxmlformats.org/drawingml/2006/main"
 const relNS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+
+var ErrReadOnly = errors.New("editing is disabled for this document until its restricted Word constructs have a dedicated display")
 
 type Field struct {
 	ID       string            `json:"id"`
@@ -44,6 +45,7 @@ type Block struct {
 	Style        map[string]string `json:"style,omitempty"`
 	KeepNext     bool              `json:"keepNext,omitempty"`
 	BreakBefore  bool              `json:"breakBefore,omitempty"`
+	Markers      []string          `json:"markers,omitempty"`
 }
 type TableRow struct {
 	Cells        []*TableCell `json:"cells"`
@@ -71,6 +73,7 @@ type Model struct {
 	Blocks   []Block     `json:"blocks"`
 	Warnings []string    `json:"warnings"`
 	Page     *PageLayout `json:"page,omitempty"`
+	ReadOnly bool        `json:"readOnly,omitempty"`
 }
 type Edit struct {
 	ID   string `json:"id"`
@@ -230,6 +233,7 @@ func (p *projection) add(block *Block, part string, n *node, f Field) error {
 		return errors.New("This document exceeds this server's document capacity. Ask the administrator to increase MAX_DOCUMENT_FIELDS, or open a smaller document.")
 	}
 	f.ID = fmt.Sprintf("%s:%d", part, len(p.targets))
+	f.ReadOnly = f.ReadOnly || p.model.ReadOnly
 	block.Fields = append(block.Fields, f)
 	p.targets[f.ID] = target{part, n, f}
 	return nil
@@ -454,6 +458,9 @@ func (o OOXML) Apply(data []byte, format string, edits []Edit) ([]byte, error) {
 	if len(edits) == 0 {
 		return data, nil
 	}
+	if p.model.ReadOnly {
+		return nil, ErrReadOnly
+	}
 	if len(edits) > p.maxFields {
 		return nil, errors.New("too many edits")
 	}
@@ -483,19 +490,10 @@ func (o OOXML) Apply(data []byte, format string, edits []Edit) ([]byte, error) {
 		qname = strings.TrimRight(qname, "/>")
 		var value string
 		if format == "xlsx" {
-			start = typeAttr.ReplaceAllString(start, "")
-			start = strings.TrimSuffix(strings.TrimSuffix(start, ">"), "/")
-			prefix := ""
-			if i := strings.Index(qname, ":"); i >= 0 {
-				prefix = qname[:i+1]
-			}
-			numeric, err := strconv.ParseFloat(edit.Text, 64)
-			if t.field.Kind == "number" && edit.Text != "" && err == nil && !math.IsInf(numeric, 0) && !math.IsNaN(numeric) {
-				value = start + ` t="n"><` + prefix + `v>` + escaped(edit.Text) + `</` + prefix + `v></` + qname + `>`
-			} else if t.field.Kind == "boolean" && (edit.Text == "0" || edit.Text == "1") {
-				value = start + ` t="b"><` + prefix + `v>` + edit.Text + `</` + prefix + `v></` + qname + `>`
-			} else {
-				value = start + ` t="inlineStr"><` + prefix + `is><` + prefix + `t xml:space="preserve">` + escaped(edit.Text) + `</` + prefix + `t></` + prefix + `is></` + qname + `>`
+			var err error
+			value, err = patchCell(raw, t, edit.Text)
+			if err != nil {
+				return nil, err
 			}
 		} else {
 			start = spaceAttr.ReplaceAllString(start, "")

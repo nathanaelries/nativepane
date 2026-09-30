@@ -415,7 +415,11 @@ func (s *Server) api(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 		w.Header().Set("ETag", fmt.Sprintf(`"%d"`, v.Revision))
-		jsonResponse(w, 200, map[string]any{"revision": v.Revision, "filename": v.Filename, "mode": v.Mode, "model": model})
+		mode := v.Mode
+		if model.ReadOnly {
+			mode = "view"
+		}
+		jsonResponse(w, 200, map[string]any{"revision": v.Revision, "filename": v.Filename, "mode": mode, "model": model})
 	case action == "document" && r.Method == "PATCH":
 		if v.Mode != "edit" || !s.authorized(r, v, true) {
 			fail(w, 403, "view sessions cannot edit")
@@ -442,6 +446,10 @@ func (s *Server) api(w http.ResponseWriter, r *http.Request) {
 		}
 		b, e := s.engine.Apply(v.Data, v.Format, req.Edits)
 		if e != nil {
+			if errors.Is(e, office.ErrReadOnly) {
+				fail(w, 403, e.Error())
+				return
+			}
 			fail(w, 422, e.Error())
 			return
 		}

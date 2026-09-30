@@ -39,13 +39,21 @@ telemetry, CDNs, or license checks. See [LICENSING.md](LICENSING.md).
 Unsupported package parts are retained. Untouched ZIP members are raw-copied to
 the output without recompression; edited XML is patched only at selected
 text/cell spans. Changing a cell replaces that cell's content and preserves its
-attributes (including style), but not unsupported children such as cell metadata
-extensions. Text editing preserves run properties. No-op saves return original
+attributes (including style and cell metadata) and non-value children such as
+cell extensions. Worksheet merges, number/date format definitions and workbook
+date epochs remain unchanged. Text editing preserves run properties, including
+PowerPoint rich text; shapes, coordinates, images and themes are retained in the
+download. No-op saves return original
 bytes. Modified ZIP packages as a whole are not byte-identical or forensic originals.
 
-**Track Changes is not supported:** tracked text can appear as ordinary text, and
-editing it does not author a tracked revision. Content controls, field results and
-document protection are not enforced. Do not use this version as an authoritative
+**Restricted Word documents open view-only:** tracked changes, fields, content
+controls/form fields and protection are detected across Word parts, including
+settings, headers and notes. The API returns `model.readOnly: true` and effective
+`mode: "view"`; nonempty edits return 403 even with host credentials. This is a
+conservative restriction, not a dedicated display of those constructs. Visible
+`Block.markers` and `kind: "unsupported"` notes identify omitted Word content or
+layout such as drawings, text boxes, lists, comments, notes, tabs and inline breaks.
+Do not use this version as an authoritative
 review of hidden/deleted content or as a redaction tool. Keep evidentiary originals
 in the host corpus and label this view as approximate. Signed, encrypted,
 macro-enabled and strict-OOXML packages are unsupported. Macro/signature parts are

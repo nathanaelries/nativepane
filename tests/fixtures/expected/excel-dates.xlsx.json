@@ -1,0 +1,117 @@
+{
+  "format": "xlsx",
+  "blocks": [
+    {
+      "label": "Sheet1",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet1.xml:0",
+          "text": "a",
+          "address": "A1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:1",
+          "text": "b",
+          "address": "B1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:2",
+          "text": "c",
+          "address": "C1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:3",
+          "text": "1",
+          "address": "A2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:4",
+          "text": "2",
+          "address": "B2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:5",
+          "text": "3",
+          "address": "C2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:6",
+          "text": "4",
+          "address": "A3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:7",
+          "text": "5",
+          "address": "B3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:8",
+          "text": "6",
+          "address": "C3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:9",
+          "text": "1",
+          "address": "A9",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:10",
+          "text": "2",
+          "address": "B9",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:11",
+          "text": "=A9+B9",
+          "address": "C9",
+          "kind": "formula",
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "label": "Sheet2",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet2.xml:12",
+          "text": "second sheet",
+          "address": "A1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:13",
+          "text": "=TODAY()",
+          "address": "B10",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:14",
+          "text": "",
+          "address": "N11",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:15",
+          "text": "",
+          "address": "L16",
+          "kind": "number"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Existing cells only. Formulas are read-only; cached results are not recalculated. Dates appear as serial values. Pivot tables and charts are not rendered."
+  ]
+}

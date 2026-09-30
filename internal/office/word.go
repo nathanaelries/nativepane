@@ -4,6 +4,7 @@ import (
 	"errors"
 	"regexp"
 	"strconv"
+	"strings"
 )
 
 // Direct-child properties avoid accidentally borrowing formatting from a nested
@@ -43,12 +44,26 @@ func (p *projection) wordBlocks(part string) error {
 	if body == nil {
 		return errors.New("unsupported Word document namespace or missing body")
 	}
+	if err := p.wordSafety(part, root); err != nil {
+		return err
+	}
 	p.word, err = loadWordStyles(p.parts)
 	if err != nil {
 		return err
 	}
 	p.model.Page = wordPage(body)
 	p.model.Blocks, err = p.wordFlow(part, body, 0)
+	if err != nil {
+		return err
+	}
+	for _, kind := range []struct{ prefix, label string }{{"word/header", "Header"}, {"word/footer", "Footer"}, {"word/footnotes.xml", "Footnotes"}, {"word/endnotes.xml", "Endnotes"}, {"word/comments", "Comments"}} {
+		for name := range p.parts {
+			if strings.HasPrefix(name, kind.prefix) && strings.HasSuffix(name, ".xml") {
+				p.model.Blocks = append(p.model.Blocks, wordMarker(kind.label+" content not rendered"))
+				break
+			}
+		}
+	}
 	return err
 }
 
@@ -65,6 +80,27 @@ func (p *projection) wordFlow(part string, container *node, depth int) ([]Block,
 		case n.name.Space == wordNS && n.name.Local == "tbl":
 			block, err = p.wordTable(part, n, depth+1)
 		default:
+			if n.name.Space == wordNS {
+				switch n.name.Local {
+				case "tcPr", "sectPr", "bookmarkStart", "bookmarkEnd", "proofErr":
+					continue
+				case "altChunk":
+					blocks = append(blocks, wordMarker("Embedded alternate content not rendered"))
+					continue
+				case "sdt", "ins", "del", "moveFrom", "moveTo":
+					blocks = append(blocks, wordMarker(wordRestriction(n)+" not fully displayed"))
+				case "sdtPr", "sdtEndPr", "customXmlPr":
+					continue
+				case "sdtContent", "customXml": // Transparent flow container.
+				default:
+					blocks = append(blocks, wordMarker("Unsupported Word content: "+n.name.Local))
+				}
+			} else if n.name.Local == "AlternateContent" {
+				blocks = append(blocks, wordMarker("Alternate content not rendered"))
+				continue
+			} else if reason := wordRestriction(n); reason != "" {
+				blocks = append(blocks, wordMarker(reason+" not fully displayed"))
+			}
 			// Content controls, custom XML and tracked wrappers can contain flow.
 			var nested []Block
 			nested, err = p.wordFlow(part, n, depth)
@@ -84,7 +120,18 @@ func (p *projection) wordFlow(part string, container *node, depth int) ([]Block,
 
 func (p *projection) wordParagraph(part string, para *node) (Block, error) {
 	b := Block{Label: "Paragraph", Kind: "paragraph", Fields: []Field{}}
+	b.Markers = paragraphMarkers(para)
 	b.Style, b.KeepNext, b.BreakBefore = p.word.paragraphStyle(para)
+	props := para.child(wordNS, "pPr")
+	id := wordProperty(props, "pStyle")
+	if id == "" {
+		id = p.word.defaultParagraph
+	}
+	for _, style := range p.word.chain(id) {
+		if style.child(wordNS, "pPr").child(wordNS, "numPr") != nil && !hasMarker(b.Markers, "List numbering not rendered") {
+			b.Markers = append(b.Markers, "List numbering not rendered")
+		}
+	}
 	switch wordProperty(para.child(wordNS, "pPr"), "jc") {
 	case "center":
 		b.Align = "center"
@@ -93,7 +140,7 @@ func (p *projection) wordParagraph(part string, para *node) (Block, error) {
 	case "both", "distribute":
 		b.Align = "justify"
 	}
-	for _, t := range para.all(wordNS, "t") {
+	for _, t := range paragraphTexts(para) {
 		owner := t.parent
 		for owner != nil && !(owner.name.Space == wordNS && owner.name.Local == "p") {
 			owner = owner.parent
@@ -141,6 +188,9 @@ func (p *projection) wordTable(part string, tbl *node, depth int) (Block, error)
 		return Block{}, errors.New("nested table depth exceeds 8")
 	}
 	b := Block{Label: "Table", Kind: "table", Fields: []Field{}, Rows: []TableRow{}}
+	if tbl.child(wordNS, "tblPr").child(wordNS, "tblpPr") != nil {
+		b.Markers = append(b.Markers, "Floating table positioning not rendered")
+	}
 	if grid := tbl.child(wordNS, "tblGrid"); grid != nil {
 		for _, col := range grid.children {
 			if col.name.Space == wordNS && col.name.Local == "gridCol" {

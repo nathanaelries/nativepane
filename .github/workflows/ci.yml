@@ -4,7 +4,7 @@ permissions:
   contents: read
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
@@ -15,8 +15,52 @@ jobs:
       - run: go vet ./...
       - run: go run ./cmd/notices /tmp/notices.txt
       - run: node --check web/app.js && node --check web/example.js
+      - run: test "$(go list -m all)" = nativepane
       - run: docker build -t nativepane:test .
       - run: |
           docker run -d --name nativepane-test -p 127.0.0.1:8080:8080 nativepane:test
           trap 'docker rm -f nativepane-test' EXIT
           python tests/container_smoke.py
+  fixture-regressions:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.26.2'
+          cache: false
+      - name: Build fixture server
+        run: |
+          mkdir -p tmp
+          CGO_ENABLED=0 go build -o tmp/nativepane .
+      - name: Semantic, browser, large-document and visual gates
+        run: |
+          DATA_DIR="$PWD/tmp/ci-data" ./tmp/nativepane >tmp/server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          docker run --rm --network host --ipc=host -v "$PWD:/work" -w /work \
+            mcr.microsoft.com/playwright/python:v1.60.0-noble@sha256:abf13b369f8829eb45e29df38d6c5221f7e7521649cb5d2de7989c82bdb574ad \
+            bash -e -c '
+              python -m pip install -r tests/qa-requirements.txt
+              python tests/container_smoke.py
+              python tests/corpus_semantic.py
+              python tests/preservation_cases.py
+              python tests/browser_smoke.py
+              python tests/browser_tables.py
+              python tests/browser_layout.py
+              python tests/browser_unsupported.py
+              python tests/browser_large.py
+              python tests/browser_corpus.py
+            '
+      - name: Upload regression evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fixture-evidence
+          path: |
+            tmp/visual/
+            tmp/qa/
+            tmp/corpus/
+            tmp/preservation/
+          retention-days: 14

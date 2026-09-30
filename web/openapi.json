@@ -386,7 +386,8 @@
                       "enum": [
                         "view",
                         "edit"
-                      ]
+                      ],
+                      "description": "Effective browser mode. Returns view when the source model is read-only, even if the session was created with edit permission."
                     },
                     "model": {
                       "$ref": "#/components/schemas/Model"
@@ -479,7 +480,8 @@
             "$ref": "#/components/responses/Error"
           },
           "403": {
-            "$ref": "#/components/responses/Error"
+            "$ref": "#/components/responses/Error",
+            "description": "View session, insufficient permission, or restricted Word document. No file or revision changes."
           },
           "409": {
             "$ref": "#/components/responses/Error"
@@ -718,6 +720,10 @@
           },
           "page": {
             "$ref": "#/components/schemas/PageLayout"
+          },
+          "readOnly": {
+            "type": "boolean",
+            "description": "True when Word constructs require a dedicated display. The entire document is view-only, including with host credentials; nonempty edits return 403."
           }
         }
       },
@@ -741,9 +747,10 @@
           "kind": {
             "enum": [
               "paragraph",
-              "table"
+              "table",
+              "unsupported"
             ],
-            "description": "Present on DOCX flow blocks; absent on legacy slide/worksheet projections."
+            "description": "DOCX paragraph/table or explicit unsupported-content marker. Absent on slide/worksheet projections."
           },
           "align": {
             "enum": [
@@ -777,6 +784,13 @@
           "breakBefore": {
             "type": "boolean",
             "description": "Start this flow block on a new page."
+          },
+          "markers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Visible descriptions of unrendered content or layout within this block. Render as noneditable notes."
           }
         }
       },

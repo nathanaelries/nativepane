@@ -32,3 +32,4 @@
 .page-shell .document-table { margin-bottom: 0; }
 .page-shell .document-table .document-table { margin: 0; }
 .open-status { color: var(--green, #175d4a); text-align: center; margin: 16px 0; }
+.unsupported-marker { display: block; color: #794817; background: #fff5e6; border: 1px dashed #c8a677; padding: 4px 8px; margin: 4px 0; font: 12px/1.4 Arial, sans-serif; white-space: normal; }
