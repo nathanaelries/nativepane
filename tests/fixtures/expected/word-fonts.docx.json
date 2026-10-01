@@ -8,7 +8,7 @@
           "id": "word/document.xml:0",
           "text": "On the Insert tab",
           "kind": "text",
-          "bold": true,
+          "bold": false,
           "style": {
             "color": "#000000",
             "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
