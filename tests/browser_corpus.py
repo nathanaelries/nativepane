@@ -26,6 +26,14 @@ def compare(actual, expected, name):
         failures.append(name + ": " + problem)
 
 
+def capture(page, actual):
+    page.evaluate("async () => { await document.fonts.ready; document.activeElement.blur(); window.scrollTo(0, 0); }")
+    page.mouse.move(0, 0)
+    # Let scroll/focus/hover changes reach the compositor before rasterizing.
+    page.evaluate("() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))")
+    page.locator('#workspace').screenshot(path=str(actual), animations='disabled', caret='hide')
+
+
 with sync_playwright() as p:
     options = {"headless": True}
     if os.environ.get("BROWSER_EXECUTABLE"):
@@ -54,11 +62,8 @@ with sync_playwright() as p:
             expect(page.locator('[data-field]')).to_have_count(fixture['projectedFields'])
             ids = page.locator('[data-field]').evaluate_all('(els) => els.map(e => e.dataset.field)')
             assert len(set(ids)) == len(ids), fixture['id'] + ': duplicate projected text'
-        await_fonts = "async () => { await document.fonts.ready; document.activeElement.blur(); }"
-        page.evaluate(await_fonts)
-        page.mouse.move(0, 0)
         actual = out / (fixture["id"] + ".png")
-        page.locator("#workspace").screenshot(path=str(actual), animations="disabled", caret="hide")
+        capture(page, actual)
         compare(actual, fixtures / fixture["visual"], fixture["id"])
         for view in fixture.get('views', []):
             page.locator('#outline button').nth(view['sheet']).click()
@@ -66,11 +71,9 @@ with sync_playwright() as p:
                 page.get_by_role('button', name='Rows →', exact=True).click()
             for _ in range(view['colPage']):
                 page.get_by_role('button', name='Columns →', exact=True).click()
-            page.evaluate(await_fonts)
-            page.mouse.move(0, 0)
             name = fixture['id'] + '.' + view['id']
             actual = out / (name + '.png')
-            page.locator('#workspace').screenshot(path=str(actual), animations='disabled', caret='hide')
+            capture(page, actual)
             compare(actual, fixtures / view['visual'], name)
         if fixture.get('layoutProbe'):
             probe = fixture['layoutProbe']
@@ -103,10 +106,8 @@ with sync_playwright() as p:
                     if member != 'word/document.xml':
                         assert before.read(member) == after.read(member), member
                 verify_edit(E.fromstring(before.read('word/document.xml')), E.fromstring(after.read('word/document.xml')), original_field, probe['text'], 'docx')
-            page.evaluate(await_fonts)
-            page.mouse.move(0, 0)
             actual = out / (fixture['id'] + '.edited.png')
-            page.locator('#workspace').screenshot(path=str(actual), animations='disabled', caret='hide')
+            capture(page, actual)
             compare(actual, fixtures / probe['visual'], fixture['id'] + '.edited')
         page.locator("#close").click()
         expect(page.locator("#welcome")).to_be_visible()
