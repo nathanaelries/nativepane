@@ -39,13 +39,15 @@ with sync_playwright() as p:
     if os.environ.get("BROWSER_EXECUTABLE"):
         options["executable_path"] = os.environ["BROWSER_EXECUTABLE"]
     browser = p.chromium.launch(**options)
-    context = browser.new_context(viewport={"width": 1440, "height": 1100}, device_scale_factor=1, locale="en-US", timezone_id="UTC", reduced_motion="reduce")
-    page = context.new_page()
-    page.set_default_timeout(120000)
     errors = []
-    page.on("pageerror", lambda error: errors.append(str(error)))
-    page.goto(os.environ.get("NATIVEPANE_URL", "http://127.0.0.1:8080"))
     for fixture in manifest["fixtures"]:
+        # Each source starts from a fresh UI/compositor state. Prior sheet
+        # navigation and hovered controls must not affect the next baseline.
+        context = browser.new_context(viewport={"width": 1440, "height": 1100}, device_scale_factor=1, locale="en-US", timezone_id="UTC", reduced_motion="reduce")
+        page = context.new_page()
+        page.set_default_timeout(120000)
+        page.on("pageerror", lambda error: errors.append(str(error)))
+        page.goto(os.environ.get("NATIVEPANE_URL", "http://127.0.0.1:8080"))
         page.locator("#upload").set_input_files(str(fixtures / fixture["file"]))
         expect(page.locator("#filename")).to_have_text(Path(fixture["file"]).name)
         expect(page.locator("#save-status")).to_have_text("Saved · revision 1")
@@ -111,6 +113,7 @@ with sync_playwright() as p:
             compare(actual, fixtures / probe['visual'], fixture['id'] + '.edited')
         page.locator("#close").click()
         expect(page.locator("#welcome")).to_be_visible()
+        context.close()
         print(fixture["id"] + ": screenshot and browser edit policy checked")
     assert not errors, errors
     browser.close()

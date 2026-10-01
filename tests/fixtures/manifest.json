@@ -784,6 +784,11 @@
               "part": "word/theme/*.xml",
               "path": ".//a:fontScheme",
               "min": 1
+            },
+            {
+              "part": "word/theme/*.xml",
+              "path": ".//a:clrScheme",
+              "min": 1
             }
           ]
         }
@@ -1185,6 +1190,11 @@
               "part": "ppt/slides/slide*.xml",
               "path": ".//a:rPr[@b=\"1\"]",
               "min": 1
+            },
+            {
+              "part": "ppt/slides/slide*.xml",
+              "path": ".//a:effectLst",
+              "min": 1
             }
           ]
         }
@@ -1241,6 +1251,22 @@
               "part": "xl/styles.xml",
               "path": ".//s:extLst",
               "min": 1
+            },
+            {
+              "part": "xl/pivotTables/*.xml",
+              "path": ".//s:extLst",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "claim": "xlsx-charts-pivots",
+          "evidence": [
+            {
+              "part": "xl/charts/chart*.xml",
+              "path": ".",
+              "min": 1,
+              "tag": "c:chartSpace"
             }
           ]
         }

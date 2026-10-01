@@ -13,6 +13,7 @@ NS = {
     'a': 'http://schemas.openxmlformats.org/drawingml/2006/main',
     'p': 'http://schemas.openxmlformats.org/presentationml/2006/main',
     'm': 'http://schemas.openxmlformats.org/officeDocument/2006/math',
+    'c': 'http://schemas.openxmlformats.org/drawingml/2006/chart',
 }
 ROOT = Path(__file__).resolve().parent.parent
 FIXTURES = ROOT / 'tests/fixtures'
