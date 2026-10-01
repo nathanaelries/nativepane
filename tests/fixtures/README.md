@@ -58,7 +58,9 @@ the browser gate, which writes actual renders even when a baseline is missing.
 CI runs independent readers and browser gates inside the digest-pinned Playwright
 Python 1.60.0 Ubuntu Noble image using `tests/qa-requirements.txt`. The viewport,
 device scale, locale and timezone are fixed. Strict pixel comparisons have zero
-tolerance; missing baselines fail too. Office layout equivalence is not asserted:
+tolerance. Each Office source starts in a fresh browser context; fonts, pointer,
+caret, focus and compositor timing are normalized before capture. Missing
+baselines fail too. Office layout equivalence is not asserted:
 screenshots protect NativePane's reviewed approximate rendering. CI uploads actual
 renders and pixel diffs on failure. All test outputs stay under `tmp/`.
 
@@ -67,6 +69,7 @@ Against a running server, run `corpus_semantic.py`, `preservation_cases.py`,
 then `browser_corpus.py`, using Python with the pinned QA requirements installed.
 `test_regression_gates.py` deliberately mutates one pixel and a run property to
 prove that the visual and semantic comparators reject regressions.
+[REGRESSION_PROOF.md](REGRESSION_PROOF.md) records actual isolated CI failures.
 Use the CI image for authoritative pixels; another OS/browser can have different
 font metrics and still generate useful local comparison artifacts.
 

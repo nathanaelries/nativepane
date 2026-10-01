@@ -135,3 +135,37 @@ unsupported layout features can still produce different Office page boundaries.
   describe actual read-only/marker/403 behavior and improved cell preservation.
   Renderer/storage interfaces, signed sessions and native saves remain covered
   by the existing core/API/browser tests. Layout remains approximate.
+
+
+## Expanded Office layout corpus, 2026-09-30
+
+- The pinned, unmodified corpus now contains 49 documents: 30 DOCX, 13 XLSX and
+  six PPTX. Full source hashes, upstream license files, producer metadata and
+  model snapshots are retained. These are upstream Office-saved provenance
+  records, not a new manual validation in installed Microsoft Office.
+- Manifest version 2 maps 53 layout/preservation claims (24 approximate, 25
+  planned, four preservation claims) to positive source XML assertions. The gate
+  rejects missing constructs and uncovered claims. Compound claims include
+  separate evidence for chart parts, pivot extensions, theme colors, text effects
+  and multiple sections. See tests/fixtures/COVERAGE.md.
+- The browser gates cover 68 manifest views, including every workbook sheet,
+  empty sheets, second row/column pages and a saved edit/reflow of an existing
+  Office table cell. The long-cell edit retains unique original fields, repeats
+  read-only header mirrors, expands its row group without clipping and verifies
+  that only the requested text XML changes. Three original supplemental visual
+  baselines remain separate.
+- Linux screenshots were inspected, including all pages of long fixtures.
+  Each source now starts in a fresh browser context. Capture-policy baseline
+  adjustments were confined to control corner rasterization; document/grid
+  pixels stayed unchanged. Pixel comparison still has zero tolerance and missing
+  baselines fail. Tests never update baselines automatically.
+- Local Go tests/vet, JavaScript syntax checks, manifest checks and mutation
+  comparator checks passed. The generated toolchain notices are unchanged.
+  Full Linux Docker/container, independent-reader and browser validation,
+  plus actual deliberately failing CI branches, are linked in
+  tests/fixtures/REGRESSION_PROOF.md.
+- No product code, API, runtime dependency or editing feature changed. New test
+  data comes from pinned MIT SDK/ClosedXML sources and two Apache-2.0 docx4j
+  documents, with full notices and inventory updates. No SDK or engine code is
+  imported. Local Docker Desktop still cannot start; container validation runs
+  in GitHub CI. Rendering remains approximate.
