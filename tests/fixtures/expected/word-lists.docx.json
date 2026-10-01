@@ -1,0 +1,400 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "Geneva Declaration on the Future of the World Intellectual Property Organization",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:1",
+          "text": "Humanity faces a global crisis in the governance of knowledge, technology and culture.  The crisis is manifest in many ways. ",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:2",
+          "text": "Without access to essential medicines, millions suffer and die;",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textIndent": "28px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:3",
+          "text": "Morally repugnant inequality of access to education, knowledge and technology undermines development and social cohesion;",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textIndent": "28px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:4",
+          "text": "Anticompetitive practices in the knowledge economy impose enormous costs on consumers and retard innovation;",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textIndent": "28px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:5",
+          "text": "Authors, artists and inventors face mounting barriers to follow-on innovation;",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textIndent": "28px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:6",
+          "text": "Concentrated ownership and control of knowledge, technology, biological resources and culture harm development, diversity and democratic institutions;",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textIndent": "28px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:7",
+          "text": "Technological measures designed to enforce intellectual property rights in digital environments threaten core exceptions in copyright laws for disabled persons, libraries, educators, authors and consumers, and undermine privacy and freedom;",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textIndent": "28px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:8",
+          "text": "Key mechanisms to compensate and support creative individuals and communities are unfair to both creative persons and consumers;",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textIndent": "28px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:9",
+          "text": "Private interests misappropriate social and public goods, and lock up the public domain. ",
+          "kind": "text",
+          "readOnly": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textIndent": "28px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Footer content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    },
+    {
+      "label": "Footnotes content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    },
+    {
+      "label": "Endnotes content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Fields: view only. Dedicated display is not implemented; editing is disabled for the entire document."
+  ],
+  "page": {
+    "width": 11899,
+    "height": 16838,
+    "top": 1440,
+    "right": 1800,
+    "bottom": 1440,
+    "left": 1800
+  },
+  "readOnly": true
+}

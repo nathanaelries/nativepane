@@ -27,7 +27,7 @@ func TestOfficeFixtureCorpus(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if err = json.Unmarshal(data, &manifest); err != nil || manifest.Version != 1 || len(manifest.Fixtures) < 3 {
+	if err = json.Unmarshal(data, &manifest); err != nil || manifest.Version != 2 || len(manifest.Fixtures) < 3 {
 		t.Fatal("invalid fixture manifest", err)
 	}
 	for _, fixture := range manifest.Fixtures {
@@ -75,7 +75,7 @@ func TestOfficeFixtureCorpus(t *testing.T) {
 			var field Field
 			for _, block := range model.Blocks {
 				for _, f := range block.Fields {
-					if f.Kind != "formula" {
+					if fixture.ReadOnly || !f.ReadOnly {
 						field = f
 						break
 					}
@@ -85,7 +85,11 @@ func TestOfficeFixtureCorpus(t *testing.T) {
 				}
 			}
 			if field.ID == "" {
-				t.Fatal("fixture has no text/cell edit target")
+				outputBytes, err := engine.Apply(source, fixture.Format, nil)
+				if err != nil || !bytes.Equal(source, outputBytes) {
+					t.Fatal("projection without editable fields changed on no-op save", err)
+				}
+				return
 			}
 			if fixture.ReadOnly {
 				if _, err = engine.Apply(source, fixture.Format, []Edit{{field.ID, "Refused edit"}}); !errors.Is(err, ErrReadOnly) {

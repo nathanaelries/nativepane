@@ -1,0 +1,107 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "This",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:1",
+          "text": " document is for testing comments feature. ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "Comment not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:2",
+          "text": "This document contains only one comment.",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Comments content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 12240,
+    "height": 15840,
+    "top": 1440,
+    "right": 1800,
+    "bottom": 1440,
+    "left": 1800
+  }
+}

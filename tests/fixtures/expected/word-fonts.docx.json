@@ -1,0 +1,379 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "On the Insert tab",
+          "kind": "text",
+          "bold": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "bold"
+          }
+        },
+        {
+          "id": "word/document.xml:1",
+          "text": ", ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:2",
+          "text": "the galleries include items that are designed to coordinate with the overall look of your document.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:3",
+          "text": " ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:4",
+          "text": "You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks.",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "textDecorationLine": "underline"
+          }
+        },
+        {
+          "id": "word/document.xml:5",
+          "text": " ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:6",
+          "text": "When you create pictures, charts, or diagrams, they also coordinate with your current document look.",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:7",
+          "text": "Y",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:8",
+          "text": "ou can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab.",
+          "kind": "text",
+          "style": {
+            "color": "#FF0000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:9",
+          "text": " ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:10",
+          "text": "You can also format text directly by using the other controls on the Home tab.",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:11",
+          "text": " ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:12",
+          "text": "Most controls offer a choice of using the look from the current theme or using a format that you specify directly",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Gulim\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:13",
+          "text": ".",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Gulim\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:14",
+          "text": "(",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Gulim\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:15",
+          "text": "font:Gulim",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Gulim\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:16",
+          "text": ")",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Gulim\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:17",
+          "text": "S",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:18",
+          "text": "ize",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:19",
+          "text": " ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:20",
+          "text": "4",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:21",
+          "text": "To change the overall look of your document, choose new Theme elements on the Page Layout tab. ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "5.333333333333333px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:22",
+          "text": "To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "5.333333333333333px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      }
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 11906,
+    "height": 16838,
+    "top": 1440,
+    "right": 1800,
+    "bottom": 1440,
+    "left": 1800
+  }
+}

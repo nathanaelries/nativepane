@@ -1,0 +1,1751 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Table",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "8",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:1",
+          "text": "7",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:2",
+          "text": "6",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:3",
+          "text": "5",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:4",
+          "text": "4",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:5",
+          "text": "3",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:6",
+          "text": "2",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:7",
+          "text": "1",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "table",
+      "columnWidths": [
+        4255,
+        4255
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Table",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:0",
+                      "text": "8",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    },
+                    {
+                      "id": "word/document.xml:1",
+                      "text": "7",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    },
+                    {
+                      "id": "word/document.xml:2",
+                      "text": "6",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    },
+                    {
+                      "id": "word/document.xml:3",
+                      "text": "5",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    },
+                    {
+                      "id": "word/document.xml:4",
+                      "text": "4",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    },
+                    {
+                      "id": "word/document.xml:5",
+                      "text": "3",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    },
+                    {
+                      "id": "word/document.xml:6",
+                      "text": "2",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "table",
+                  "columnWidths": [
+                    2016,
+                    2017
+                  ],
+                  "rows": [
+                    {
+                      "cells": [
+                        {
+                          "column": 0,
+                          "colSpan": 1,
+                          "rowSpan": 1,
+                          "blocks": [
+                            {
+                              "label": "Table",
+                              "fields": [
+                                {
+                                  "id": "word/document.xml:0",
+                                  "text": "8",
+                                  "kind": "text",
+                                  "style": {
+                                    "color": "#000000",
+                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                    "fontSize": "14.666666666666666px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal"
+                                  }
+                                },
+                                {
+                                  "id": "word/document.xml:1",
+                                  "text": "7",
+                                  "kind": "text",
+                                  "style": {
+                                    "color": "#000000",
+                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                    "fontSize": "14.666666666666666px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal"
+                                  }
+                                },
+                                {
+                                  "id": "word/document.xml:2",
+                                  "text": "6",
+                                  "kind": "text",
+                                  "style": {
+                                    "color": "#000000",
+                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                    "fontSize": "14.666666666666666px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal"
+                                  }
+                                },
+                                {
+                                  "id": "word/document.xml:3",
+                                  "text": "5",
+                                  "kind": "text",
+                                  "style": {
+                                    "color": "#000000",
+                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                    "fontSize": "14.666666666666666px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal"
+                                  }
+                                },
+                                {
+                                  "id": "word/document.xml:4",
+                                  "text": "4",
+                                  "kind": "text",
+                                  "style": {
+                                    "color": "#000000",
+                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                    "fontSize": "14.666666666666666px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal"
+                                  }
+                                },
+                                {
+                                  "id": "word/document.xml:5",
+                                  "text": "3",
+                                  "kind": "text",
+                                  "style": {
+                                    "color": "#000000",
+                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                    "fontSize": "14.666666666666666px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal"
+                                  }
+                                }
+                              ],
+                              "kind": "table",
+                              "columnWidths": [
+                                893,
+                                894
+                              ],
+                              "rows": [
+                                {
+                                  "cells": [
+                                    {
+                                      "column": 0,
+                                      "colSpan": 1,
+                                      "rowSpan": 1,
+                                      "blocks": [
+                                        {
+                                          "label": "Table",
+                                          "fields": [
+                                            {
+                                              "id": "word/document.xml:0",
+                                              "text": "8",
+                                              "kind": "text",
+                                              "style": {
+                                                "color": "#000000",
+                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                "fontSize": "14.666666666666666px",
+                                                "fontStyle": "normal",
+                                                "fontWeight": "normal"
+                                              }
+                                            },
+                                            {
+                                              "id": "word/document.xml:1",
+                                              "text": "7",
+                                              "kind": "text",
+                                              "style": {
+                                                "color": "#000000",
+                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                "fontSize": "14.666666666666666px",
+                                                "fontStyle": "normal",
+                                                "fontWeight": "normal"
+                                              }
+                                            },
+                                            {
+                                              "id": "word/document.xml:2",
+                                              "text": "6",
+                                              "kind": "text",
+                                              "style": {
+                                                "color": "#000000",
+                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                "fontSize": "14.666666666666666px",
+                                                "fontStyle": "normal",
+                                                "fontWeight": "normal"
+                                              }
+                                            },
+                                            {
+                                              "id": "word/document.xml:3",
+                                              "text": "5",
+                                              "kind": "text",
+                                              "style": {
+                                                "color": "#000000",
+                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                "fontSize": "14.666666666666666px",
+                                                "fontStyle": "normal",
+                                                "fontWeight": "normal"
+                                              }
+                                            },
+                                            {
+                                              "id": "word/document.xml:4",
+                                              "text": "4",
+                                              "kind": "text",
+                                              "style": {
+                                                "color": "#000000",
+                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                "fontSize": "14.666666666666666px",
+                                                "fontStyle": "normal",
+                                                "fontWeight": "normal"
+                                              }
+                                            }
+                                          ],
+                                          "kind": "table",
+                                          "columnWidths": [
+                                            335,
+                                            335
+                                          ],
+                                          "rows": [
+                                            {
+                                              "cells": [
+                                                {
+                                                  "column": 0,
+                                                  "colSpan": 1,
+                                                  "rowSpan": 1,
+                                                  "blocks": [
+                                                    {
+                                                      "label": "Table",
+                                                      "fields": [
+                                                        {
+                                                          "id": "word/document.xml:0",
+                                                          "text": "8",
+                                                          "kind": "text",
+                                                          "style": {
+                                                            "color": "#000000",
+                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                            "fontSize": "14.666666666666666px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "normal"
+                                                          }
+                                                        },
+                                                        {
+                                                          "id": "word/document.xml:1",
+                                                          "text": "7",
+                                                          "kind": "text",
+                                                          "style": {
+                                                            "color": "#000000",
+                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                            "fontSize": "14.666666666666666px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "normal"
+                                                          }
+                                                        },
+                                                        {
+                                                          "id": "word/document.xml:2",
+                                                          "text": "6",
+                                                          "kind": "text",
+                                                          "style": {
+                                                            "color": "#000000",
+                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                            "fontSize": "14.666666666666666px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "normal"
+                                                          }
+                                                        },
+                                                        {
+                                                          "id": "word/document.xml:3",
+                                                          "text": "5",
+                                                          "kind": "text",
+                                                          "style": {
+                                                            "color": "#000000",
+                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                            "fontSize": "14.666666666666666px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "normal"
+                                                          }
+                                                        }
+                                                      ],
+                                                      "kind": "table",
+                                                      "columnWidths": [
+                                                        222,
+                                                        236
+                                                      ],
+                                                      "rows": [
+                                                        {
+                                                          "cells": [
+                                                            {
+                                                              "column": 0,
+                                                              "colSpan": 1,
+                                                              "rowSpan": 1,
+                                                              "blocks": [
+                                                                {
+                                                                  "label": "Table",
+                                                                  "fields": [
+                                                                    {
+                                                                      "id": "word/document.xml:0",
+                                                                      "text": "8",
+                                                                      "kind": "text",
+                                                                      "style": {
+                                                                        "color": "#000000",
+                                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                        "fontSize": "14.666666666666666px",
+                                                                        "fontStyle": "normal",
+                                                                        "fontWeight": "normal"
+                                                                      }
+                                                                    },
+                                                                    {
+                                                                      "id": "word/document.xml:1",
+                                                                      "text": "7",
+                                                                      "kind": "text",
+                                                                      "style": {
+                                                                        "color": "#000000",
+                                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                        "fontSize": "14.666666666666666px",
+                                                                        "fontStyle": "normal",
+                                                                        "fontWeight": "normal"
+                                                                      }
+                                                                    },
+                                                                    {
+                                                                      "id": "word/document.xml:2",
+                                                                      "text": "6",
+                                                                      "kind": "text",
+                                                                      "style": {
+                                                                        "color": "#000000",
+                                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                        "fontSize": "14.666666666666666px",
+                                                                        "fontStyle": "normal",
+                                                                        "fontWeight": "normal"
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "kind": "table",
+                                                                  "columnWidths": [
+                                                                    222,
+                                                                    236
+                                                                  ],
+                                                                  "rows": [
+                                                                    {
+                                                                      "cells": [
+                                                                        {
+                                                                          "column": 0,
+                                                                          "colSpan": 1,
+                                                                          "rowSpan": 1,
+                                                                          "blocks": [
+                                                                            {
+                                                                              "label": "Table",
+                                                                              "fields": [
+                                                                                {
+                                                                                  "id": "word/document.xml:0",
+                                                                                  "text": "8",
+                                                                                  "kind": "text",
+                                                                                  "style": {
+                                                                                    "color": "#000000",
+                                                                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                    "fontSize": "14.666666666666666px",
+                                                                                    "fontStyle": "normal",
+                                                                                    "fontWeight": "normal"
+                                                                                  }
+                                                                                },
+                                                                                {
+                                                                                  "id": "word/document.xml:1",
+                                                                                  "text": "7",
+                                                                                  "kind": "text",
+                                                                                  "style": {
+                                                                                    "color": "#000000",
+                                                                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                    "fontSize": "14.666666666666666px",
+                                                                                    "fontStyle": "normal",
+                                                                                    "fontWeight": "normal"
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "kind": "table",
+                                                                              "columnWidths": [
+                                                                                360,
+                                                                                360
+                                                                              ],
+                                                                              "rows": [
+                                                                                {
+                                                                                  "cells": [
+                                                                                    {
+                                                                                      "column": 0,
+                                                                                      "colSpan": 1,
+                                                                                      "rowSpan": 1,
+                                                                                      "blocks": [
+                                                                                        {
+                                                                                          "label": "Table",
+                                                                                          "fields": [
+                                                                                            {
+                                                                                              "id": "word/document.xml:0",
+                                                                                              "text": "8",
+                                                                                              "kind": "text",
+                                                                                              "style": {
+                                                                                                "color": "#000000",
+                                                                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                                "fontSize": "14.666666666666666px",
+                                                                                                "fontStyle": "normal",
+                                                                                                "fontWeight": "normal"
+                                                                                              }
+                                                                                            }
+                                                                                          ],
+                                                                                          "kind": "table",
+                                                                                          "columnWidths": [
+                                                                                            360,
+                                                                                            360
+                                                                                          ],
+                                                                                          "rows": [
+                                                                                            {
+                                                                                              "cells": [
+                                                                                                {
+                                                                                                  "column": 0,
+                                                                                                  "colSpan": 1,
+                                                                                                  "rowSpan": 1,
+                                                                                                  "blocks": [
+                                                                                                    {
+                                                                                                      "label": "Paragraph",
+                                                                                                      "fields": [],
+                                                                                                      "kind": "paragraph",
+                                                                                                      "style": {
+                                                                                                        "color": "#000000",
+                                                                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                                        "fontSize": "14.666666666666666px",
+                                                                                                        "fontStyle": "normal",
+                                                                                                        "fontWeight": "normal",
+                                                                                                        "lineHeight": "1.15",
+                                                                                                        "marginBottom": "13.333333333333334px",
+                                                                                                        "marginTop": "0px"
+                                                                                                      }
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "style": {
+                                                                                                    "borderBottom": "0.6666666666666666px solid #000000",
+                                                                                                    "borderLeft": "0.6666666666666666px solid #000000",
+                                                                                                    "borderRight": "0.6666666666666666px solid #000000",
+                                                                                                    "borderTop": "0.6666666666666666px solid #000000",
+                                                                                                    "paddingBottom": "0px",
+                                                                                                    "paddingLeft": "7.2px",
+                                                                                                    "paddingRight": "7.2px",
+                                                                                                    "paddingTop": "0px"
+                                                                                                  }
+                                                                                                },
+                                                                                                {
+                                                                                                  "column": 1,
+                                                                                                  "colSpan": 1,
+                                                                                                  "rowSpan": 1,
+                                                                                                  "blocks": [
+                                                                                                    {
+                                                                                                      "label": "Paragraph",
+                                                                                                      "fields": [],
+                                                                                                      "kind": "paragraph",
+                                                                                                      "style": {
+                                                                                                        "color": "#000000",
+                                                                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                                        "fontSize": "14.666666666666666px",
+                                                                                                        "fontStyle": "normal",
+                                                                                                        "fontWeight": "normal",
+                                                                                                        "lineHeight": "1.15",
+                                                                                                        "marginBottom": "13.333333333333334px",
+                                                                                                        "marginTop": "0px"
+                                                                                                      }
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "style": {
+                                                                                                    "borderBottom": "0.6666666666666666px solid #000000",
+                                                                                                    "borderLeft": "0.6666666666666666px solid #000000",
+                                                                                                    "borderRight": "0.6666666666666666px solid #000000",
+                                                                                                    "borderTop": "0.6666666666666666px solid #000000",
+                                                                                                    "paddingBottom": "0px",
+                                                                                                    "paddingLeft": "7.2px",
+                                                                                                    "paddingRight": "7.2px",
+                                                                                                    "paddingTop": "0px"
+                                                                                                  }
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "cells": [
+                                                                                                {
+                                                                                                  "column": 0,
+                                                                                                  "colSpan": 1,
+                                                                                                  "rowSpan": 1,
+                                                                                                  "blocks": [
+                                                                                                    {
+                                                                                                      "label": "Paragraph",
+                                                                                                      "fields": [],
+                                                                                                      "kind": "paragraph",
+                                                                                                      "style": {
+                                                                                                        "color": "#000000",
+                                                                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                                        "fontSize": "14.666666666666666px",
+                                                                                                        "fontStyle": "normal",
+                                                                                                        "fontWeight": "normal",
+                                                                                                        "lineHeight": "1.15",
+                                                                                                        "marginBottom": "13.333333333333334px",
+                                                                                                        "marginTop": "0px"
+                                                                                                      }
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "style": {
+                                                                                                    "borderBottom": "0.6666666666666666px solid #000000",
+                                                                                                    "borderLeft": "0.6666666666666666px solid #000000",
+                                                                                                    "borderRight": "0.6666666666666666px solid #000000",
+                                                                                                    "borderTop": "0.6666666666666666px solid #000000",
+                                                                                                    "paddingBottom": "0px",
+                                                                                                    "paddingLeft": "7.2px",
+                                                                                                    "paddingRight": "7.2px",
+                                                                                                    "paddingTop": "0px"
+                                                                                                  }
+                                                                                                },
+                                                                                                {
+                                                                                                  "column": 1,
+                                                                                                  "colSpan": 1,
+                                                                                                  "rowSpan": 1,
+                                                                                                  "blocks": [
+                                                                                                    {
+                                                                                                      "label": "Paragraph",
+                                                                                                      "fields": [
+                                                                                                        {
+                                                                                                          "id": "word/document.xml:0",
+                                                                                                          "text": "8",
+                                                                                                          "kind": "text",
+                                                                                                          "style": {
+                                                                                                            "color": "#000000",
+                                                                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                                            "fontSize": "14.666666666666666px",
+                                                                                                            "fontStyle": "normal",
+                                                                                                            "fontWeight": "normal"
+                                                                                                          }
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "kind": "paragraph",
+                                                                                                      "style": {
+                                                                                                        "color": "#000000",
+                                                                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                                        "fontSize": "14.666666666666666px",
+                                                                                                        "fontStyle": "normal",
+                                                                                                        "fontWeight": "normal",
+                                                                                                        "lineHeight": "1.15",
+                                                                                                        "marginBottom": "13.333333333333334px",
+                                                                                                        "marginTop": "0px"
+                                                                                                      }
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "style": {
+                                                                                                    "borderBottom": "0.6666666666666666px solid #000000",
+                                                                                                    "borderLeft": "0.6666666666666666px solid #000000",
+                                                                                                    "borderRight": "0.6666666666666666px solid #000000",
+                                                                                                    "borderTop": "0.6666666666666666px solid #000000",
+                                                                                                    "paddingBottom": "0px",
+                                                                                                    "paddingLeft": "7.2px",
+                                                                                                    "paddingRight": "7.2px",
+                                                                                                    "paddingTop": "0px"
+                                                                                                  }
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "label": "Paragraph",
+                                                                                          "fields": [],
+                                                                                          "kind": "paragraph",
+                                                                                          "style": {
+                                                                                            "color": "#000000",
+                                                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                            "fontSize": "14.666666666666666px",
+                                                                                            "fontStyle": "normal",
+                                                                                            "fontWeight": "normal",
+                                                                                            "lineHeight": "1.15",
+                                                                                            "marginBottom": "13.333333333333334px",
+                                                                                            "marginTop": "0px"
+                                                                                          }
+                                                                                        }
+                                                                                      ],
+                                                                                      "style": {
+                                                                                        "borderBottom": "0.6666666666666666px solid #000000",
+                                                                                        "borderLeft": "0.6666666666666666px solid #000000",
+                                                                                        "borderRight": "0.6666666666666666px solid #000000",
+                                                                                        "borderTop": "0.6666666666666666px solid #000000",
+                                                                                        "paddingBottom": "0px",
+                                                                                        "paddingLeft": "7.2px",
+                                                                                        "paddingRight": "7.2px",
+                                                                                        "paddingTop": "0px"
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "column": 1,
+                                                                                      "colSpan": 1,
+                                                                                      "rowSpan": 1,
+                                                                                      "blocks": [
+                                                                                        {
+                                                                                          "label": "Paragraph",
+                                                                                          "fields": [],
+                                                                                          "kind": "paragraph",
+                                                                                          "style": {
+                                                                                            "color": "#000000",
+                                                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                            "fontSize": "14.666666666666666px",
+                                                                                            "fontStyle": "normal",
+                                                                                            "fontWeight": "normal",
+                                                                                            "lineHeight": "1.15",
+                                                                                            "marginBottom": "13.333333333333334px",
+                                                                                            "marginTop": "0px"
+                                                                                          }
+                                                                                        }
+                                                                                      ],
+                                                                                      "style": {
+                                                                                        "borderBottom": "0.6666666666666666px solid #000000",
+                                                                                        "borderLeft": "0.6666666666666666px solid #000000",
+                                                                                        "borderRight": "0.6666666666666666px solid #000000",
+                                                                                        "borderTop": "0.6666666666666666px solid #000000",
+                                                                                        "paddingBottom": "0px",
+                                                                                        "paddingLeft": "7.2px",
+                                                                                        "paddingRight": "7.2px",
+                                                                                        "paddingTop": "0px"
+                                                                                      }
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "cells": [
+                                                                                    {
+                                                                                      "column": 0,
+                                                                                      "colSpan": 1,
+                                                                                      "rowSpan": 1,
+                                                                                      "blocks": [
+                                                                                        {
+                                                                                          "label": "Paragraph",
+                                                                                          "fields": [],
+                                                                                          "kind": "paragraph",
+                                                                                          "style": {
+                                                                                            "color": "#000000",
+                                                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                            "fontSize": "14.666666666666666px",
+                                                                                            "fontStyle": "normal",
+                                                                                            "fontWeight": "normal",
+                                                                                            "lineHeight": "1.15",
+                                                                                            "marginBottom": "13.333333333333334px",
+                                                                                            "marginTop": "0px"
+                                                                                          }
+                                                                                        }
+                                                                                      ],
+                                                                                      "style": {
+                                                                                        "borderBottom": "0.6666666666666666px solid #000000",
+                                                                                        "borderLeft": "0.6666666666666666px solid #000000",
+                                                                                        "borderRight": "0.6666666666666666px solid #000000",
+                                                                                        "borderTop": "0.6666666666666666px solid #000000",
+                                                                                        "paddingBottom": "0px",
+                                                                                        "paddingLeft": "7.2px",
+                                                                                        "paddingRight": "7.2px",
+                                                                                        "paddingTop": "0px"
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "column": 1,
+                                                                                      "colSpan": 1,
+                                                                                      "rowSpan": 1,
+                                                                                      "blocks": [
+                                                                                        {
+                                                                                          "label": "Paragraph",
+                                                                                          "fields": [
+                                                                                            {
+                                                                                              "id": "word/document.xml:1",
+                                                                                              "text": "7",
+                                                                                              "kind": "text",
+                                                                                              "style": {
+                                                                                                "color": "#000000",
+                                                                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                                "fontSize": "14.666666666666666px",
+                                                                                                "fontStyle": "normal",
+                                                                                                "fontWeight": "normal"
+                                                                                              }
+                                                                                            }
+                                                                                          ],
+                                                                                          "kind": "paragraph",
+                                                                                          "style": {
+                                                                                            "color": "#000000",
+                                                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                            "fontSize": "14.666666666666666px",
+                                                                                            "fontStyle": "normal",
+                                                                                            "fontWeight": "normal",
+                                                                                            "lineHeight": "1.15",
+                                                                                            "marginBottom": "13.333333333333334px",
+                                                                                            "marginTop": "0px"
+                                                                                          }
+                                                                                        }
+                                                                                      ],
+                                                                                      "style": {
+                                                                                        "borderBottom": "0.6666666666666666px solid #000000",
+                                                                                        "borderLeft": "0.6666666666666666px solid #000000",
+                                                                                        "borderRight": "0.6666666666666666px solid #000000",
+                                                                                        "borderTop": "0.6666666666666666px solid #000000",
+                                                                                        "paddingBottom": "0px",
+                                                                                        "paddingLeft": "7.2px",
+                                                                                        "paddingRight": "7.2px",
+                                                                                        "paddingTop": "0px"
+                                                                                      }
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "label": "Paragraph",
+                                                                              "fields": [],
+                                                                              "kind": "paragraph",
+                                                                              "style": {
+                                                                                "color": "#000000",
+                                                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                "fontSize": "14.666666666666666px",
+                                                                                "fontStyle": "normal",
+                                                                                "fontWeight": "normal",
+                                                                                "lineHeight": "1.15",
+                                                                                "marginBottom": "13.333333333333334px",
+                                                                                "marginTop": "0px"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "style": {
+                                                                            "borderBottom": "0.6666666666666666px solid #000000",
+                                                                            "borderLeft": "0.6666666666666666px solid #000000",
+                                                                            "borderRight": "0.6666666666666666px solid #000000",
+                                                                            "borderTop": "0.6666666666666666px solid #000000",
+                                                                            "paddingBottom": "0px",
+                                                                            "paddingLeft": "7.2px",
+                                                                            "paddingRight": "7.2px",
+                                                                            "paddingTop": "0px"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "column": 1,
+                                                                          "colSpan": 1,
+                                                                          "rowSpan": 1,
+                                                                          "blocks": [
+                                                                            {
+                                                                              "label": "Paragraph",
+                                                                              "fields": [],
+                                                                              "kind": "paragraph",
+                                                                              "style": {
+                                                                                "color": "#000000",
+                                                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                "fontSize": "14.666666666666666px",
+                                                                                "fontStyle": "normal",
+                                                                                "fontWeight": "normal",
+                                                                                "lineHeight": "1.15",
+                                                                                "marginBottom": "13.333333333333334px",
+                                                                                "marginTop": "0px"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "style": {
+                                                                            "borderBottom": "0.6666666666666666px solid #000000",
+                                                                            "borderLeft": "0.6666666666666666px solid #000000",
+                                                                            "borderRight": "0.6666666666666666px solid #000000",
+                                                                            "borderTop": "0.6666666666666666px solid #000000",
+                                                                            "paddingBottom": "0px",
+                                                                            "paddingLeft": "7.2px",
+                                                                            "paddingRight": "7.2px",
+                                                                            "paddingTop": "0px"
+                                                                          }
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "cells": [
+                                                                        {
+                                                                          "column": 0,
+                                                                          "colSpan": 1,
+                                                                          "rowSpan": 1,
+                                                                          "blocks": [
+                                                                            {
+                                                                              "label": "Paragraph",
+                                                                              "fields": [],
+                                                                              "kind": "paragraph",
+                                                                              "style": {
+                                                                                "color": "#000000",
+                                                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                "fontSize": "14.666666666666666px",
+                                                                                "fontStyle": "normal",
+                                                                                "fontWeight": "normal",
+                                                                                "lineHeight": "1.15",
+                                                                                "marginBottom": "13.333333333333334px",
+                                                                                "marginTop": "0px"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "style": {
+                                                                            "borderBottom": "0.6666666666666666px solid #000000",
+                                                                            "borderLeft": "0.6666666666666666px solid #000000",
+                                                                            "borderRight": "0.6666666666666666px solid #000000",
+                                                                            "borderTop": "0.6666666666666666px solid #000000",
+                                                                            "paddingBottom": "0px",
+                                                                            "paddingLeft": "7.2px",
+                                                                            "paddingRight": "7.2px",
+                                                                            "paddingTop": "0px"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "column": 1,
+                                                                          "colSpan": 1,
+                                                                          "rowSpan": 1,
+                                                                          "blocks": [
+                                                                            {
+                                                                              "label": "Paragraph",
+                                                                              "fields": [
+                                                                                {
+                                                                                  "id": "word/document.xml:2",
+                                                                                  "text": "6",
+                                                                                  "kind": "text",
+                                                                                  "style": {
+                                                                                    "color": "#000000",
+                                                                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                    "fontSize": "14.666666666666666px",
+                                                                                    "fontStyle": "normal",
+                                                                                    "fontWeight": "normal"
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "kind": "paragraph",
+                                                                              "style": {
+                                                                                "color": "#000000",
+                                                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                                "fontSize": "14.666666666666666px",
+                                                                                "fontStyle": "normal",
+                                                                                "fontWeight": "normal",
+                                                                                "lineHeight": "1.15",
+                                                                                "marginBottom": "13.333333333333334px",
+                                                                                "marginTop": "0px"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "style": {
+                                                                            "borderBottom": "0.6666666666666666px solid #000000",
+                                                                            "borderLeft": "0.6666666666666666px solid #000000",
+                                                                            "borderRight": "0.6666666666666666px solid #000000",
+                                                                            "borderTop": "0.6666666666666666px solid #000000",
+                                                                            "paddingBottom": "0px",
+                                                                            "paddingLeft": "7.2px",
+                                                                            "paddingRight": "7.2px",
+                                                                            "paddingTop": "0px"
+                                                                          }
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "label": "Paragraph",
+                                                                  "fields": [],
+                                                                  "kind": "paragraph",
+                                                                  "style": {
+                                                                    "color": "#000000",
+                                                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                    "fontSize": "14.666666666666666px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "normal",
+                                                                    "lineHeight": "1.15",
+                                                                    "marginBottom": "13.333333333333334px",
+                                                                    "marginTop": "0px"
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "style": {
+                                                                "borderBottom": "0.6666666666666666px solid #000000",
+                                                                "borderLeft": "0.6666666666666666px solid #000000",
+                                                                "borderRight": "0.6666666666666666px solid #000000",
+                                                                "borderTop": "0.6666666666666666px solid #000000",
+                                                                "paddingBottom": "0px",
+                                                                "paddingLeft": "7.2px",
+                                                                "paddingRight": "7.2px",
+                                                                "paddingTop": "0px"
+                                                              }
+                                                            },
+                                                            {
+                                                              "column": 1,
+                                                              "colSpan": 1,
+                                                              "rowSpan": 1,
+                                                              "blocks": [
+                                                                {
+                                                                  "label": "Paragraph",
+                                                                  "fields": [],
+                                                                  "kind": "paragraph",
+                                                                  "style": {
+                                                                    "color": "#000000",
+                                                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                    "fontSize": "14.666666666666666px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "normal",
+                                                                    "lineHeight": "1.15",
+                                                                    "marginBottom": "13.333333333333334px",
+                                                                    "marginTop": "0px"
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "style": {
+                                                                "borderBottom": "0.6666666666666666px solid #000000",
+                                                                "borderLeft": "0.6666666666666666px solid #000000",
+                                                                "borderRight": "0.6666666666666666px solid #000000",
+                                                                "borderTop": "0.6666666666666666px solid #000000",
+                                                                "paddingBottom": "0px",
+                                                                "paddingLeft": "7.2px",
+                                                                "paddingRight": "7.2px",
+                                                                "paddingTop": "0px"
+                                                              }
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "cells": [
+                                                            {
+                                                              "column": 0,
+                                                              "colSpan": 1,
+                                                              "rowSpan": 1,
+                                                              "blocks": [
+                                                                {
+                                                                  "label": "Paragraph",
+                                                                  "fields": [],
+                                                                  "kind": "paragraph",
+                                                                  "style": {
+                                                                    "color": "#000000",
+                                                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                    "fontSize": "14.666666666666666px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "normal",
+                                                                    "lineHeight": "1.15",
+                                                                    "marginBottom": "13.333333333333334px",
+                                                                    "marginTop": "0px"
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "style": {
+                                                                "borderBottom": "0.6666666666666666px solid #000000",
+                                                                "borderLeft": "0.6666666666666666px solid #000000",
+                                                                "borderRight": "0.6666666666666666px solid #000000",
+                                                                "borderTop": "0.6666666666666666px solid #000000",
+                                                                "paddingBottom": "0px",
+                                                                "paddingLeft": "7.2px",
+                                                                "paddingRight": "7.2px",
+                                                                "paddingTop": "0px"
+                                                              }
+                                                            },
+                                                            {
+                                                              "column": 1,
+                                                              "colSpan": 1,
+                                                              "rowSpan": 1,
+                                                              "blocks": [
+                                                                {
+                                                                  "label": "Paragraph",
+                                                                  "fields": [
+                                                                    {
+                                                                      "id": "word/document.xml:3",
+                                                                      "text": "5",
+                                                                      "kind": "text",
+                                                                      "style": {
+                                                                        "color": "#000000",
+                                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                        "fontSize": "14.666666666666666px",
+                                                                        "fontStyle": "normal",
+                                                                        "fontWeight": "normal"
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "kind": "paragraph",
+                                                                  "style": {
+                                                                    "color": "#000000",
+                                                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                                    "fontSize": "14.666666666666666px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "normal",
+                                                                    "lineHeight": "1.15",
+                                                                    "marginBottom": "13.333333333333334px",
+                                                                    "marginTop": "0px"
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "style": {
+                                                                "borderBottom": "0.6666666666666666px solid #000000",
+                                                                "borderLeft": "0.6666666666666666px solid #000000",
+                                                                "borderRight": "0.6666666666666666px solid #000000",
+                                                                "borderTop": "0.6666666666666666px solid #000000",
+                                                                "paddingBottom": "0px",
+                                                                "paddingLeft": "7.2px",
+                                                                "paddingRight": "7.2px",
+                                                                "paddingTop": "0px"
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "label": "Paragraph",
+                                                      "fields": [],
+                                                      "kind": "paragraph",
+                                                      "style": {
+                                                        "color": "#000000",
+                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                        "fontSize": "14.666666666666666px",
+                                                        "fontStyle": "normal",
+                                                        "fontWeight": "normal",
+                                                        "lineHeight": "1.15",
+                                                        "marginBottom": "13.333333333333334px",
+                                                        "marginTop": "0px"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "style": {
+                                                    "borderBottom": "0.6666666666666666px solid #000000",
+                                                    "borderLeft": "0.6666666666666666px solid #000000",
+                                                    "borderRight": "0.6666666666666666px solid #000000",
+                                                    "borderTop": "0.6666666666666666px solid #000000",
+                                                    "paddingBottom": "0px",
+                                                    "paddingLeft": "7.2px",
+                                                    "paddingRight": "7.2px",
+                                                    "paddingTop": "0px"
+                                                  }
+                                                },
+                                                {
+                                                  "column": 1,
+                                                  "colSpan": 1,
+                                                  "rowSpan": 1,
+                                                  "blocks": [
+                                                    {
+                                                      "label": "Paragraph",
+                                                      "fields": [],
+                                                      "kind": "paragraph",
+                                                      "style": {
+                                                        "color": "#000000",
+                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                        "fontSize": "14.666666666666666px",
+                                                        "fontStyle": "normal",
+                                                        "fontWeight": "normal",
+                                                        "lineHeight": "1.15",
+                                                        "marginBottom": "13.333333333333334px",
+                                                        "marginTop": "0px"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "style": {
+                                                    "borderBottom": "0.6666666666666666px solid #000000",
+                                                    "borderLeft": "0.6666666666666666px solid #000000",
+                                                    "borderRight": "0.6666666666666666px solid #000000",
+                                                    "borderTop": "0.6666666666666666px solid #000000",
+                                                    "paddingBottom": "0px",
+                                                    "paddingLeft": "7.2px",
+                                                    "paddingRight": "7.2px",
+                                                    "paddingTop": "0px"
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "cells": [
+                                                {
+                                                  "column": 0,
+                                                  "colSpan": 1,
+                                                  "rowSpan": 1,
+                                                  "blocks": [
+                                                    {
+                                                      "label": "Paragraph",
+                                                      "fields": [],
+                                                      "kind": "paragraph",
+                                                      "style": {
+                                                        "color": "#000000",
+                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                        "fontSize": "14.666666666666666px",
+                                                        "fontStyle": "normal",
+                                                        "fontWeight": "normal",
+                                                        "lineHeight": "1.15",
+                                                        "marginBottom": "13.333333333333334px",
+                                                        "marginTop": "0px"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "style": {
+                                                    "borderBottom": "0.6666666666666666px solid #000000",
+                                                    "borderLeft": "0.6666666666666666px solid #000000",
+                                                    "borderRight": "0.6666666666666666px solid #000000",
+                                                    "borderTop": "0.6666666666666666px solid #000000",
+                                                    "paddingBottom": "0px",
+                                                    "paddingLeft": "7.2px",
+                                                    "paddingRight": "7.2px",
+                                                    "paddingTop": "0px"
+                                                  }
+                                                },
+                                                {
+                                                  "column": 1,
+                                                  "colSpan": 1,
+                                                  "rowSpan": 1,
+                                                  "blocks": [
+                                                    {
+                                                      "label": "Paragraph",
+                                                      "fields": [
+                                                        {
+                                                          "id": "word/document.xml:4",
+                                                          "text": "4",
+                                                          "kind": "text",
+                                                          "style": {
+                                                            "color": "#000000",
+                                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                            "fontSize": "14.666666666666666px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "normal"
+                                                          }
+                                                        }
+                                                      ],
+                                                      "kind": "paragraph",
+                                                      "style": {
+                                                        "color": "#000000",
+                                                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                        "fontSize": "14.666666666666666px",
+                                                        "fontStyle": "normal",
+                                                        "fontWeight": "normal",
+                                                        "lineHeight": "1.15",
+                                                        "marginBottom": "13.333333333333334px",
+                                                        "marginTop": "0px"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "style": {
+                                                    "borderBottom": "0.6666666666666666px solid #000000",
+                                                    "borderLeft": "0.6666666666666666px solid #000000",
+                                                    "borderRight": "0.6666666666666666px solid #000000",
+                                                    "borderTop": "0.6666666666666666px solid #000000",
+                                                    "paddingBottom": "0px",
+                                                    "paddingLeft": "7.2px",
+                                                    "paddingRight": "7.2px",
+                                                    "paddingTop": "0px"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "label": "Paragraph",
+                                          "fields": [],
+                                          "kind": "paragraph",
+                                          "style": {
+                                            "color": "#000000",
+                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                            "fontSize": "14.666666666666666px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "normal",
+                                            "lineHeight": "1.15",
+                                            "marginBottom": "13.333333333333334px",
+                                            "marginTop": "0px"
+                                          }
+                                        }
+                                      ],
+                                      "style": {
+                                        "borderBottom": "0.6666666666666666px solid #000000",
+                                        "borderLeft": "0.6666666666666666px solid #000000",
+                                        "borderRight": "0.6666666666666666px solid #000000",
+                                        "borderTop": "0.6666666666666666px solid #000000",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "7.2px",
+                                        "paddingRight": "7.2px",
+                                        "paddingTop": "0px"
+                                      }
+                                    },
+                                    {
+                                      "column": 1,
+                                      "colSpan": 1,
+                                      "rowSpan": 1,
+                                      "blocks": [
+                                        {
+                                          "label": "Paragraph",
+                                          "fields": [],
+                                          "kind": "paragraph",
+                                          "style": {
+                                            "color": "#000000",
+                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                            "fontSize": "14.666666666666666px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "normal",
+                                            "lineHeight": "1.15",
+                                            "marginBottom": "13.333333333333334px",
+                                            "marginTop": "0px"
+                                          }
+                                        }
+                                      ],
+                                      "style": {
+                                        "borderBottom": "0.6666666666666666px solid #000000",
+                                        "borderLeft": "0.6666666666666666px solid #000000",
+                                        "borderRight": "0.6666666666666666px solid #000000",
+                                        "borderTop": "0.6666666666666666px solid #000000",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "7.2px",
+                                        "paddingRight": "7.2px",
+                                        "paddingTop": "0px"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "cells": [
+                                    {
+                                      "column": 0,
+                                      "colSpan": 1,
+                                      "rowSpan": 1,
+                                      "blocks": [
+                                        {
+                                          "label": "Paragraph",
+                                          "fields": [],
+                                          "kind": "paragraph",
+                                          "style": {
+                                            "color": "#000000",
+                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                            "fontSize": "14.666666666666666px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "normal",
+                                            "lineHeight": "1.15",
+                                            "marginBottom": "13.333333333333334px",
+                                            "marginTop": "0px"
+                                          }
+                                        }
+                                      ],
+                                      "style": {
+                                        "borderBottom": "0.6666666666666666px solid #000000",
+                                        "borderLeft": "0.6666666666666666px solid #000000",
+                                        "borderRight": "0.6666666666666666px solid #000000",
+                                        "borderTop": "0.6666666666666666px solid #000000",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "7.2px",
+                                        "paddingRight": "7.2px",
+                                        "paddingTop": "0px"
+                                      }
+                                    },
+                                    {
+                                      "column": 1,
+                                      "colSpan": 1,
+                                      "rowSpan": 1,
+                                      "blocks": [
+                                        {
+                                          "label": "Paragraph",
+                                          "fields": [
+                                            {
+                                              "id": "word/document.xml:5",
+                                              "text": "3",
+                                              "kind": "text",
+                                              "style": {
+                                                "color": "#000000",
+                                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                                "fontSize": "14.666666666666666px",
+                                                "fontStyle": "normal",
+                                                "fontWeight": "normal"
+                                              }
+                                            }
+                                          ],
+                                          "kind": "paragraph",
+                                          "style": {
+                                            "color": "#000000",
+                                            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                            "fontSize": "14.666666666666666px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "normal",
+                                            "lineHeight": "1.15",
+                                            "marginBottom": "13.333333333333334px",
+                                            "marginTop": "0px"
+                                          }
+                                        }
+                                      ],
+                                      "style": {
+                                        "borderBottom": "0.6666666666666666px solid #000000",
+                                        "borderLeft": "0.6666666666666666px solid #000000",
+                                        "borderRight": "0.6666666666666666px solid #000000",
+                                        "borderTop": "0.6666666666666666px solid #000000",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "7.2px",
+                                        "paddingRight": "7.2px",
+                                        "paddingTop": "0px"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Paragraph",
+                              "fields": [],
+                              "kind": "paragraph",
+                              "style": {
+                                "color": "#000000",
+                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                "fontSize": "14.666666666666666px",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                                "lineHeight": "1.15",
+                                "marginBottom": "13.333333333333334px",
+                                "marginTop": "0px"
+                              }
+                            }
+                          ],
+                          "style": {
+                            "borderBottom": "0.6666666666666666px solid #000000",
+                            "borderLeft": "0.6666666666666666px solid #000000",
+                            "borderRight": "0.6666666666666666px solid #000000",
+                            "borderTop": "0.6666666666666666px solid #000000",
+                            "paddingBottom": "0px",
+                            "paddingLeft": "7.2px",
+                            "paddingRight": "7.2px",
+                            "paddingTop": "0px"
+                          }
+                        },
+                        {
+                          "column": 1,
+                          "colSpan": 1,
+                          "rowSpan": 1,
+                          "blocks": [
+                            {
+                              "label": "Paragraph",
+                              "fields": [],
+                              "kind": "paragraph",
+                              "style": {
+                                "color": "#000000",
+                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                "fontSize": "14.666666666666666px",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                                "lineHeight": "1.15",
+                                "marginBottom": "13.333333333333334px",
+                                "marginTop": "0px"
+                              }
+                            }
+                          ],
+                          "style": {
+                            "borderBottom": "0.6666666666666666px solid #000000",
+                            "borderLeft": "0.6666666666666666px solid #000000",
+                            "borderRight": "0.6666666666666666px solid #000000",
+                            "borderTop": "0.6666666666666666px solid #000000",
+                            "paddingBottom": "0px",
+                            "paddingLeft": "7.2px",
+                            "paddingRight": "7.2px",
+                            "paddingTop": "0px"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "cells": [
+                        {
+                          "column": 0,
+                          "colSpan": 1,
+                          "rowSpan": 1,
+                          "blocks": [
+                            {
+                              "label": "Paragraph",
+                              "fields": [],
+                              "kind": "paragraph",
+                              "style": {
+                                "color": "#000000",
+                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                "fontSize": "14.666666666666666px",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                                "lineHeight": "1.15",
+                                "marginBottom": "13.333333333333334px",
+                                "marginTop": "0px"
+                              }
+                            }
+                          ],
+                          "style": {
+                            "borderBottom": "0.6666666666666666px solid #000000",
+                            "borderLeft": "0.6666666666666666px solid #000000",
+                            "borderRight": "0.6666666666666666px solid #000000",
+                            "borderTop": "0.6666666666666666px solid #000000",
+                            "paddingBottom": "0px",
+                            "paddingLeft": "7.2px",
+                            "paddingRight": "7.2px",
+                            "paddingTop": "0px"
+                          }
+                        },
+                        {
+                          "column": 1,
+                          "colSpan": 1,
+                          "rowSpan": 1,
+                          "blocks": [
+                            {
+                              "label": "Paragraph",
+                              "fields": [
+                                {
+                                  "id": "word/document.xml:6",
+                                  "text": "2",
+                                  "kind": "text",
+                                  "style": {
+                                    "color": "#000000",
+                                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                    "fontSize": "14.666666666666666px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal"
+                                  }
+                                }
+                              ],
+                              "kind": "paragraph",
+                              "style": {
+                                "color": "#000000",
+                                "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                                "fontSize": "14.666666666666666px",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                                "lineHeight": "1.15",
+                                "marginBottom": "13.333333333333334px",
+                                "marginTop": "0px"
+                              }
+                            }
+                          ],
+                          "style": {
+                            "borderBottom": "0.6666666666666666px solid #000000",
+                            "borderLeft": "0.6666666666666666px solid #000000",
+                            "borderRight": "0.6666666666666666px solid #000000",
+                            "borderTop": "0.6666666666666666px solid #000000",
+                            "paddingBottom": "0px",
+                            "paddingLeft": "7.2px",
+                            "paddingRight": "7.2px",
+                            "paddingTop": "0px"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:7",
+                      "text": "1",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 12240,
+    "height": 15840,
+    "top": 1440,
+    "right": 1800,
+    "bottom": 1440,
+    "left": 1800
+  }
+}

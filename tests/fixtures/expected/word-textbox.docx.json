@@ -1,0 +1,44 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "Image, drawing or embedded object not rendered"
+      ]
+    },
+    {
+      "label": "Footnotes content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    },
+    {
+      "label": "Endnotes content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 12240,
+    "height": 15840,
+    "top": 1440,
+    "right": 1440,
+    "bottom": 1440,
+    "left": 1440
+  }
+}

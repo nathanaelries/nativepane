@@ -44,6 +44,7 @@ jobs:
             bash -e -c '
               python -m pip install -r tests/qa-requirements.txt
               python tests/test_regression_gates.py
+              python tests/corpus_manifest.py
               python tests/container_smoke.py
               python tests/corpus_semantic.py
               python tests/preservation_cases.py

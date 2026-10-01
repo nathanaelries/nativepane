@@ -1,14 +1,31 @@
 """Mutation checks prove visual and semantic comparators detect changes."""
 import tempfile
 import unittest
+import copy
+import json
 import xml.etree.ElementTree as E
 from pathlib import Path
 from PIL import Image
 from visual_helpers import visual_regression
 from corpus_helpers import verify_edit, W
+from corpus_manifest import validate, FIXTURES
 
 
 class RegressionGates(unittest.TestCase):
+    def test_claim_gate_rejects_missing_construct_and_uncovered_claim(self):
+        manifest = json.loads((FIXTURES / 'manifest.json').read_text())
+        validate(manifest)
+        broken = copy.deepcopy(manifest)
+        fixture = next(f for f in broken['fixtures'] if f['id'] == 'word-fonts')
+        fixture['coverage'][0]['evidence'][0]['path'] = './/w:missingConstruct'
+        with self.assertRaisesRegex(AssertionError, 'absent source construct'):
+            validate(broken)
+        broken = copy.deepcopy(manifest)
+        broken['layoutClaims'].append({'id': 'missing-fixture', 'format': 'docx', 'status': 'planned',
+                                      'statement': 'Mutation test', 'reference': 'ROADMAP.md'})
+        with self.assertRaisesRegex(AssertionError, 'uncovered layout claim'):
+            validate(broken)
+
     def test_visual_gate_rejects_one_pixel_dimensions_and_missing_baseline(self):
         root = Path(__file__).resolve().parent.parent / "tmp"
         root.mkdir(exist_ok=True)

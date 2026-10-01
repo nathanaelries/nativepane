@@ -1,0 +1,810 @@
+{
+  "format": "xlsx",
+  "blocks": [
+    {
+      "label": "Data",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet1.xml:0",
+          "text": "Name",
+          "address": "A1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:1",
+          "text": "Only blanks",
+          "address": "B1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:2",
+          "text": "Numbers with integers",
+          "address": "C1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:3",
+          "text": "Numers without integers",
+          "address": "D1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:4",
+          "text": "Text",
+          "address": "E1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:5",
+          "text": "Text with long text",
+          "address": "F1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:6",
+          "text": "DateTime",
+          "address": "G1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:7",
+          "text": "DateTime with num",
+          "address": "H1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:8",
+          "text": "Errors",
+          "address": "I1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:9",
+          "text": "Mixed Types",
+          "address": "J1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:10",
+          "text": "Value",
+          "address": "A2",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:11",
+          "text": "0",
+          "address": "C2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:12",
+          "text": "0.5",
+          "address": "D2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:13",
+          "text": "ABC",
+          "address": "E2",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:14",
+          "text": "ABC",
+          "address": "F2",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:15",
+          "text": "1",
+          "address": "G2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:16",
+          "text": "1",
+          "address": "H2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:17",
+          "text": "#DIV/0!",
+          "address": "I2",
+          "kind": "text",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:18",
+          "text": "Value",
+          "address": "A3",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:19",
+          "text": "1",
+          "address": "C3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:20",
+          "text": "14.4",
+          "address": "D3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:21",
+          "text": "abc",
+          "address": "E3",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:22",
+          "text": "abc",
+          "address": "F3",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:23",
+          "text": "1.5208333333333335",
+          "address": "G3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:24",
+          "text": "1.5208333333333335",
+          "address": "H3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:25",
+          "text": "#DIV/0!",
+          "address": "I3",
+          "kind": "text",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:26",
+          "text": "1",
+          "address": "J3",
+          "kind": "boolean"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:27",
+          "text": "Value",
+          "address": "A4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:28",
+          "text": "1",
+          "address": "C4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:29",
+          "text": "14.4",
+          "address": "D4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:30",
+          "text": "def",
+          "address": "E4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:31",
+          "text": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz",
+          "address": "F4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:32",
+          "text": "44189",
+          "address": "G4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:33",
+          "text": "44189",
+          "address": "H4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:34",
+          "text": "#REF!",
+          "address": "I4",
+          "kind": "text",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:35",
+          "text": "1",
+          "address": "J4",
+          "kind": "boolean"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:36",
+          "text": "Value",
+          "address": "A5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:37",
+          "text": "0.6875",
+          "address": "G5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:38",
+          "text": "0.6875",
+          "address": "H5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:39",
+          "text": "#N/A",
+          "address": "I5",
+          "kind": "text",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:40",
+          "text": "14.5",
+          "address": "J5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:41",
+          "text": "Value",
+          "address": "A6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:42",
+          "text": "0.6875",
+          "address": "G6",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:43",
+          "text": "0.6875",
+          "address": "H6",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:44",
+          "text": "",
+          "address": "I6",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:45",
+          "text": "10",
+          "address": "J6",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:46",
+          "text": "Value",
+          "address": "A7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:47",
+          "text": "0.1",
+          "address": "H7",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:48",
+          "text": "ABC",
+          "address": "J7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:49",
+          "text": "Value",
+          "address": "A8",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:50",
+          "text": "45000",
+          "address": "H8",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:51",
+          "text": "abc",
+          "address": "J8",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:52",
+          "text": "Value",
+          "address": "A9",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:53",
+          "text": "#DIV/0!",
+          "address": "J9",
+          "kind": "text",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:54",
+          "text": "Value",
+          "address": "A10",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:55",
+          "text": "44053",
+          "address": "J10",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:56",
+          "text": "Value",
+          "address": "A11",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:57",
+          "text": "0.6875",
+          "address": "J11",
+          "kind": "number"
+        }
+      ]
+    },
+    {
+      "label": "PivotTable",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet2.xml:58",
+          "text": "Content of the table is not important. All fields must be used, in order to save values as shared items",
+          "address": "A1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:59",
+          "text": "Column Labels",
+          "address": "B3",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:60",
+          "text": "0.6875",
+          "address": "B4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:61",
+          "text": "4:30:00 PM Total",
+          "address": "G4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:62",
+          "text": "1",
+          "address": "H4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:63",
+          "text": "1/1/1900 Total",
+          "address": "K4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:64",
+          "text": "1.5208333333333335",
+          "address": "L4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:65",
+          "text": "1/1/1900 12:30 Total",
+          "address": "O4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:66",
+          "text": "44189",
+          "address": "P4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:67",
+          "text": "12/24/2020 Total",
+          "address": "S4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:68",
+          "text": "(blank)",
+          "address": "T4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:69",
+          "text": "(blank) Total",
+          "address": "AG4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:70",
+          "text": "0.6875",
+          "address": "B5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:71",
+          "text": "4:30:00 PM Total",
+          "address": "F5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:72",
+          "text": "1",
+          "address": "H5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:73",
+          "text": "1/1/1900 Total",
+          "address": "J5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:74",
+          "text": "1.5208333333333335",
+          "address": "L5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:75",
+          "text": "1/1/1900 12:30 Total",
+          "address": "N5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:76",
+          "text": "44189",
+          "address": "P5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:77",
+          "text": "12/24/2020 Total",
+          "address": "R5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:78",
+          "text": "0.1",
+          "address": "T5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:79",
+          "text": "0.1 Total",
+          "address": "V5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:80",
+          "text": "45000",
+          "address": "W5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:81",
+          "text": "45000 Total",
+          "address": "Y5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:82",
+          "text": "(blank)",
+          "address": "Z5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:83",
+          "text": "(blank) Total",
+          "address": "AF5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:84",
+          "text": "10",
+          "address": "B6",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:85",
+          "text": "10 Total",
+          "address": "C6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:86",
+          "text": "14.5",
+          "address": "D6",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:87",
+          "text": "14.5 Total",
+          "address": "E6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:88",
+          "text": "(blank)",
+          "address": "H6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:89",
+          "text": "(blank) Total",
+          "address": "I6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:90",
+          "text": "TRUE",
+          "address": "L6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:91",
+          "text": "TRUE Total",
+          "address": "M6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:92",
+          "text": "TRUE",
+          "address": "P6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:93",
+          "text": "TRUE Total",
+          "address": "Q6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:94",
+          "text": "ABC",
+          "address": "T6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:95",
+          "text": "ABC Total",
+          "address": "U6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:96",
+          "text": "ABC",
+          "address": "W6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:97",
+          "text": "ABC Total",
+          "address": "X6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:98",
+          "text": "#DIV/0!",
+          "address": "Z6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:99",
+          "text": "#DIV/0! Total",
+          "address": "AA6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:100",
+          "text": "0.6875",
+          "address": "AB6",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:101",
+          "text": "4:30:00 PM Total",
+          "address": "AC6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:102",
+          "text": "44053",
+          "address": "AD6",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:103",
+          "text": "8/10/2020 Total",
+          "address": "AE6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:104",
+          "text": "Row Labels",
+          "address": "A7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:105",
+          "text": "(blank)",
+          "address": "B7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:106",
+          "text": "#N/A",
+          "address": "D7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:107",
+          "text": "#DIV/0!",
+          "address": "H7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:108",
+          "text": "#DIV/0!",
+          "address": "L7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:109",
+          "text": "#REF!",
+          "address": "P7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:110",
+          "text": "(blank)",
+          "address": "T7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:111",
+          "text": "(blank)",
+          "address": "W7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:112",
+          "text": "(blank)",
+          "address": "Z7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:113",
+          "text": "(blank)",
+          "address": "AB7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:114",
+          "text": "(blank)",
+          "address": "AD7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:115",
+          "text": "Value",
+          "address": "A8",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:116",
+          "text": "(blank)",
+          "address": "A9",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:117",
+          "text": "0",
+          "address": "A10",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:118",
+          "text": "0.5",
+          "address": "A11",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:119",
+          "text": "ABC",
+          "address": "A12",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:120",
+          "text": "ABC",
+          "address": "A13",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:121",
+          "text": "1",
+          "address": "A14",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:122",
+          "text": "14.4",
+          "address": "A15",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:123",
+          "text": "ABC",
+          "address": "A16",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:124",
+          "text": "ABC",
+          "address": "A17",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:125",
+          "text": "def",
+          "address": "A18",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:126",
+          "text": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz",
+          "address": "A19",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:127",
+          "text": "(blank)",
+          "address": "A20",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:128",
+          "text": "(blank)",
+          "address": "A21",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:129",
+          "text": "(blank)",
+          "address": "A22",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:130",
+          "text": "(blank)",
+          "address": "A23",
+          "kind": "text"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Existing cells only. Formulas are read-only; cached results are not recalculated. Dates appear as serial values. Pivot tables and charts are not rendered."
+  ]
+}

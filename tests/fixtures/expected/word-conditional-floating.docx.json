@@ -1,0 +1,4396 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "Leadership Development Map",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "48px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "letterSpacing": "0.4px"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+        "fontSize": "18.666666666666668px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "letterSpacing": "0.4px",
+        "lineHeight": "normal",
+        "marginBottom": "2.6666666666666665px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Table",
+      "fields": [
+        {
+          "id": "word/document.xml:1",
+          "text": "LEADERSHIP SKILLS",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "18.666666666666668px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:2",
+          "text": "Maintain Strong Organizations",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:3",
+          "text": "Turn-Around",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:4",
+          "text": "Start-Up",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:5",
+          "text": "Grow Operations",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:6",
+          "text": "Leap of Scope",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:7",
+          "text": "Staff",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:8",
+          "text": "Line",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:9",
+          "text": "FUNCTIONAL SKILLS",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "18.666666666666668px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:10",
+          "text": "\u003c25",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:11",
+          "text": "employees",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:12",
+          "text": "25-100 employees",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:13",
+          "text": "\u003e100 ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:14",
+          "text": "employees",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:15",
+          "text": "WSSG",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:16",
+          "text": "North America",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:17",
+          "text": "Europe",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:18",
+          "text": "WPG",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:19",
+          "text": "Systems",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:20",
+          "text": "Desktop",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:21",
+          "text": "WOG",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:22",
+          "text": "Specialist 1",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:23",
+          "text": "Specialist 2",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:24",
+          "text": "Outside",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:25",
+          "text": "Software Industry",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:26",
+          "text": "Microsoft",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:27",
+          "text": "High Tech Industry",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "table",
+      "columnWidths": [
+        1274,
+        1447,
+        1348,
+        940,
+        873,
+        1116,
+        1393,
+        1393,
+        1393,
+        986,
+        905
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 11,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:1",
+                      "text": "LEADERSHIP SKILLS",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "18.666666666666668px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:2",
+                      "text": "Maintain Strong Organizations",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "12px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:3",
+                      "text": "Turn-Around",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "12px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:4",
+                      "text": "Start-Up",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "12px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:5",
+                      "text": "Grow Operations",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "12px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 3,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:6",
+                      "text": "Leap of Scope",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "12px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                },
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "none",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:7",
+                      "text": "Staff",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "12px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "none",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:8",
+                      "text": "Line",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "12px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 2,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:9",
+                      "text": "FUNCTIONAL SKILLS",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "18.666666666666668px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                },
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:10",
+                      "text": "\u003c25",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                },
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:11",
+                      "text": "employees",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 7,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:12",
+                      "text": "25-100 employees",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "none",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 8,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:13",
+                      "text": "\u003e100 ",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                },
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:14",
+                      "text": "employees",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "none",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "none",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:15",
+                      "text": "WSSG",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:16",
+                      "text": "North America",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 2,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 7,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 8,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:17",
+                      "text": "Europe",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "3px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 7,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 8,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:18",
+                      "text": "WPG",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:19",
+                      "text": "Systems",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "none",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 7,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 8,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:20",
+                      "text": "Desktop",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "none",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 7,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "3px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 8,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "3px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:21",
+                      "text": "WOG",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:22",
+                      "text": "Specialist 1",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 2,
+              "blocks": [
+                {
+                  "label": "Table",
+                  "fields": [],
+                  "kind": "table",
+                  "columnWidths": [
+                    445,
+                    445
+                  ],
+                  "rows": [
+                    {
+                      "cells": [
+                        {
+                          "column": 0,
+                          "colSpan": 1,
+                          "rowSpan": 1,
+                          "blocks": [
+                            {
+                              "label": "Paragraph",
+                              "fields": [],
+                              "kind": "paragraph",
+                              "style": {
+                                "color": "#000000",
+                                "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                                "fontSize": "16px",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                                "lineHeight": "normal",
+                                "marginBottom": "0px",
+                                "marginTop": "0px"
+                              }
+                            }
+                          ],
+                          "style": {
+                            "borderBottom": "0.6666666666666666px solid #000000",
+                            "borderLeft": "0.6666666666666666px solid #000000",
+                            "borderRight": "0.6666666666666666px solid #000000",
+                            "borderTop": "0.6666666666666666px solid #000000",
+                            "paddingBottom": "0px",
+                            "paddingLeft": "7.2px",
+                            "paddingRight": "7.2px",
+                            "paddingTop": "0px"
+                          }
+                        },
+                        {
+                          "column": 1,
+                          "colSpan": 1,
+                          "rowSpan": 1,
+                          "blocks": [
+                            {
+                              "label": "Paragraph",
+                              "fields": [],
+                              "kind": "paragraph",
+                              "style": {
+                                "color": "#000000",
+                                "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                                "fontSize": "16px",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                                "lineHeight": "normal",
+                                "marginBottom": "0px",
+                                "marginTop": "0px"
+                              }
+                            }
+                          ],
+                          "style": {
+                            "borderBottom": "0.6666666666666666px solid #000000",
+                            "borderLeft": "0.6666666666666666px solid #000000",
+                            "borderRight": "0.6666666666666666px solid #000000",
+                            "borderTop": "0.6666666666666666px solid #000000",
+                            "paddingBottom": "0px",
+                            "paddingLeft": "7.2px",
+                            "paddingRight": "7.2px",
+                            "paddingTop": "0px"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "cells": [
+                        {
+                          "column": 0,
+                          "colSpan": 1,
+                          "rowSpan": 1,
+                          "blocks": [
+                            {
+                              "label": "Paragraph",
+                              "fields": [],
+                              "kind": "paragraph",
+                              "style": {
+                                "color": "#000000",
+                                "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                                "fontSize": "16px",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                                "lineHeight": "normal",
+                                "marginBottom": "0px",
+                                "marginTop": "0px"
+                              }
+                            }
+                          ],
+                          "style": {
+                            "borderBottom": "0.6666666666666666px solid #000000",
+                            "borderLeft": "0.6666666666666666px solid #000000",
+                            "borderRight": "0.6666666666666666px solid #000000",
+                            "borderTop": "0.6666666666666666px solid #000000",
+                            "paddingBottom": "0px",
+                            "paddingLeft": "7.2px",
+                            "paddingRight": "7.2px",
+                            "paddingTop": "0px"
+                          }
+                        },
+                        {
+                          "column": 1,
+                          "colSpan": 1,
+                          "rowSpan": 1,
+                          "blocks": [
+                            {
+                              "label": "Paragraph",
+                              "fields": [],
+                              "kind": "paragraph",
+                              "style": {
+                                "color": "#000000",
+                                "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                                "fontSize": "16px",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                                "lineHeight": "normal",
+                                "marginBottom": "0px",
+                                "marginTop": "0px"
+                              }
+                            }
+                          ],
+                          "style": {
+                            "borderBottom": "0.6666666666666666px solid #000000",
+                            "borderLeft": "0.6666666666666666px solid #000000",
+                            "borderRight": "0.6666666666666666px solid #000000",
+                            "borderTop": "0.6666666666666666px solid #000000",
+                            "paddingBottom": "0px",
+                            "paddingLeft": "7.2px",
+                            "paddingRight": "7.2px",
+                            "paddingTop": "0px"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "markers": [
+                    "Floating table positioning not rendered"
+                  ]
+                },
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 7,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "fill": "FFCC00",
+              "style": {
+                "backgroundColor": "#FFCC00",
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 8,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "fill": "FFCC00",
+              "style": {
+                "backgroundColor": "#FFCC00",
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:23",
+                      "text": "Specialist 2",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 7,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 8,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:24",
+                      "text": "Outside",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:25",
+                      "text": "Software Industry",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 7,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 8,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "3px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:26",
+                      "text": "Microsoft",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:27",
+                      "text": "High Tech Industry",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Microsoft Head\", Calibri, Arial, sans-serif",
+                        "fontSize": "16px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "align": "center",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px",
+                    "textAlign": "center"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 7,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 8,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 9,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 10,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+                    "fontSize": "16px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "normal",
+                    "marginBottom": "0px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "1px solid #000000",
+                "borderLeft": "1px solid #000000",
+                "borderRight": "1px solid #000000",
+                "borderTop": "1px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Times New Roman\", \"Times New Roman\", serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 15840,
+    "height": 12240,
+    "top": 1152,
+    "right": 1440,
+    "bottom": 1152,
+    "left": 1440
+  }
+}

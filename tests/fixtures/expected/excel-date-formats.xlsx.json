@@ -1,0 +1,336 @@
+{
+  "format": "xlsx",
+  "blocks": [
+    {
+      "label": "Sheet1",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet1.xml:0",
+          "text": "Format",
+          "address": "A1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:1",
+          "text": "Test Value",
+          "address": "B1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:2",
+          "text": "Raw Value",
+          "address": "C1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:3",
+          "text": "Custom m/d/yyyy hh:mm",
+          "address": "A2",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:4",
+          "text": "40982.563138888887",
+          "address": "B2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:5",
+          "text": "=B2",
+          "address": "C2",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:6",
+          "text": "Date *3/14/2012 (US)",
+          "address": "A3",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:7",
+          "text": "40982.563138888887",
+          "address": "B3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:8",
+          "text": "=",
+          "address": "C3",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:9",
+          "text": "Date *Wednesday, March 14, 2012 (US)",
+          "address": "A4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:10",
+          "text": "40982.563138888887",
+          "address": "B4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:11",
+          "text": "=",
+          "address": "C4",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:12",
+          "text": "Date 2012-03-14 (US)",
+          "address": "A5",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:13",
+          "text": "40982.563138888887",
+          "address": "B5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:14",
+          "text": "=",
+          "address": "C5",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:15",
+          "text": "Date 3/14 (US)",
+          "address": "A6",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:16",
+          "text": "40982.563138888887",
+          "address": "B6",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:17",
+          "text": "=",
+          "address": "C6",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:18",
+          "text": "Date 3/14/12 (US)",
+          "address": "A7",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:19",
+          "text": "40982.563138888887",
+          "address": "B7",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:20",
+          "text": "=",
+          "address": "C7",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:21",
+          "text": "Date 03/14/12 (US)",
+          "address": "A8",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:22",
+          "text": "40982.563138888887",
+          "address": "B8",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:23",
+          "text": "=",
+          "address": "C8",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:24",
+          "text": "Date 14-Mar (US)",
+          "address": "A9",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:25",
+          "text": "40982.563138888887",
+          "address": "B9",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:26",
+          "text": "=",
+          "address": "C9",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:27",
+          "text": "Date 14-Mar-12 (US)",
+          "address": "A10",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:28",
+          "text": "40982.563138888887",
+          "address": "B10",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:29",
+          "text": "=",
+          "address": "C10",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:30",
+          "text": "Date Mar-12 (US)",
+          "address": "A11",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:31",
+          "text": "40982.563138888887",
+          "address": "B11",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:32",
+          "text": "=",
+          "address": "C11",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:33",
+          "text": "Date 3/13/12 1:30 PM (US)",
+          "address": "A12",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:34",
+          "text": "40982.563138888887",
+          "address": "B12",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:35",
+          "text": "=",
+          "address": "C12",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:36",
+          "text": "Date 3/13/12 13:30 (US)",
+          "address": "A13",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:37",
+          "text": "40982.563138888887",
+          "address": "B13",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:38",
+          "text": "=",
+          "address": "C13",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:39",
+          "text": "Date 14-Mar-2012 (US)",
+          "address": "A14",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:40",
+          "text": "40982.563138888887",
+          "address": "B14",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:41",
+          "text": "=",
+          "address": "C14",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:42",
+          "text": "Date 14/03/2012 (UK)",
+          "address": "A15",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:43",
+          "text": "40982.563138888887",
+          "address": "B15",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:44",
+          "text": "=",
+          "address": "C15",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:45",
+          "text": "Date 14-Mar-12",
+          "address": "A16",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:46",
+          "text": "40982.563138888887",
+          "address": "B16",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:47",
+          "text": "=",
+          "address": "C16",
+          "kind": "formula",
+          "readOnly": true
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:48",
+          "text": "Date 14-Mar",
+          "address": "A17",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:49",
+          "text": "40982.563138888887",
+          "address": "B17",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:50",
+          "text": "=",
+          "address": "C17",
+          "kind": "formula",
+          "readOnly": true
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Existing cells only. Formulas are read-only; cached results are not recalculated. Dates appear as serial values. Pivot tables and charts are not rendered."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "format": "xlsx",
+  "blocks": [
+    {
+      "label": "Sheet1",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet1.xml:0",
+          "text": "12.5",
+          "address": "A1",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:1",
+          "text": "-12.5",
+          "address": "B1",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:2",
+          "text": "5.2",
+          "address": "A3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:3",
+          "text": "-5.2",
+          "address": "B3",
+          "kind": "number"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Existing cells only. Formulas are read-only; cached results are not recalculated. Dates appear as serial values. Pivot tables and charts are not rendered."
+  ]
+}

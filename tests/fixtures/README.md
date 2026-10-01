@@ -1,13 +1,29 @@
 # Rendering and native-save regression corpus
 
-The twelve files under `office/` are unmodified, pinned documents from the
-.NET Foundation's MIT Open XML SDK test assets. `manifest.json` records source
+The 49 files under `office/` are unmodified, pinned documents from the
+MIT Open XML SDK and ClosedXML test assets, plus two Apache-2.0 docx4j Word
+test/sample documents. No SDK/library/renderer code or dependencies are imported.
+`manifest.json` records source
 revision/path, SHA-256, license, Office producer/version, edit policy and baseline
 paths. Upstream LICENSE and NOTICE are retained under `licenses/`; no SDK code is
-linked. Office-saved provenance is supported by their upstream conformance-test
+linked. Office-saved provenance is supported by their upstream Office-test
 location and unchanged `docProps/app.xml` metadata. We do not claim a fresh manual
 save/validation in installed Office on this machine. Never relabel generated or
 mutated files as unmodified Office-authored fixtures.
+
+One historical SDK workbook omits `Application`. The manifest records the empty
+value rather than inventing a producer. Its `AppVersion=12.0000` and exact Excel
+`fileVersion` attributes (`appName=xl`, `lastEdited=4`, `rupBuild=4505`) are checked
+alongside the original source hash and Office conformance provenance. This is
+recorded producer evidence, not a fresh Office interoperability certification.
+
+Manifest version 2 links 53 current/planned layout and preservation claims to
+actual OOXML source assertions, complete model expectations, and 68 browser views.
+[COVERAGE.md](COVERAGE.md) maps each claim to its fixture and source constructs.
+All spreadsheet sheets, including empty sheets, are captured; the wide Office
+workbook also covers second row/column pages. The long Word table has an existing
+text edit/reflow probe with a post-save visual baseline and package verification.
+The three earlier generated layout/table/omission baselines remain separate.
 
 ## Gates and coverage
 
@@ -33,6 +49,11 @@ and rich slide text more precisely than the small historical Office examples.
 `go test ./...` checks semantic baselines and native preservation offline, with no
 external tools. Mismatches write actual models to `tmp/fixtures/`. Tests never
 overwrite expected baselines.
+
+`python tests/corpus_manifest.py` uses only the Python standard library to reject
+missing claims, absent source constructs, provenance/license/hash changes and
+inconsistent field inventories. Visual file existence and pixels are checked by
+the browser gate, which writes actual renders even when a baseline is missing.
 
 CI runs independent readers and browser gates inside the digest-pinned Playwright
 Python 1.60.0 Ubuntu Noble image using `tests/qa-requirements.txt`. The viewport,

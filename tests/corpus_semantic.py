@@ -9,6 +9,7 @@ from zipfile import ZipFile
 
 from docx import Document
 from openpyxl import load_workbook
+from openpyxl.utils.datetime import from_excel
 from pptx import Presentation
 from container_smoke import request
 from corpus_helpers import verify_edit
@@ -50,7 +51,7 @@ for fixture in manifest["fixtures"]:
             except urllib.error.HTTPError as error:
                 assert error.code == 403
             assert request(route + "/file", token=access["token"]) == source
-        else:
+        elif any(not f.get("readOnly") for f in fields):
             field = next(f for f in fields if not f.get("readOnly"))
             text = "77.5" if field.get("kind") == "number" else "Corpus verified edit"
             request(route + "/document", "PATCH", {"revision": 1, "edits": [{"id": field["id"], "text": text}]}, access["token"])
@@ -68,7 +69,10 @@ for fixture in manifest["fixtures"]:
                 original = load_workbook(io.BytesIO(source))
                 reopened = load_workbook(io.BytesIO(saved))
                 assert reopened.sheetnames == original.sheetnames
-                assert reopened.worksheets[0][field["address"]].value == (77.5 if text == "77.5" else text)
+                sheet_index = next(i for i, b in enumerate(model['blocks']) if any(f['id'] == field['id'] for f in b['fields']))
+                cell = reopened.worksheets[sheet_index][field['address']]
+                expected_value = (from_excel(77.5, reopened.epoch) if cell.is_date else 77.5) if text == '77.5' else text
+                assert cell.value == expected_value
                 for a, b in zip(original.worksheets, reopened.worksheets):
                     assert {str(r) for r in a.merged_cells.ranges} == {str(r) for r in b.merged_cells.ranges}
                     for row in a:
@@ -90,6 +94,11 @@ for fixture in manifest["fixtures"]:
                         if y.has_text_frame:
                             texts.append(y.text)
                 assert any(text in t for t in texts)
+        else:
+            # Image/text-box-only and formula-only Office projections have no
+            # supported edit target. Their complete model and original download
+            # are still gated, rather than inventing an editable field.
+            assert request(route + '/file', token=access['token']) == source
         print(fixture["id"] + ": semantics, edit policy, native save and preservation PASS")
     finally:
         request(route, "DELETE")

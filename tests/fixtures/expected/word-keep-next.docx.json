@@ -1,0 +1,2716 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "Develop Smart Client Applications",
+          "kind": "text",
+          "bold": true,
+          "italic": true,
+          "style": {
+            "color": "#C0504D",
+            "fontFamily": "\"Cambria\", \"Times New Roman\", serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "italic",
+            "fontWeight": "bold"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "borderBottom": "1.3333333333333333px solid #C0504D",
+        "borderLeft": "1.3333333333333333px solid #C0504D",
+        "borderRight": "1.3333333333333333px solid #C0504D",
+        "borderTop": "1.3333333333333333px solid #C0504D",
+        "color": "#C0504D",
+        "fontFamily": "\"Cambria\", \"Times New Roman\", serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "italic",
+        "fontWeight": "bold",
+        "lineHeight": "1.1208333333333333",
+        "marginBottom": "6.666666666666667px",
+        "marginTop": "32px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "paddingTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:1",
+          "text": "Visual Studio 2008 provides developers with new ways to build smart clients that enhance the functionality of the application",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:2",
+          "text": ",",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:3",
+          "text": " ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:4",
+          "text": "in addition to",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:5",
+          "text": " ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:6",
+          "text": "improving",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:7",
+          "text": " developer productivity",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:8",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:9",
+          "text": "Many customers face the challenge of integrating their smart client applications with existing and new ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:10",
+          "text": "Web",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:11",
+          "text": " based applications through logon and personalization services",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:12",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:13",
+          "text": "Visual Studio provides a new set of tools and classes that simplify this integration and enable developers to ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:14",
+          "text": "simply handle the local caching of data for disconnected scenarios",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:15",
+          "text": ".",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:16",
+          "text": "Smart client development areas of focus include:",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:17",
+          "text": "Integrated UI designer experience",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "keepNext": true,
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:18",
+          "text": "By supporting common formats (such as XAML) and giving designers more direct control over the layout, controls",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:19",
+          "text": ",",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:20",
+          "text": " and data binding of the application user interface",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:21",
+          "text": " (UI), Visual Studio",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:22",
+          "text": " makes ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:23",
+          "text": "integrating",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:24",
+          "text": " designers into the development process easier",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:25",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:26",
+          "text": "Designers can use familiar tools like the Microsoft® Expression® Suite to create ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:27",
+          "text": "UIs",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:28",
+          "text": " and produce files that developers can work with directly in Visual Studio",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:29",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:30",
+          "text": "Visual Studio supports ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:31",
+          "text": "a fully collaborative",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:32",
+          "text": " workflow ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:33",
+          "text": "that enables ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:34",
+          "text": "designers ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:35",
+          "text": "and",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:36",
+          "text": " developers ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:37",
+          "text": "to hand work back and forth directly and",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:38",
+          "text": " work in parallel",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:39",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:40",
+          "text": "Designers and developers will also be able to build libraries of common ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:41",
+          "text": "UI",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:42",
+          "text": " designs, formats",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:43",
+          "text": ",",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:44",
+          "text": " and elements that can be easily managed and reused.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:45",
+          "text": "By taking advantage of the 2007 Office system as a development platform, designers can leverage the look and feel of both Office and SharePoint to create familiar, intuitive ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:46",
+          "text": "UI",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:47",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:48",
+          "text": "Developers can then use Visual Studio Tools for Office to create the UI in their solutions quickly and easily.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:49",
+          "text": "Improved ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:50",
+          "text": "ClickOnce",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:51",
+          "text": " application deployment",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:52",
+          "text": "ClickOnce",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:53",
+          "text": " deployment in Visual Studio 2005 provided Web like deployment for smart clients. Users could go to a single URL and click a link to have the smart client application installed on their machine. IT Professionals could deploy new versions of the application by simply copying the new application to the URL. In Visual Studio 2008, ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:54",
+          "text": "ClickOnce",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:55",
+          "text": " now supports ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:56",
+          "text": "Firefox",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:57",
+          "text": "®",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:58",
+          "text": " as a browser",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:59",
+          "text": " and",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:60",
+          "text": " provid",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:61",
+          "text": "es",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:62",
+          "text": " location independent signing and customer branding. In addition, ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:63",
+          "text": "ClickOnce",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:64",
+          "text": " now supports d",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:65",
+          "text": "eployment through authenticated proxy servers",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:66",
+          "text": " and",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:67",
+          "text": " enables developers to distribute their application to multiple end-user companies from a central location",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:68",
+          "text": ".",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:69",
+          "text": "Office 2007 UI style support for native C++ applications",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:70",
+          "text": "Visual Studio 2008 also provides developers with support for building applications that use the Microsoft Office 2007 UI style, including the Ribbon Bar, Ribbon Status Bar, and Mini-toolbar.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:71",
+          "text": "Client Application-Level Services",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "keepNext": true,
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:72",
+          "text": "Enable client application developers to use the same user profile and login services as their Web applications",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:73",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:74",
+          "text": "This enables customers to ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:75",
+          "text": "use",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:76",
+          "text": " on",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:77",
+          "text": "e",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:78",
+          "text": " ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:79",
+          "text": "method",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:80",
+          "text": " of backend storage for user personalization and authentication",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:81",
+          "text": ",",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:82",
+          "text": " regardless of the application type.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:83",
+          "text": "Occasionally connected data access",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "keepNext": true,
+      "markers": [
+        "List numbering not rendered",
+        "Inline line/page break not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:84",
+          "text": "The Microsoft Synchronization Services for ADO.NET provide an application",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:85",
+          "text": " programming interface (API) to synchronize data between data services and a local store",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:86",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:87",
+          "text": "The Synchronization Services API is modeled after the ADO.NET data access APIs and gives you an intuitive way to synchronize data",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:88",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:89",
+          "text": "It makes building applications for occasionally connected environments a logical extension of building applications where you can depend on a consistent network connection.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:90",
+          "text": "Integrated support for ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:91",
+          "text": "Microsoft® ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:92",
+          "text": "SQL Server",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:93",
+          "text": "™",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:94",
+          "text": " ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:95",
+          "text": "2005 ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:96",
+          "text": "Compact Edition",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "keepNext": true,
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:97",
+          "text": "Microsoft SQL Server 2005 Compact Edition is the next version of SQL Server Mobile",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:98",
+          "text": ",",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:99",
+          "text": " adding the desktop platform",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:100",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:101",
+          "text": "SQL Server Compact extends the SQL Server Mobile technology by offering a low maintenance, compact",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:102",
+          "text": ",",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:103",
+          "text": " embedded database for single-user client applications",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:104",
+          "text": ", which is available",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:105",
+          "text": " for all Windows platforms including ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:106",
+          "text": "Tablet PC",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:107",
+          "text": "s, ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:108",
+          "text": "Pocket PC",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:109",
+          "text": "s, smart phones and desktops",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:110",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:111",
+          "text": "Just as with SQL Server Mobile, SQL Server Compact is a free, easy-to-use, lightweight, and embeddable version of SQL Server 2005 for developing desktop and mobile applications.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:112",
+          "text": "Leverage SOAs and WCF in mobile applications",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "keepNext": true,
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:113",
+          "text": "Developers will be able to build a mobile device client application that works in a partially connected environment",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:114",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:115",
+          "text": "The application will be able to send and receive data from a server",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:116",
+          "text": ",",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:117",
+          "text": " even if the device disconnects or roams",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:118",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:119",
+          "text": "By providing the logic to solve the addressability and storage issues, a developer can focus on the mobile application functionality and not worry about the different identities, connection methods",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:120",
+          "text": ",",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:121",
+          "text": " or storage models required.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "Inline line/page break not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:122",
+          "text": "Create Microsoft Office Applications",
+          "kind": "text",
+          "bold": true,
+          "italic": true,
+          "style": {
+            "color": "#C0504D",
+            "fontFamily": "\"Cambria\", \"Times New Roman\", serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "italic",
+            "fontWeight": "bold"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "borderBottom": "1.3333333333333333px solid #C0504D",
+        "borderLeft": "1.3333333333333333px solid #C0504D",
+        "borderRight": "1.3333333333333333px solid #C0504D",
+        "borderTop": "1.3333333333333333px solid #C0504D",
+        "color": "#C0504D",
+        "fontFamily": "\"Cambria\", \"Times New Roman\", serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "italic",
+        "fontWeight": "bold",
+        "lineHeight": "1.1208333333333333",
+        "marginBottom": "6.666666666666667px",
+        "marginTop": "32px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "paddingTop": "0px"
+      },
+      "markers": [
+        "Inline line/page break not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:123",
+          "text": "Visual Studio Tools for Office (VSTO) is now fully integrated into Visual Studio 2008 Professional Edition",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:124",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:125",
+          "text": "Developers can now easily target the more than 500 million users of Microsoft Office while using the same managed code skills that they’ve developed for writing Microsoft Windows applications or ASP.NET applications",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:126",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:127",
+          "text": "Visual Studio enables developers to customize Word, Excel®, PowerPoint, Outlook, Visio®, InfoPath®, and Project to improve ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:128",
+          "text": "user",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:129",
+          "text": " productivity and take advantage of the many improvements in the 2007 Microsoft Office system",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:130",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:131",
+          "text": "Visual Studio 2008 enables developers to perform tasks such as:",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:132",
+          "text": "Target the breadth of the new 2007 Microsoft Office system",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:133",
+          "text": "Developers can use the tools in Visual Studio to create both application level and document level managed code customizations behind 2007 Office system applications ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:134",
+          "text": "quickly and easily. ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:135",
+          "text": "Visual Studio",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:136",
+          "text": "'",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:137",
+          "text": "s built-in visual ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:138",
+          "text": "designers",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:139",
+          "text": " for key 2007 Office system UI features provide developers with a RAD development experience and enables them to deliver applications with a high-quality Office-based UI",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:140",
+          "text": ".",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:141",
+          "text": "Build applications that target Microsoft Office SharePoint Server",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:142",
+          "text": "Visual Studio simplifies the task of building and debugging SharePoint Workflow projects, and also enables developers to build applications that provide easy access to back-end data stores and to data from enterprise systems such as SAP, CRM and ERP",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:143",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:144",
+          "text": "Web Parts built for SharePoint are easily reusable in other applications.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:145",
+          "text": "Develop Microsoft Office-based UI workflow solutions",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:146",
+          "text": "Easily incorporate key Microsoft Office UI elements, including the Fluent Ribbon and Custom Task Panes, and integrate SharePoint Workflow Services into Visual Studio solutions",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:147",
+          "text": ". Developers can create applications that use Microsoft Office to manage process navigation and enterprise data surfacing, combined with SharePoint workflow services to manage collaboration requirements.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:148",
+          "text": "Deploy applications securely and easily",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:149",
+          "text": "Developers now have an easy to use and version resilient security model for their applications that will ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:150",
+          "text": "be compatible with",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:151",
+          "text": " future versions of Visual Studio and Office",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:152",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:153",
+          "text": "With full support for ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:154",
+          "text": "ClickOnce",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:155",
+          "text": " deployment of all Office customizations and applications, developers and administrators now have the right tools and framework for easy deployment and maintenance of their Office solutions",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:156",
+          "text": ". ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:157",
+          "text": "This greatly simplifies ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:158",
+          "text": "the process of ",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:159",
+          "text": "creating and deploying new solutions based on the 2007 Office system.",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "13.333333333333334px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginLeft": "48px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "List numbering not rendered",
+        "Inline line/page break not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "13.333333333333334px",
+        "fontStyle": "italic",
+        "fontWeight": "normal",
+        "lineHeight": "1.2",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 12240,
+    "height": 15840,
+    "top": 1440,
+    "right": 1800,
+    "bottom": 1440,
+    "left": 1800
+  }
+}

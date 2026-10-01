@@ -1,0 +1,44 @@
+{
+  "format": "pptx",
+  "blocks": [
+    {
+      "label": "Slide 1",
+      "fields": [
+        {
+          "id": "ppt/slides/slide1.xml:0",
+          "text": "Title",
+          "kind": "text"
+        },
+        {
+          "id": "ppt/slides/slide1.xml:1",
+          "text": "And More",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "label": "Slide 2",
+      "fields": [
+        {
+          "id": "ppt/slides/slide2.xml:2",
+          "text": "Different Layout",
+          "kind": "text"
+        },
+        {
+          "id": "ppt/slides/slide2.xml:3",
+          "text": "Bullet List",
+          "kind": "text"
+        },
+        {
+          "id": "ppt/slides/slide2.xml:4",
+          "text": "More",
+          "kind": "text"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Text-only slide projection: images, themes, geometry, and animations are not rendered."
+  ]
+}

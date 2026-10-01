@@ -1,0 +1,167 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "This is a test paragraph with footnotes",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:1",
+          "text": ", and endnotes ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:2",
+          "text": "attached. ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "Footnote/endnote reference not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:3",
+          "text": "This is a test paragraph with footnotes",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:4",
+          "text": ".",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "Footnote/endnote reference not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:5",
+          "text": "This is a test paragraph endnotes ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:6",
+          "text": "attached. ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "Footnote/endnote reference not rendered"
+      ]
+    },
+    {
+      "label": "Footnotes content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    },
+    {
+      "label": "Endnotes content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 12240,
+    "height": 15840,
+    "top": 1440,
+    "right": 1440,
+    "bottom": 1440,
+    "left": 1440
+  }
+}

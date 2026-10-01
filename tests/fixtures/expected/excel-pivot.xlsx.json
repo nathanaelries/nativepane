@@ -1,0 +1,105 @@
+{
+  "format": "xlsx",
+  "blocks": [
+    {
+      "label": "Sheet4",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet1.xml:0",
+          "text": "Values",
+          "address": "A3",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:1",
+          "text": "Sum of bar",
+          "address": "A4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:2",
+          "text": "Sum of foo",
+          "address": "B4",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:3",
+          "text": "15",
+          "address": "A5",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:4",
+          "text": "6",
+          "address": "B5",
+          "kind": "number"
+        }
+      ]
+    },
+    {
+      "label": "Sheet1",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet2.xml:5",
+          "text": "foo",
+          "address": "A1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:6",
+          "text": "bar",
+          "address": "B1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:7",
+          "text": "1",
+          "address": "A2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:8",
+          "text": "4",
+          "address": "B2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:9",
+          "text": "2",
+          "address": "A3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:10",
+          "text": "5",
+          "address": "B3",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:11",
+          "text": "3",
+          "address": "A4",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet2.xml:12",
+          "text": "6",
+          "address": "B4",
+          "kind": "number"
+        }
+      ]
+    },
+    {
+      "label": "Sheet2",
+      "fields": []
+    },
+    {
+      "label": "Sheet3",
+      "fields": []
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Existing cells only. Formulas are read-only; cached results are not recalculated. Dates appear as serial values. Pivot tables and charts are not rendered."
+  ]
+}

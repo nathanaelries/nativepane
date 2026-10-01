@@ -1,0 +1,21 @@
+{
+  "format": "xlsx",
+  "blocks": [
+    {
+      "label": "Sheet1",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet1.xml:0",
+          "text": "=TRUE",
+          "address": "A1",
+          "kind": "formula",
+          "readOnly": true
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Existing cells only. Formulas are read-only; cached results are not recalculated. Dates appear as serial values. Pivot tables and charts are not rendered."
+  ]
+}

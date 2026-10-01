@@ -1,0 +1,1065 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Table",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "1",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:1",
+          "text": "2",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:2",
+          "text": "3",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:3",
+          "text": "4",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:4",
+          "text": "5",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:5",
+          "text": "6",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:6",
+          "text": "7",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:7",
+          "text": "8",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:8",
+          "text": "9",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "table",
+      "columnWidths": [
+        885,
+        886,
+        885,
+        886,
+        1771,
+        1771,
+        1772
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 2,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:0",
+                      "text": "1",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 3,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:1",
+                      "text": "2",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:2",
+                      "text": "3",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:3",
+                      "text": "4",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 4,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:4",
+                      "text": "5",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 2,
+              "rowSpan": 2,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:5",
+                      "text": "6",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:6",
+                      "text": "7",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 2,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:7",
+                      "text": "8",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 2,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:8",
+                      "text": "9",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 1,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 3,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 1,
+              "rowSpan": 2,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 2,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 2,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 5,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 6,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 2,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 2,
+              "colSpan": 2,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            },
+            {
+              "column": 4,
+              "colSpan": 3,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 12240,
+    "height": 15840,
+    "top": 1440,
+    "right": 1800,
+    "bottom": 1440,
+    "left": 1800
+  }
+}

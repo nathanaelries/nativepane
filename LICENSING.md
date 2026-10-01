@@ -17,6 +17,13 @@ the .NET Foundation's MIT Open XML SDK test corpus. Their exact source revision,
 paths and SHA-256 hashes are recorded in tests/fixtures/manifest.json; upstream
 LICENSE and NOTICE files are retained in tests/fixtures/licenses. These are test
 data, not an Office engine or SDK dependency, and do not ship in the runtime image.
+The expanded corpus also uses unmodified Excel test documents from ClosedXML
+(MIT) and two Word test/sample documents from docx4j (Apache-2.0). Their pinned
+source revisions, exact license texts and notices are retained alongside the
+fixtures. Apache-2.0 is permissive and applies to that test data; we do not
+relicense it MIT. No ClosedXML/docx4j code, renderer, Java/.NET library or its
+transitive dependencies is imported or shipped. The original product and the
+default runtime dependency inventory remain unchanged.
 No Microsoft Office installation, subscription or proprietary converter is
 required to build or run the corpus checks.
 

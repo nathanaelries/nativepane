@@ -1,0 +1,874 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "Table test case",
+          "kind": "text",
+          "style": {
+            "color": "#17365D",
+            "fontFamily": "\"Cambria\", \"Times New Roman\", serif",
+            "fontSize": "34.666666666666664px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "letterSpacing": "0.3333333333333333px"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "borderBottom": "1.3333333333333333px solid #4F81BD",
+        "color": "#17365D",
+        "fontFamily": "\"Cambria\", \"Times New Roman\", serif",
+        "fontSize": "34.666666666666664px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "letterSpacing": "0.3333333333333333px",
+        "lineHeight": "1",
+        "marginBottom": "20px",
+        "marginTop": "0px",
+        "paddingBottom": "5.333333333333333px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:1",
+          "text": "\"",
+          "kind": "text",
+          "style": {
+            "color": "#FF0000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:2",
+          "text": "fo:",
+          "kind": "text",
+          "style": {
+            "color": "#FF0000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:3",
+          "text": "table\" content model is: (marker*,table-column*,table-header?,table-footer?,table-body+)",
+          "kind": "text",
+          "style": {
+            "color": "#FF0000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:4",
+          "text": "So a table can’t just have a header and no body.",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:5",
+          "text": "Header is controlled by ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:6",
+          "text": "tblHeader",
+          "kind": "text",
+          "style": {
+            "color": "#A31515",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:7",
+          "text": " in trPr ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:8",
+          "text": "      \u003c",
+          "kind": "text",
+          "style": {
+            "color": "#0000FF",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:9",
+          "text": "w:",
+          "kind": "text",
+          "style": {
+            "color": "#A31515",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:10",
+          "text": "tr",
+          "kind": "text",
+          "style": {
+            "color": "#A31515",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:11",
+          "text": "\u003e",
+          "kind": "text",
+          "style": {
+            "color": "#0000FF",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:12",
+          "text": "        \u003c",
+          "kind": "text",
+          "style": {
+            "color": "#0000FF",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:13",
+          "text": "w:",
+          "kind": "text",
+          "style": {
+            "color": "#A31515",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:14",
+          "text": "trPr",
+          "kind": "text",
+          "style": {
+            "color": "#A31515",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:15",
+          "text": "\u003e",
+          "kind": "text",
+          "style": {
+            "color": "#0000FF",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:16",
+          "text": "          \u003c",
+          "kind": "text",
+          "style": {
+            "color": "#0000FF",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:17",
+          "text": "w",
+          "kind": "text",
+          "style": {
+            "color": "#A31515",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:18",
+          "text": ":tblHeader",
+          "kind": "text",
+          "style": {
+            "color": "#A31515",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:19",
+          "text": "/\u003e",
+          "kind": "text",
+          "style": {
+            "color": "#0000FF",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:20",
+          "text": "        \u003c/",
+          "kind": "text",
+          "style": {
+            "color": "#0000FF",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:21",
+          "text": "w",
+          "kind": "text",
+          "style": {
+            "color": "#A31515",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:22",
+          "text": ":trPr",
+          "kind": "text",
+          "style": {
+            "color": "#A31515",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:23",
+          "text": "\u003e",
+          "kind": "text",
+          "style": {
+            "color": "#0000FF",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "12.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1",
+        "marginBottom": "0px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:24",
+          "text": "There are 2 basic cases to test.",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:25",
+          "text": "Table – body row preceding tblHeader row",
+          "kind": "text",
+          "bold": true,
+          "style": {
+            "color": "#4F81BD",
+            "fontFamily": "\"Cambria\", \"Times New Roman\", serif",
+            "fontSize": "18.666666666666668px",
+            "fontStyle": "normal",
+            "fontWeight": "bold"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#4F81BD",
+        "fontFamily": "\"Cambria\", \"Times New Roman\", serif",
+        "fontSize": "18.666666666666668px",
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "lineHeight": "1.15",
+        "marginBottom": "0px",
+        "marginTop": "32px"
+      },
+      "keepNext": true
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:26",
+          "text": "(Word 2010 tries to stop you creating this structure, but you can do it if you mark the first row as a header row, then insert a row before it) ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Table",
+      "fields": [
+        {
+          "id": "word/document.xml:27",
+          "text": "Body",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:28",
+          "text": "Header",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:29",
+          "text": "body",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "table",
+      "columnWidths": [
+        9576
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:27",
+                      "text": "Body",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:28",
+                      "text": "Header",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ],
+          "repeatHeader": true
+        },
+        {
+          "cells": [
+            {
+              "column": 0,
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blocks": [
+                {
+                  "label": "Paragraph",
+                  "fields": [
+                    {
+                      "id": "word/document.xml:29",
+                      "text": "body",
+                      "kind": "text",
+                      "style": {
+                        "color": "#000000",
+                        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                        "fontSize": "14.666666666666666px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ],
+                  "kind": "paragraph",
+                  "style": {
+                    "color": "#000000",
+                    "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+                    "fontSize": "14.666666666666666px",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "lineHeight": "1.15",
+                    "marginBottom": "13.333333333333334px",
+                    "marginTop": "0px"
+                  }
+                }
+              ],
+              "style": {
+                "borderBottom": "0.6666666666666666px solid #000000",
+                "borderLeft": "0.6666666666666666px solid #000000",
+                "borderRight": "0.6666666666666666px solid #000000",
+                "borderTop": "0.6666666666666666px solid #000000",
+                "paddingBottom": "0px",
+                "paddingLeft": "7.2px",
+                "paddingRight": "7.2px",
+                "paddingTop": "0px"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:30",
+          "text": "TableModel’s ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:31",
+          "text": "ensureFoTableBody",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:32",
+          "text": " should convert ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:33",
+          "text": "those to",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:34",
+          "text": " ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:35",
+          "text": "header",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:36",
+          "text": " row",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:37",
+          "text": "s",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Consolas\", Calibri, Arial, sans-serif",
+            "fontSize": "10.666666666666666px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14.666666666666666px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1.15",
+        "marginBottom": "13.333333333333334px",
+        "marginTop": "0px"
+      }
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 12240,
+    "height": 15840,
+    "top": 1440,
+    "right": 1440,
+    "bottom": 1440,
+    "left": 1440
+  }
+}

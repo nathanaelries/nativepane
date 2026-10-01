@@ -1,0 +1,32 @@
+{
+  "format": "xlsx",
+  "blocks": [
+    {
+      "label": "DateSystems",
+      "fields": [
+        {
+          "id": "xl/worksheets/sheet1.xml:0",
+          "text": "Date:",
+          "address": "A1",
+          "kind": "text"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:1",
+          "text": "41573.875",
+          "address": "A2",
+          "kind": "number"
+        },
+        {
+          "id": "xl/worksheets/sheet1.xml:2",
+          "text": "should be 27 October 2017 21:00",
+          "address": "A3",
+          "kind": "text"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed.",
+    "Existing cells only. Formulas are read-only; cached results are not recalculated. Dates appear as serial values. Pivot tables and charts are not rendered."
+  ]
+}

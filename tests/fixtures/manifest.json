@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "fixtures": [
     {
       "id": "word-table",
@@ -14,7 +14,35 @@
       "producerVersion": "12.0000",
       "readOnly": false,
       "semantic": "expected/word-table.docx.json",
-      "visual": "visual/word-table.docx.png"
+      "visual": "visual/word-table.docx.png",
+      "coverage": [
+        {
+          "claim": "word-cell-fill-padding",
+          "evidence": [
+            {
+              "part": "word/styles.xml",
+              "path": ".//w:shd",
+              "min": 1
+            },
+            {
+              "part": "word/styles.xml",
+              "path": ".//w:tblCellMar",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "claim": "word-conditional-table-style",
+          "evidence": [
+            {
+              "part": "word/styles.xml",
+              "path": ".//w:tblStylePr",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 1
     },
     {
       "id": "word-paragraphs",
@@ -29,7 +57,9 @@
       "producerVersion": "12.0000",
       "readOnly": false,
       "semantic": "expected/word-paragraphs.docx.json",
-      "visual": "visual/word-paragraphs.docx.png"
+      "visual": "visual/word-paragraphs.docx.png",
+      "coverage": [],
+      "projectedFields": 3
     },
     {
       "id": "word-tracked",
@@ -44,7 +74,20 @@
       "producerVersion": "12.0000",
       "readOnly": true,
       "semantic": "expected/word-tracked.docx.json",
-      "visual": "visual/word-tracked.docx.png"
+      "visual": "visual/word-tracked.docx.png",
+      "coverage": [
+        {
+          "claim": "word-revisions",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:rPrChange",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 3
     },
     {
       "id": "word-fields",
@@ -59,7 +102,20 @@
       "producerVersion": "14.0000",
       "readOnly": true,
       "semantic": "expected/word-fields.docx.json",
-      "visual": "visual/word-fields.docx.png"
+      "visual": "visual/word-fields.docx.png",
+      "coverage": [
+        {
+          "claim": "word-fields",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:fldSimple",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 1
     },
     {
       "id": "word-controls",
@@ -74,7 +130,20 @@
       "producerVersion": "12.0000",
       "readOnly": true,
       "semantic": "expected/word-controls.docx.json",
-      "visual": "visual/word-controls.docx.png"
+      "visual": "visual/word-controls.docx.png",
+      "coverage": [
+        {
+          "claim": "word-controls",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:sdt",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 2
     },
     {
       "id": "word-protection",
@@ -89,7 +158,20 @@
       "producerVersion": "14.0000",
       "readOnly": true,
       "semantic": "expected/word-protection.docx.json",
-      "visual": "visual/word-protection.docx.png"
+      "visual": "visual/word-protection.docx.png",
+      "coverage": [
+        {
+          "claim": "word-protection",
+          "evidence": [
+            {
+              "part": "word/settings.xml",
+              "path": ".//w:documentProtection",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 1
     },
     {
       "id": "excel-styles",
@@ -104,7 +186,36 @@
       "producerVersion": "12.0000",
       "readOnly": false,
       "semantic": "expected/excel-styles.xlsx.json",
-      "visual": "visual/excel-styles.xlsx.png"
+      "visual": "visual/excel-styles.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-merges",
+          "evidence": [
+            {
+              "part": "xl/worksheets/*.xml",
+              "path": ".//s:mergeCell",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 107,
+      "views": [
+        {
+          "id": "sheet-2",
+          "sheet": 1,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-styles.xlsx.sheet-2.png"
+        },
+        {
+          "id": "sheet-3",
+          "sheet": 2,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-styles.xlsx.sheet-3.png"
+        }
+      ]
     },
     {
       "id": "excel-basic",
@@ -119,7 +230,25 @@
       "producerVersion": "12.0000",
       "readOnly": false,
       "semantic": "expected/excel-basic.xlsx.json",
-      "visual": "visual/excel-basic.xlsx.png"
+      "visual": "visual/excel-basic.xlsx.png",
+      "coverage": [],
+      "projectedFields": 3819,
+      "views": [
+        {
+          "id": "sheet-2",
+          "sheet": 1,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-basic.xlsx.sheet-2.png"
+        },
+        {
+          "id": "sheet-3",
+          "sheet": 2,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-basic.xlsx.sheet-3.png"
+        }
+      ]
     },
     {
       "id": "powerpoint-shapes",
@@ -134,7 +263,35 @@
       "producerVersion": "12.0000",
       "readOnly": false,
       "semantic": "expected/powerpoint-shapes.pptx.json",
-      "visual": "visual/powerpoint-shapes.pptx.png"
+      "visual": "visual/powerpoint-shapes.pptx.png",
+      "coverage": [
+        {
+          "claim": "pptx-shapes-coordinates",
+          "evidence": [
+            {
+              "part": "ppt/slides/slide*.xml",
+              "path": ".//p:sp",
+              "min": 1
+            },
+            {
+              "part": "ppt/slides/slide*.xml",
+              "path": ".//a:xfrm",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "claim": "pptx-themes",
+          "evidence": [
+            {
+              "part": "ppt/theme/*.xml",
+              "path": ".//a:themeElements",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 3
     },
     {
       "id": "powerpoint-text",
@@ -149,7 +306,9 @@
       "producerVersion": "12.0000",
       "readOnly": false,
       "semantic": "expected/powerpoint-text.pptx.json",
-      "visual": "visual/powerpoint-text.pptx.png"
+      "visual": "visual/powerpoint-text.pptx.png",
+      "coverage": [],
+      "projectedFields": 3
     },
     {
       "id": "powerpoint-image",
@@ -164,7 +323,20 @@
       "producerVersion": "12.0000",
       "readOnly": false,
       "semantic": "expected/powerpoint-image.pptx.json",
-      "visual": "visual/powerpoint-image.pptx.png"
+      "visual": "visual/powerpoint-image.pptx.png",
+      "coverage": [
+        {
+          "claim": "pptx-images",
+          "evidence": [
+            {
+              "part": "ppt/slides/slide*.xml",
+              "path": ".//p:pic",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 2
     },
     {
       "id": "excel-dates",
@@ -179,7 +351,1750 @@
       "producerVersion": "15.0300",
       "readOnly": false,
       "semantic": "expected/excel-dates.xlsx.json",
-      "visual": "visual/excel-dates.xlsx.png"
+      "visual": "visual/excel-dates.xlsx.png",
+      "coverage": [],
+      "projectedFields": 16,
+      "views": [
+        {
+          "id": "sheet-2",
+          "sheet": 1,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-dates.xlsx.sheet-2.png"
+        }
+      ]
+    },
+    {
+      "id": "word-fonts",
+      "file": "office/word-fonts.docx",
+      "format": "docx",
+      "sha256": "d4bfc480d84ebde0c16219648f3898f7d0b62cf8da521b76a9db0c670dc0994e",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/format/format-font1.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-fonts.docx.json",
+      "visual": "visual/word-fonts.docx.png",
+      "coverage": [
+        {
+          "claim": "word-run-format",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:rFonts",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:sz",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:b",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:i",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:color",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:u",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 23
+    },
+    {
+      "id": "word-paragraph-format",
+      "file": "office/word-paragraph-format.docx",
+      "format": "docx",
+      "sha256": "c4e71b11fb4ce96bae7af1488e8bfacbb11c58e2229620fe21dddb3b3a74feb8",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/format/format-paragrapsimple.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-paragraph-format.docx.json",
+      "visual": "visual/word-paragraph-format.docx.png",
+      "coverage": [
+        {
+          "claim": "word-paragraph-format",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:jc",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:spacing",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:pBdr",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 22
+    },
+    {
+      "id": "word-character-style",
+      "file": "office/word-character-style.docx",
+      "format": "docx",
+      "sha256": "6a0f918daae3702d53c84ce74f8107271ad01179c555f82c4d1bff5b0497aead",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/runstyle/mixed-run.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-character-style.docx.json",
+      "visual": "visual/word-character-style.docx.png",
+      "coverage": [
+        {
+          "claim": "word-character-style",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:rStyle",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 4
+    },
+    {
+      "id": "word-style-inheritance",
+      "file": "office/word-style-inheritance.docx",
+      "format": "docx",
+      "sha256": "12d1162a9f79b2902f102ee30de7d3a09f4c9d6838e7901e1aaa5266671e64bc",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/style/style.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-style-inheritance.docx.json",
+      "visual": "visual/word-style-inheritance.docx.png",
+      "coverage": [
+        {
+          "claim": "word-defaults-inheritance",
+          "evidence": [
+            {
+              "part": "word/styles.xml",
+              "path": ".//w:docDefaults",
+              "min": 1
+            },
+            {
+              "part": "word/styles.xml",
+              "path": ".//w:basedOn",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:pStyle",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:rStyle",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 273
+    },
+    {
+      "id": "word-keep-next",
+      "file": "office/word-keep-next.docx",
+      "format": "docx",
+      "sha256": "003e08fc366ccc3f36f621b32f4c897f4e42b00853d0311a6b56b3e36423e1d6",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/style/style2.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-keep-next.docx.json",
+      "visual": "visual/word-keep-next.docx.png",
+      "coverage": [
+        {
+          "claim": "word-keep-next",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:keepNext",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:pStyle",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 160
+    },
+    {
+      "id": "word-nested-tables",
+      "file": "office/word-nested-tables.docx",
+      "format": "docx",
+      "sha256": "33c1fae17aa90ac333e2518bd8843b4c70acd321da0f28c0ec31245cdb581768",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/table/complex table.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-nested-tables.docx.json",
+      "visual": "visual/word-nested-tables.docx.png",
+      "coverage": [
+        {
+          "claim": "word-nested-tables",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tc/w:tbl",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 8
+    },
+    {
+      "id": "word-merged-table",
+      "file": "office/word-merged-table.docx",
+      "format": "docx",
+      "sha256": "61c330eb7b7d9e5a7a3263b74caa58b519629a961a683e178425ec03ded51f74",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/table/table-complex.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-merged-table.docx.json",
+      "visual": "visual/word-merged-table.docx.png",
+      "coverage": [
+        {
+          "claim": "word-merged-cells",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:gridSpan",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:vMerge",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "claim": "word-table-widths",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tblGrid/w:gridCol",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tcW[@w:type=\"dxa\"]",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 9
+    },
+    {
+      "id": "word-cell-paragraphs",
+      "file": "office/word-cell-paragraphs.docx",
+      "format": "docx",
+      "sha256": "c925a3de2a2f0ac880b65e459320d493e79b460a03b0f8c7e214f3b05e538a02",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/table/tableCell2Para.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "14.0000",
+      "readOnly": false,
+      "semantic": "expected/word-cell-paragraphs.docx.json",
+      "visual": "visual/word-cell-paragraphs.docx.png",
+      "coverage": [
+        {
+          "claim": "word-cell-paragraphs",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tc/w:p",
+              "min": 2
+            }
+          ]
+        }
+      ],
+      "projectedFields": 3
+    },
+    {
+      "id": "word-conditional-floating",
+      "file": "office/word-conditional-floating.docx",
+      "format": "docx",
+      "sha256": "0ca19916e72b1c28027ac52edb2f4555180139fdd038fea64e236ae32ad09e9b",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/complexDocx/complex tables.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-conditional-floating.docx.json",
+      "visual": "visual/word-conditional-floating.docx.png",
+      "coverage": [
+        {
+          "claim": "word-cell-borders",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tcBorders",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "claim": "word-floating-tables",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tblpPr",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 28
+    },
+    {
+      "id": "word-landscape",
+      "file": "office/word-landscape.docx",
+      "format": "docx",
+      "sha256": "6625525e9f8d44971f20467a64679088d5bcf31e4730762c8639009685d97479",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/page layout/pagelayout simple/Orientation-landscape.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-landscape.docx.json",
+      "visual": "visual/word-landscape.docx.png",
+      "coverage": [
+        {
+          "claim": "word-page-size",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:pgSz[@w:orient=\"landscape\"]",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 11
+    },
+    {
+      "id": "word-narrow-margins",
+      "file": "office/word-narrow-margins.docx",
+      "format": "docx",
+      "sha256": "15438ab19e4a64ad981f3a12ac1697914f9fbde96f6b519d8d91b389ce34650b",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/page layout/pagelayout simple/margin-narrow.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-narrow-margins.docx.json",
+      "visual": "visual/word-narrow-margins.docx.png",
+      "coverage": [
+        {
+          "claim": "word-margins",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:pgMar",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 6
+    },
+    {
+      "id": "word-theme",
+      "file": "office/word-theme.docx",
+      "format": "docx",
+      "sha256": "41f81e68e8fbf306190b27067c1a97afff63a2c9c64a8099bc3f8384ae40e1bf",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/page layout/pagelayout simple/Themes-verve.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-theme.docx.json",
+      "visual": "visual/word-theme.docx.png",
+      "coverage": [
+        {
+          "claim": "word-theme",
+          "evidence": [
+            {
+              "part": "word/styles.xml",
+              "path": ".//w:rFonts[@w:asciiTheme]",
+              "min": 1
+            },
+            {
+              "part": "word/theme/*.xml",
+              "path": ".//a:fontScheme",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 7
+    },
+    {
+      "id": "word-mixed-sections",
+      "file": "office/word-mixed-sections.docx",
+      "format": "docx",
+      "sha256": "d6c8d7d52e7e1143d72d793bee4f67283009aedc3d5772ddc59c3cbde66f9a33",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/section break/sectionBreak.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-mixed-sections.docx.json",
+      "visual": "visual/word-mixed-sections.docx.png",
+      "coverage": [
+        {
+          "claim": "word-mixed-sections",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:sectPr",
+              "min": 2
+            }
+          ]
+        }
+      ],
+      "projectedFields": 20
+    },
+    {
+      "id": "word-lists",
+      "file": "office/word-lists.docx",
+      "format": "docx",
+      "sha256": "eca7384a68eb499231a1079898dae51e3e17930cf4d6f4316478d0dc91c0ce8d",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/bullet/bullet-simple.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": true,
+      "semantic": "expected/word-lists.docx.json",
+      "visual": "visual/word-lists.docx.png",
+      "coverage": [
+        {
+          "claim": "word-lists",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:numPr",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 10
+    },
+    {
+      "id": "word-images",
+      "file": "office/word-images.docx",
+      "format": "docx",
+      "sha256": "4fa3e8f200b1fdd769c101754ab525291df92824c85b977708c7b28c0284e79b",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/picture/pic-1.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-images.docx.json",
+      "visual": "visual/word-images.docx.png",
+      "coverage": [
+        {
+          "claim": "word-images",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:drawing",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 1
+    },
+    {
+      "id": "word-textbox",
+      "file": "office/word-textbox.docx",
+      "format": "docx",
+      "sha256": "052e8e2a8ed908fc094892cf9ce7d85d5eac8b21e2d8f77efb27c82ec32dd97b",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/textbox/txtBox.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-textbox.docx.json",
+      "visual": "visual/word-textbox.docx.png",
+      "coverage": [
+        {
+          "claim": "word-textboxes",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:txbxContent",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 0
+    },
+    {
+      "id": "word-equations",
+      "file": "office/word-equations.docx",
+      "format": "docx",
+      "sha256": "a0d7a34186e37e303ef10f6469834221d92ae74c886078d7f32f2dc1a7fd96a5",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/equation/equation.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-equations.docx.json",
+      "visual": "visual/word-equations.docx.png",
+      "coverage": [
+        {
+          "claim": "word-equations",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//m:oMath",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 12
+    },
+    {
+      "id": "word-comments",
+      "file": "office/word-comments.docx",
+      "format": "docx",
+      "sha256": "ce84dd697b5297b1061715471812aaa5e4a4ae37f6e997350928dcbb6a631641",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/comment/1 Comment.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-comments.docx.json",
+      "visual": "visual/word-comments.docx.png",
+      "coverage": [
+        {
+          "claim": "word-comments",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:commentReference",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 3
+    },
+    {
+      "id": "word-columns",
+      "file": "office/word-columns.docx",
+      "format": "docx",
+      "sha256": "1c09b1299355a063b5effa6e30ee6869d181097b4b7abba82141c5ea199632c6",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/columns/columns1.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-columns.docx.json",
+      "visual": "visual/word-columns.docx.png",
+      "coverage": [
+        {
+          "claim": "word-columns",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:cols[@w:num=\"2\"]",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 283
+    },
+    {
+      "id": "word-notes",
+      "file": "office/word-notes.docx",
+      "format": "docx",
+      "sha256": "43148c7be8ae5790131c5404f80c16603ce87cf7178e841a29928aeabe924ffa",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/footnote & endnote/ftEdNote.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/word-notes.docx.json",
+      "visual": "visual/word-notes.docx.png",
+      "coverage": [
+        {
+          "claim": "word-notes",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:footnoteReference",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:endnoteReference",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 7
+    },
+    {
+      "id": "excel-cell-metadata",
+      "file": "office/excel-cell-metadata.xlsx",
+      "format": "xlsx",
+      "sha256": "808a6b222d36a27f6e4b027300b7f5b8f8d864ac598e6ecf95bd0d01ea00ef2e",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/spreadsheet/SheetData.xlsx",
+      "license": "MIT",
+      "producer": "Microsoft Excel",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/excel-cell-metadata.xlsx.json",
+      "visual": "visual/excel-cell-metadata.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-formulas",
+          "evidence": [
+            {
+              "part": "xl/worksheets/*.xml",
+              "path": ".//s:f",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "claim": "xlsx-metadata",
+          "evidence": [
+            {
+              "part": "xl/worksheets/*.xml",
+              "path": ".//s:c[@vm]",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 865,
+      "views": [
+        {
+          "id": "sheet-2",
+          "sheet": 1,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-cell-metadata.xlsx.sheet-2.png"
+        },
+        {
+          "id": "sheet-3",
+          "sheet": 2,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-cell-metadata.xlsx.sheet-3.png"
+        }
+      ]
+    },
+    {
+      "id": "excel-pivot",
+      "file": "office/excel-pivot.xlsx",
+      "format": "xlsx",
+      "sha256": "3775909266b336d7825b15f2b7e8985e7cb27408a6424114cae2c1f8771a2b90",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/spreadsheet/Pivot.xlsx",
+      "license": "MIT",
+      "producer": "Microsoft Excel",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/excel-pivot.xlsx.json",
+      "visual": "visual/excel-pivot.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-sheet-order",
+          "evidence": [
+            {
+              "part": "xl/workbook.xml",
+              "path": ".//s:sheet",
+              "min": 4
+            }
+          ]
+        },
+        {
+          "claim": "xlsx-charts-pivots",
+          "evidence": [
+            {
+              "part": "xl/pivotTables/*.xml",
+              "path": ".",
+              "tag": "s:pivotTableDefinition",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 13,
+      "views": [
+        {
+          "id": "sheet-2",
+          "sheet": 1,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-pivot.xlsx.sheet-2.png"
+        },
+        {
+          "id": "sheet-3",
+          "sheet": 2,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-pivot.xlsx.sheet-3.png"
+        },
+        {
+          "id": "sheet-4",
+          "sheet": 3,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-pivot.xlsx.sheet-4.png"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-table",
+      "file": "office/powerpoint-table.pptx",
+      "format": "pptx",
+      "sha256": "9bc9d6c5830d93e4e8c8e6ac8bf58c919692616432c53e5bb108415d6184ac46",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/presentation/Table_Small.pptx",
+      "license": "MIT",
+      "producer": "Microsoft Office PowerPoint",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/powerpoint-table.pptx.json",
+      "visual": "visual/powerpoint-table.pptx.png",
+      "coverage": [
+        {
+          "claim": "pptx-tables",
+          "evidence": [
+            {
+              "part": "ppt/slides/slide*.xml",
+              "path": ".//a:tbl",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 18
+    },
+    {
+      "id": "powerpoint-text-effects",
+      "file": "office/powerpoint-text-effects.pptx",
+      "format": "pptx",
+      "sha256": "594dec2537b688a070e3c0289eb89031f519f1f986b41a64000ddba111119b3c",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/presentation/Text_withEffects_100chars.pptx",
+      "license": "MIT",
+      "producer": "Microsoft Office PowerPoint",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/powerpoint-text-effects.pptx.json",
+      "visual": "visual/powerpoint-text-effects.pptx.png",
+      "coverage": [
+        {
+          "claim": "pptx-rich-text",
+          "evidence": [
+            {
+              "part": "ppt/slides/slide*.xml",
+              "path": ".//a:rPr[@b=\"1\"]",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 3
+    },
+    {
+      "id": "powerpoint-slide-order",
+      "file": "office/powerpoint-slide-order.pptx",
+      "format": "pptx",
+      "sha256": "799966923bf7bee0c98308ed94238d12e326e1fe624eaed76bc418748cef0b07",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestFiles/Presentation.pptx",
+      "license": "MIT",
+      "producer": "Microsoft Office PowerPoint",
+      "producerVersion": "15.0000",
+      "readOnly": false,
+      "semantic": "expected/powerpoint-slide-order.pptx.json",
+      "visual": "visual/powerpoint-slide-order.pptx.png",
+      "coverage": [
+        {
+          "claim": "pptx-slide-order",
+          "evidence": [
+            {
+              "part": "ppt/presentation.xml",
+              "path": ".//p:sldId",
+              "min": 2
+            }
+          ]
+        }
+      ],
+      "projectedFields": 5
+    },
+    {
+      "id": "excel-extensions",
+      "file": "office/excel-extensions.xlsx",
+      "format": "xlsx",
+      "sha256": "662aecb01feae58b9e6f6f99747dfbf05b10625873d28870169182b417a9e5fc",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestFiles/extlst.xlsx",
+      "license": "MIT",
+      "producer": "Microsoft Excel",
+      "producerVersion": "14.0300",
+      "readOnly": false,
+      "semantic": "expected/excel-extensions.xlsx.json",
+      "visual": "visual/excel-extensions.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-extensions",
+          "evidence": [
+            {
+              "part": "xl/styles.xml",
+              "path": ".//s:extLst",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 65,
+      "views": [
+        {
+          "id": "sheet-2",
+          "sheet": 1,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-extensions.xlsx.sheet-2.png"
+        },
+        {
+          "id": "sheet-3",
+          "sheet": 2,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-extensions.xlsx.sheet-3.png"
+        },
+        {
+          "id": "sheet-4",
+          "sheet": 3,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-extensions.xlsx.sheet-4.png"
+        }
+      ]
+    },
+    {
+      "id": "excel-date-formats",
+      "file": "office/excel-date-formats.xlsx",
+      "format": "xlsx",
+      "sha256": "6f92536258f6349e03b846b79d95aed1a0681d30803a702e35a4cb6afbe944b1",
+      "sourceRepository": "ClosedXML/ClosedXML",
+      "sourceRevision": "09f2f21a60e821ce7fb18ca3576b272e5dd6d921",
+      "sourcePath": "ClosedXML.Tests/Resource/TryToLoad/CellsWithDateTimeDataTypeOrFormatting.xlsx",
+      "license": "MIT",
+      "producer": "Microsoft Excel",
+      "producerVersion": "16.0300",
+      "readOnly": false,
+      "semantic": "expected/excel-date-formats.xlsx.json",
+      "visual": "visual/excel-date-formats.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-date-number-formats",
+          "evidence": [
+            {
+              "part": "xl/styles.xml",
+              "path": ".//s:numFmt",
+              "min": 1
+            },
+            {
+              "part": "xl/worksheets/*.xml",
+              "path": ".//s:c[@s]",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 51,
+      "views": []
+    },
+    {
+      "id": "excel-1904-epoch",
+      "file": "office/excel-1904-epoch.xlsx",
+      "format": "xlsx",
+      "sha256": "62c0a393a0030c2285b6b5c0d7cfcd0f503413f1bcc9d10253be48d902934531",
+      "sourceRepository": "ClosedXML/ClosedXML",
+      "sourceRevision": "09f2f21a60e821ce7fb18ca3576b272e5dd6d921",
+      "sourcePath": "ClosedXML.Tests/Resource/TryToLoad/Date1904System.xlsx",
+      "license": "MIT",
+      "producer": "Microsoft Excel",
+      "producerVersion": "15.0300",
+      "readOnly": false,
+      "semantic": "expected/excel-1904-epoch.xlsx.json",
+      "visual": "visual/excel-1904-epoch.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-1904-epoch",
+          "evidence": [
+            {
+              "part": "xl/workbook.xml",
+              "path": ".//s:workbookPr[@date1904=\"1\"]",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 3,
+      "views": []
+    },
+    {
+      "id": "excel-inline-rich-text",
+      "file": "office/excel-inline-rich-text.xlsx",
+      "format": "xlsx",
+      "sha256": "c823531d1a2e8e3b8a51911238cfc91cc2fde15e31d64e18c635d502c0736a3a",
+      "sourceRepository": "ClosedXML/ClosedXML",
+      "sourceRevision": "09f2f21a60e821ce7fb18ca3576b272e5dd6d921",
+      "sourcePath": "ClosedXML.Tests/Resource/Other/InlinedRichText/ChangeRichText/inputfile.xlsx",
+      "license": "MIT",
+      "producer": "Microsoft Excel",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/excel-inline-rich-text.xlsx.json",
+      "visual": "visual/excel-inline-rich-text.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-inline-rich-text",
+          "evidence": [
+            {
+              "part": "xl/worksheets/*.xml",
+              "path": ".//s:c[@t=\"inlineStr\"]/s:is",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 75,
+      "views": []
+    },
+    {
+      "id": "excel-boolean",
+      "file": "office/excel-boolean.xlsx",
+      "format": "xlsx",
+      "sha256": "c90b58bc8f1743b53564dc460142df81d597ea0947bd71ea95213e203d0131a2",
+      "sourceRepository": "ClosedXML/ClosedXML",
+      "sourceRevision": "09f2f21a60e821ce7fb18ca3576b272e5dd6d921",
+      "sourcePath": "ClosedXML.Tests/Resource/Other/Formulas/BooleanFormulaValues.xlsx",
+      "license": "MIT",
+      "producer": "Microsoft Excel",
+      "producerVersion": "",
+      "readOnly": false,
+      "semantic": "expected/excel-boolean.xlsx.json",
+      "visual": "visual/excel-boolean.xlsx.png",
+      "coverage": [],
+      "projectedFields": 1,
+      "views": []
+    },
+    {
+      "id": "excel-custom-formats",
+      "file": "office/excel-custom-formats.xlsx",
+      "format": "xlsx",
+      "sha256": "00f97241ba567fc8948eced26ffe3b2c92807acd32434a6ad3ce10338420049d",
+      "sourceRepository": "ClosedXML/ClosedXML",
+      "sourceRevision": "09f2f21a60e821ce7fb18ca3576b272e5dd6d921",
+      "sourcePath": "ClosedXML.Tests/Resource/Other/NumberFormats/NonSequentialNumberFormatsIds-Input.xlsx",
+      "license": "MIT",
+      "producer": "Microsoft Excel",
+      "producerVersion": "16.0300",
+      "readOnly": false,
+      "semantic": "expected/excel-custom-formats.xlsx.json",
+      "visual": "visual/excel-custom-formats.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-custom-formats",
+          "evidence": [
+            {
+              "part": "xl/styles.xml",
+              "path": ".//s:numFmt",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 4,
+      "views": []
+    },
+    {
+      "id": "excel-errors-types",
+      "file": "office/excel-errors-types.xlsx",
+      "format": "xlsx",
+      "sha256": "53b4c37f111b93b5bcc9c8679772708cfd531cf35182094eb3fb2f5ea6889b13",
+      "sourceRepository": "ClosedXML/ClosedXML",
+      "sourceRevision": "09f2f21a60e821ce7fb18ca3576b272e5dd6d921",
+      "sourcePath": "ClosedXML.Tests/Resource/Other/PivotTableReferenceFiles/VariousDataTypesInTableColumns/input.xlsx",
+      "license": "MIT",
+      "producer": "Microsoft Excel",
+      "producerVersion": "16.0300",
+      "readOnly": false,
+      "semantic": "expected/excel-errors-types.xlsx.json",
+      "visual": "visual/excel-errors-types.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-cell-values",
+          "evidence": [
+            {
+              "part": "xl/worksheets/*.xml",
+              "path": ".//s:c[@t=\"b\"]",
+              "min": 1
+            },
+            {
+              "part": "xl/worksheets/*.xml",
+              "path": ".//s:c[@t=\"e\"]",
+              "min": 1
+            },
+            {
+              "part": "xl/worksheets/*.xml",
+              "path": ".//s:c[@t=\"s\"]",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 131,
+      "views": [
+        {
+          "id": "sheet-2",
+          "sheet": 1,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-errors-types.xlsx.sheet-2.png"
+        }
+      ]
+    },
+    {
+      "id": "word-page-break",
+      "file": "office/word-page-break.docx",
+      "format": "docx",
+      "sha256": "ccafc9d1ecc611d14adc4ba8d037352e53c7d56e46518903a194ffdd49cfab5f",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/bookmark/bookmark.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": true,
+      "semantic": "expected/word-page-break.docx.json",
+      "visual": "visual/word-page-break.docx.png",
+      "coverage": [
+        {
+          "claim": "word-page-break-before",
+          "evidence": [
+            {
+              "part": "word/styles.xml",
+              "path": ".//w:style[@w:styleId=\"Heading1\"]/w:pPr/w:pageBreakBefore",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:pStyle[@w:val=\"Heading1\"]",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "claim": "word-tabs-breaks",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tab",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:br",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 3009
+    },
+    {
+      "id": "word-repeat-header",
+      "file": "office/word-repeat-header.docx",
+      "format": "docx",
+      "sha256": "768171fc2d7dfbb1aaacdf0c2203f2d8137052511727ddb36a757349f283ce20",
+      "sourceRepository": "plutext/docx4j",
+      "sourceRevision": "0eec2587ab38db5265ce66c12423849c1bea2c60",
+      "sourcePath": "docx4j-export-fo-tests/src/test/resources/tables/tblHeaderTestTwo.docx",
+      "license": "Apache-2.0",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "14.0000",
+      "readOnly": false,
+      "semantic": "expected/word-repeat-header.docx.json",
+      "visual": "visual/word-repeat-header.docx.png",
+      "projectedFields": 38,
+      "coverage": []
+    },
+    {
+      "id": "excel-wide-paging",
+      "file": "office/excel-wide-paging.xlsx",
+      "format": "xlsx",
+      "sha256": "17c4392685a9b667bfeb0c2f5ee51ba0cc6db25348d6a0284fee46683313ac89",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/spreadsheet/NoExtDataA2.xlsx",
+      "license": "MIT",
+      "producer": "",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "semantic": "expected/excel-wide-paging.xlsx.json",
+      "visual": "visual/excel-wide-paging.xlsx.png",
+      "coverage": [
+        {
+          "claim": "xlsx-row-column-paging",
+          "evidence": [
+            {
+              "part": "xl/worksheets/*.xml",
+              "path": ".//s:c[@r=\"AA1\"]",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "claim": "xlsx-row-column-paging",
+          "evidence": [
+            {
+              "part": "xl/workbook.xml",
+              "path": ".//s:fileVersion[@appName=\"xl\"][@lastEdited=\"4\"][@rupBuild=\"4505\"]",
+              "min": 1
+            }
+          ]
+        }
+      ],
+      "projectedFields": 22247,
+      "views": [
+        {
+          "id": "sheet-2",
+          "sheet": 1,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-wide-paging.xlsx.sheet-2.png"
+        },
+        {
+          "id": "sheet-3",
+          "sheet": 2,
+          "rowPage": 0,
+          "colPage": 0,
+          "visual": "visual/excel-wide-paging.xlsx.sheet-3.png"
+        },
+        {
+          "id": "next-rows",
+          "sheet": 0,
+          "rowPage": 1,
+          "colPage": 0,
+          "visual": "visual/excel-wide-paging.xlsx.next-rows.png"
+        },
+        {
+          "id": "next-columns",
+          "sheet": 0,
+          "rowPage": 0,
+          "colPage": 1,
+          "visual": "visual/excel-wide-paging.xlsx.next-columns.png"
+        }
+      ],
+      "producerEvidence": "Application is absent; AppVersion 12.0000 and workbook fileVersion appName=xl/lastEdited=4/rupBuild=4505 are retained in the Microsoft SDK Office conformance source."
+    },
+    {
+      "id": "word-long-tables",
+      "file": "office/word-long-tables.docx",
+      "format": "docx",
+      "sha256": "50ea2fd62761aedc66e307c30ca1191a4e6baf8fa9d8d849ba1d9c20eb5921f4",
+      "sourceRepository": "plutext/docx4j",
+      "sourceRevision": "0eec2587ab38db5265ce66c12423849c1bea2c60",
+      "sourcePath": "docx4j-samples-docx4j/sample-docs/tables.docx",
+      "license": "Apache-2.0",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "14.0000",
+      "readOnly": false,
+      "semantic": "expected/word-long-tables.docx.json",
+      "visual": "visual/word-long-tables.docx.png",
+      "coverage": [
+        {
+          "claim": "word-row-pagination",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tblHeader",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tr",
+              "min": 3
+            }
+          ]
+        },
+        {
+          "claim": "word-edit-reflow",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tblHeader",
+              "min": 1
+            },
+            {
+              "part": "word/document.xml",
+              "path": ".//w:t",
+              "min": 1
+            }
+          ]
+        },
+        {
+          "claim": "word-oversized-groups",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tr",
+              "min": 3
+            }
+          ]
+        },
+        {
+          "claim": "word-row-paragraph-splitting",
+          "evidence": [
+            {
+              "part": "word/document.xml",
+              "path": ".//w:tr",
+              "min": 3
+            }
+          ]
+        }
+      ],
+      "projectedFields": 123,
+      "layoutProbe": {
+        "field": "word/document.xml:41",
+        "text": "Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. Existing Office cell reflow. ",
+        "visual": "visual/word-long-tables.edited.png"
+      }
+    },
+    {
+      "id": "word-headers-footers",
+      "file": "office/word-headers-footers.docx",
+      "format": "docx",
+      "sha256": "ab8d683e0309e0ac8885102821615f8a14ce0913a700989a070238f26b1d93bf",
+      "sourceRepository": "dotnet/Open-XML-SDK",
+      "sourceRevision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "sourcePath": "test/DocumentFormat.OpenXml.Tests.Assets/assets/TestDataStorage/v2FxTestFiles/wordprocessing/footer & header/footer header - plaintext.docx",
+      "license": "MIT",
+      "producer": "Microsoft Office Word",
+      "producerVersion": "12.0000",
+      "readOnly": false,
+      "projectedFields": 0,
+      "semantic": "expected/word-headers-footers.docx.json",
+      "visual": "visual/word-headers-footers.docx.png",
+      "coverage": [
+        {
+          "claim": "word-headers-footers",
+          "evidence": [
+            {
+              "part": "word/header*.xml",
+              "path": ".",
+              "tag": "w:hdr",
+              "min": 1
+            },
+            {
+              "part": "word/footer*.xml",
+              "path": ".",
+              "tag": "w:ftr",
+              "min": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layoutClaims": [
+    {
+      "id": "word-run-format",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Fonts, sizes, bold, italic, color and underline.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-defaults-inheritance",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Document defaults, paragraph/character style inheritance and direct overrides.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-character-style",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Applied character styles on mixed text runs.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-theme",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Theme font/color hints and local font fallback.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-paragraph-format",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Paragraph alignment, spacing and borders.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-page-size",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Page dimensions, including landscape geometry.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-margins",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Source margins determine printable content width.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-nested-tables",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Nested flow tables retain cell/paragraph order.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-merged-cells",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Horizontal spans and vertical merge groups stay intact.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-cell-paragraphs",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Multiple paragraphs per cell are not flattened or duplicated.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-table-widths",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Grid widths and preferred cell widths refine column proportions.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-cell-fill-padding",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Table shading and cell padding are projected.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-cell-borders",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Direct cell borders are projected.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-row-pagination",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Tables continue between row groups; designated headers repeat.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-edit-reflow",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Existing text edits reflow without missing or duplicated fields.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-oversized-groups",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Oversized paragraphs/row groups expand instead of clipping.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-keep-next",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Keep-with-next is projected.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-page-break-before",
+      "format": "docx",
+      "status": "approximate",
+      "statement": "Applied page-break-before styles start a new page.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "word-mixed-sections",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Mixed sections retain explicit approximate-layout markers.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-lists",
+      "format": "docx",
+      "status": "planned",
+      "statement": "List content is retained with numbering-omission markers.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-conditional-table-style",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Conditional table styling is currently partial.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-floating-tables",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Floating table positioning is marked, not faithfully rendered.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-columns",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Multi-column section layout is currently approximate.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-row-paragraph-splitting",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Within-row/paragraph splitting is not implemented; expansion is tested.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-images",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Images/drawings are omitted with a visible marker.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-textboxes",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Text boxes are not presented as ordinary body text.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-equations",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Equations are marked as unrendered.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-notes",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Footnotes/endnotes and their references are marked.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-comments",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Comments are retained with omission markers.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-tabs-breaks",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Tabs and inline breaks have explicit omission markers.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-revisions",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Dedicated display is pending; editing is refused.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-fields",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Dedicated display is pending; editing is refused.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-controls",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Dedicated display is pending; editing is refused.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-protection",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Protected sources remain view-only.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "xlsx-sheet-order",
+      "format": "xlsx",
+      "status": "approximate",
+      "statement": "Worksheet names/order, including empty sheets.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "xlsx-cell-values",
+      "format": "xlsx",
+      "status": "approximate",
+      "statement": "Existing numeric/shared/inline/boolean cells; errors read-only.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "xlsx-inline-rich-text",
+      "format": "xlsx",
+      "status": "approximate",
+      "statement": "Inline/rich string values have a plain cell projection.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "xlsx-formulas",
+      "format": "xlsx",
+      "status": "approximate",
+      "statement": "Formula text is displayed read-only; no calculation.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "xlsx-row-column-paging",
+      "format": "xlsx",
+      "status": "approximate",
+      "statement": "Existing-cell grids page rows and columns.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "xlsx-date-number-formats",
+      "format": "xlsx",
+      "status": "planned",
+      "statement": "Dates remain serials; date/number display is planned.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "xlsx-merges",
+      "format": "xlsx",
+      "status": "planned",
+      "statement": "Merges are preserved but not rendered.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "xlsx-charts-pivots",
+      "format": "xlsx",
+      "status": "planned",
+      "statement": "Charts and pivots remain in the package, not the grid.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "xlsx-metadata",
+      "format": "xlsx",
+      "status": "preserved",
+      "statement": "Existing cell metadata and extension parts survive edits.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "xlsx-extensions",
+      "format": "xlsx",
+      "status": "preserved",
+      "statement": "Style/pivot extensions remain unchanged in native downloads.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "xlsx-1904-epoch",
+      "format": "xlsx",
+      "status": "preserved",
+      "statement": "1904 date epoch and formats survive native saves.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "xlsx-custom-formats",
+      "format": "xlsx",
+      "status": "preserved",
+      "statement": "Custom format IDs and definitions survive edits.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "pptx-slide-order",
+      "format": "pptx",
+      "status": "approximate",
+      "statement": "Text-only slides follow presentation relationship order.",
+      "reference": "README.md#what-works-and-what-does-not"
+    },
+    {
+      "id": "pptx-rich-text",
+      "format": "pptx",
+      "status": "planned",
+      "statement": "Rich text/effects are preserved; richer layout is planned.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "pptx-shapes-coordinates",
+      "format": "pptx",
+      "status": "planned",
+      "statement": "Shapes/coordinates are preserved but not rendered.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "pptx-images",
+      "format": "pptx",
+      "status": "planned",
+      "statement": "Images remain in downloads, not the text view.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "pptx-themes",
+      "format": "pptx",
+      "status": "planned",
+      "statement": "Master/theme data stays unchanged.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "pptx-tables",
+      "format": "pptx",
+      "status": "planned",
+      "statement": "Table geometry is preserved; text runs have a text-only projection.",
+      "reference": "ROADMAP.md#next-rendering-and-hardening"
+    },
+    {
+      "id": "word-headers-footers",
+      "format": "docx",
+      "status": "planned",
+      "statement": "Header/footer contents are preserved and marked as unrendered.",
+      "reference": "README.md#what-works-and-what-does-not"
+    }
+  ],
+  "sources": [
+    {
+      "repository": "dotnet/Open-XML-SDK",
+      "revision": "431ab05cf160248cc3885a4a766026d4f8243792",
+      "license": "MIT",
+      "licenseFile": "licenses/Open-XML-SDK-LICENSE.txt",
+      "noticeFile": "licenses/Open-XML-SDK-NOTICE.txt",
+      "licenseSha256": "ed03ba352313a4ba7019d5bed4bd3218ac17f3e44442a3bb1aaff54dcca9a2bc"
+    },
+    {
+      "repository": "ClosedXML/ClosedXML",
+      "revision": "09f2f21a60e821ce7fb18ca3576b272e5dd6d921",
+      "license": "MIT",
+      "licenseFile": "licenses/ClosedXML-LICENSE.txt",
+      "licenseSha256": "3071658fba9a054edce74e756314ba926fe3ffe5c6622f209d21a0c8f1d2a99e"
+    },
+    {
+      "repository": "plutext/docx4j",
+      "revision": "0eec2587ab38db5265ce66c12423849c1bea2c60",
+      "license": "Apache-2.0",
+      "licenseFile": "licenses/docx4j-LICENSE.txt",
+      "noticeFile": "licenses/docx4j-NOTICE.txt",
+      "licenseSha256": "8376f47fa872ae6142a7c08f66f13a7ab32ad2c4554e118a3e462c8c8ee68468"
     }
   ]
 }

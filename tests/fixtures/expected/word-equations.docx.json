@@ -1,0 +1,323 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "1    ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:1",
+          "text": "        (Linear)",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      },
+      "markers": [
+        "Equation not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:2",
+          "text": "2  ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      },
+      "markers": [
+        "Equation not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:3",
+          "text": "3  ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:4",
+          "text": " (ctrl + I)",
+          "kind": "text",
+          "style": {
+            "color": "#4F81BD",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      },
+      "markers": [
+        "Equation not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:5",
+          "text": "4 ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:6",
+          "text": " ",
+          "kind": "text",
+          "bold": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "bold"
+          }
+        },
+        {
+          "id": "word/document.xml:7",
+          "text": "  (ctrl +B)",
+          "kind": "text",
+          "bold": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "bold"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      },
+      "markers": [
+        "Equation not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:8",
+          "text": "5  ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      },
+      "markers": [
+        "Equation not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:9",
+          "text": "6  ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      },
+      "markers": [
+        "Equation not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:10",
+          "text": "7  ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      },
+      "markers": [
+        "Equation not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:11",
+          "text": "8",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Calibri\", Calibri, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "normal",
+        "marginBottom": "0px",
+        "marginTop": "0px",
+        "textAlign": "justify"
+      },
+      "markers": [
+        "Inline line/page break not rendered",
+        "Equation not rendered"
+      ]
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 11906,
+    "height": 16838,
+    "top": 1440,
+    "right": 1800,
+    "bottom": 1440,
+    "left": 1800
+  }
+}

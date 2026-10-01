@@ -1,0 +1,358 @@
+{
+  "format": "docx",
+  "blocks": [
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:0",
+          "text": "Business Plan for a Startup Business",
+          "kind": "text",
+          "bold": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Garamond\", Calibri, Arial, sans-serif",
+            "fontSize": "26.666666666666668px",
+            "fontStyle": "normal",
+            "fontWeight": "bold"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Garamond\", Calibri, Arial, sans-serif",
+        "fontSize": "26.666666666666668px",
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "lineHeight": "1",
+        "marginBottom": "4px",
+        "marginTop": "16px",
+        "textAlign": "center"
+      },
+      "keepNext": true
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:1",
+          "text": "The business plan consists of a narrative and several financial ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:2",
+          "text": "work",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:3",
+          "text": "sheets. The narrative template is the body of the business plan. It contains ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:4",
+          "text": "more than",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:5",
+          "text": " 150 questions divided into several sections. Work through the sections in any order ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:6",
+          "text": "that ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:7",
+          "text": "you like, except for the ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:8",
+          "text": "Executive Summary",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:9",
+          "text": ",",
+          "kind": "text",
+          "italic": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "italic",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:10",
+          "text": " which should be done last. Skip any questions that do not apply to your type of business. When you are ",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:11",
+          "text": "finished",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:12",
+          "text": " writing your first draft, you",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:13",
+          "text": "’",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:14",
+          "text": "ll have a collection of small essays on the various topics of the business plan. Then you",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:15",
+          "text": "’",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:16",
+          "text": "ll want to edit them into a smooth",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:17",
+          "text": "-",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        },
+        {
+          "id": "word/document.xml:18",
+          "text": "flowing narrative.",
+          "kind": "text",
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1",
+        "marginBottom": "16px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1",
+        "marginBottom": "16px",
+        "marginTop": "0px"
+      },
+      "markers": [
+        "Section layout change not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [
+        {
+          "id": "word/document.xml:19",
+          "text": "The real value of creating a business plan is not in having the finished product in hand; rather, the value lies in the process of researching and thinking about your business in a systematic way. The act of planning helps you to think things through thoroughly, study and research if you are not sure of the facts, and look at your ideas critically. It takes time now, but avoids costly, perhaps disastrous, mistakes later.",
+          "kind": "text",
+          "bold": true,
+          "style": {
+            "color": "#000000",
+            "fontFamily": "\"Garamond\", Calibri, Arial, sans-serif",
+            "fontSize": "26.666666666666668px",
+            "fontStyle": "normal",
+            "fontWeight": "bold"
+          }
+        }
+      ],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Garamond\", Calibri, Arial, sans-serif",
+        "fontSize": "26.666666666666668px",
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "lineHeight": "1",
+        "marginBottom": "4px",
+        "marginTop": "16px",
+        "textAlign": "center"
+      },
+      "keepNext": true,
+      "markers": [
+        "Inline line/page break not rendered"
+      ]
+    },
+    {
+      "label": "Paragraph",
+      "fields": [],
+      "kind": "paragraph",
+      "style": {
+        "color": "#000000",
+        "fontFamily": "\"Palatino Linotype\", Calibri, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "1",
+        "marginBottom": "16px",
+        "marginTop": "0px"
+      }
+    },
+    {
+      "label": "Footnotes content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    },
+    {
+      "label": "Endnotes content not rendered",
+      "fields": [],
+      "kind": "unsupported"
+    }
+  ],
+  "warnings": [
+    "Approximate view. Unsupported objects are preserved in the file but may not be displayed."
+  ],
+  "page": {
+    "width": 12240,
+    "height": 15840,
+    "top": 1440,
+    "right": 1440,
+    "bottom": 1440,
+    "left": 1440
+  }
+}
